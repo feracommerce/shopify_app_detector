@@ -1,7 +1,7 @@
 # Shopify App Detector
 This is a Chrome extension that lets you detect what Shopify apps a store is running.
 
-# Setting Up Locate Development
+# Setting Up Local Development
 To work on the code simply:
 1. Pull down the repo somewhere
 2. Navigate to [chrome://extensions/](chrome://extensions/)
