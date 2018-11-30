@@ -1,0 +1,79 @@
+# bundler state
+/.bundle
+/vendor/bundle/
+/vendor/ruby/
+
+
+
+prepare_cdn_assets.sh
+
+# minimal Rails specific artifacts
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*
+/tmp/*
+
+# various artifacts
+/.rspec
+/.sass-cache
+/config/config.yml
+/spec/coverage
+/spec/tmp
+
+# asset pipeline generated files
+/public/assets/
+
+# api documents
+/api_docs
+/doc/api
+
+# dotenv config
+/.env
+/.env.development
+
+# netrc
+.netrc
+
+# bower installed files
+/vendor/assets/bower_components
+/bower_componentes
+
+# styleguide generated files
+/public/styleguide
+
+# ignore diffmerge auto-generated files
+*.orig
+
+# ignore the pry history file
+.pry_history
+# ignore this stupid stuff
+*.DS_Store
+
+# docs
+doc/*
+.yardoc
+.bash_history
+.env.production
+.env.integration
+.env.staging
+.solano*
+
+# Rubymine
+.idea
+
+# ngrok webhook
+ngrok
+
+# redis dump
+dump.rdb
+
+# error file that is created sometimes for debugging purposes (stderr output)
+error
+
+# yarn installed files
+/node_modules/
+
+# Yarn and npm config since we don't want to include library files in the repo.
+package.json
+yarn.lock
+

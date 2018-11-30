@@ -13,9 +13,7 @@ SAD.Content = function(opts) {
         var pageScripts = $scripts.map(function(i) { return $(this).attr('src'); }).toArray();
         chrome.runtime.sendMessage(
             { action: "setPageScripts", pageScripts: pageScripts }, 
-            function(response) {
-                console.log("SAD - chrome.runtime.sendMessage", response);
-            }
+            function(response) { }
         );
 
     };

@@ -1,0 +1,26 @@
+body {
+    font-size: 10px;
+    padding: 12px;
+}
+
+.num-detections {
+    font-weight: bold;
+}
+
+.apps-table-container {
+    max-height: 300px;
+    overflow: scroll;
+    min-width: 400px;
+}
+
+.app-links > a {
+    display: block;
+}
+
+.app-links > a:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.app-name {
+    font-weight: bold;
+}

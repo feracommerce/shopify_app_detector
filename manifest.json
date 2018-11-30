@@ -1,25 +1,25 @@
 {
   "manifest_version": 2,
 
-  "name": "Shopify App Detector",
-  "description": "This app will let you detect which apps a Shopify store is using.",
-  "version": "1.0",
+  "name": "Fera.ai Shopify App Detector",
+  "description": "This app will let you detect which apps a Shopify store is using. To learn more please visit fera.ai/shopify_app_detector.",
+  "version": "0.2",
 
   "browser_action": {
-   "default_icon": "icon.png",
+   "default_icon": "img/icon.png",
    "default_popup": "popup.html"
   },
   "permissions": [
    "activeTab"
    ],
     "background": {
-      "scripts": ["js/lib/zepto.min.js", "js/sad.js", "js/detector.js", "js/background.js"],
+      "scripts": ["lib/zepto/zepto.min.js", "js/sad.js", "data/shopify_apps.js", "js/detector.js", "js/background.js"],
       "persistent": false
     },
   "content_scripts": [
     {
       "matches": ["http://*/*","https://*/*"],
-      "js": ["js/lib/zepto.min.js", "js/sad.js", "js/content.js"],
+      "js": ["lib/zepto/zepto.min.js", "js/sad.js", "js/content.js"],
       "run_at": "document_end"
     }
   ]

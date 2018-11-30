@@ -1,14 +1,45 @@
 <!doctype html>
 <html>
   <head>
-    <title>Shopify App Detector</title>
-    <script src="js/lib/zepto.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css" crossorigin="anonymous">
+
+    <title>Fera.ai Shopify App Detector</title>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
     <script src="js/sad.js"></script>
     <script src="js/popup.js"></script>
   </head>
   <body>
-    <h1>Detected Shopify Apps:</h1>
-    <div id="AppsDetected">
+    <p class="summary-satement">
+      The Fera.ai Shopify App Detector has detected 
+      <span class="num-detections">some</span> apps on this website.
+    </p>
+    <div class="apps-table-container">
+      <table class="table table-hover  table-apps" id="appsTable">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col" style="min-width: 100px;">App</th>
+            <th scope="col">Description</th>
+            <th scope="col" style="min-width: 75px;">Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
     </div>
+
+    <p class="support-statement">
+      <img src="/img/fera_icon-64px.png" class="img-responsive" style="height: 14px;">
+      This free chrome extension is supported by the <a href="https://www.github.com/feracommerce/shopify_app_detector" target="github">community on github</a> and the <a href="https://www.fera.ai?ref=fera_ai_shopify_app_detector">fera.ai</a> real-time personalization platform.
+    </p>
   </body>
 </html>

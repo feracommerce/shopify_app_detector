@@ -7,7 +7,6 @@ SAD.Background = function(opts) {
         self.apps = [];
 
         chrome.runtime.onMessage.addListener(function(msgObj) {
-            console.log("Got message: ", msgObj);
             if (msgObj.action == 'getApps') {
                 chrome.runtime.sendMessage({ action: "setApps", apps: self.apps });
                 return true;
@@ -30,7 +29,6 @@ SAD.Background = function(opts) {
             });
             chrome.browserAction.enable();
         } else {
-
             chrome.browserAction.setBadgeText({
                 text: ''
             });

@@ -10,11 +10,13 @@ SAD.Detector = function(opts) {
 
     self.detectApps = function() {
         self.apps = [];
-        detectFera();
+
+        for (var i = 0; i < SHOPIFY_APPS.length; i++) {
+            detectApp(SHOPIFY_APPS[i]);
+        }
+
         return self.apps;
     };
-
-    // DETECTIONS GO HERE:
 
     self.isShopify = function() {
         for (var i = 0; i < self.scripts.length; i++) {
@@ -26,13 +28,17 @@ SAD.Detector = function(opts) {
         return false;
     };
 
-    var detectFera = function() {
+    var detectApp = function(app) {
         var detectedMap = {};
         for (var i = 0; i < self.scripts.length; i++) {
             var script = self.scripts[i];
-            if (script.indexOf('bananastand.js') !== -1 && !detectedMap['Fera.ai']) {
-                self.apps.push({ name: 'Fera.ai', description: 'abc', url: 'http' });
-                detectedMap['Fera.ai'] = true;
+            if (script.indexOf(app.script_pattern) !== -1) {
+                if (detectedMap[app.name]) {
+                    continue; // Already detected this app
+                }
+                
+                self.apps.push(app);
+                detectedMap[app.name] = true;
             }
         }
     };

@@ -1,14 +1,22 @@
-# Shopify App Detector
+# Fera.ai Shopify App Detector
 This is a Chrome extension that lets you detect what Shopify apps a store is running.
 
-# Setting Up Local Development
+
+## Adding an app detection
+To add an app detection, add an entry in the data/shopify_apps.js file. You can submit a pull request with the addition and one of the community contributers will update it.
+
+## Support
+It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_shopify_app_detector), a real-time personalization and conversion rate optimization platform for Shopify. Please post questions or concerns about this chrome extension [here](https://github.com/feracommerce/shopify_app_detector/issues).
+
+
+# Contributing to the Repo
+
+### Setting Up Local Development
 To work on the code simply:
 1. Pull down the repo somewhere
 2. Navigate to [chrome://extensions/](chrome://extensions/)
 3. On the top right flip the switch to turn on developer mode.
 4. Click on Load Unpacked Extension and select the directory that contains this repo's code.
-
-# Contributing to the Repo
 
 ### How to contribute
 To contribute to the repository:
