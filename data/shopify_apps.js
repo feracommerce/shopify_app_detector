@@ -87,5 +87,21 @@ var SHOPIFY_APPS = [
         website_url: "https://www.sloyalty.com/",
         script_pattern: "sloyalty.shopify.js",
         category: "Marketing"    
+    },
+    {
+        name: "Last Second Coupon",
+        short_description: "Exit coupon, convert window shoppers into your paid customers",
+        app_store_url: "https://apps.shopify.com/last-second-coupon",
+        website_url: "https://hextom.com/",
+        script_pattern: "lastsecondcoupon",
+        category: "Sales & Conversion Optimization"    
+    },
+    {
+        name: "Riskified",
+        short_description: "We provide advanced risk assessment tools alongside fraud notifications.",
+        app_store_url: "https://apps.shopify.com/riskified",
+        website_url: "https://www.riskified.com/",
+        script_pattern: "beacon.riskified.com",
+        category: "Security"    
     }
 ];
