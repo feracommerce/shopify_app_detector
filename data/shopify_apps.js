@@ -15,5 +15,37 @@ var SHOPIFY_APPS = [
         website_url: "https://www.tawk.to",
         script_pattern: "embed.tawk.to",
         category: "Customer service"    
+    },
+    {
+        name: "Shogun",
+        short_description: "Design pages, collections, products through a powerful visual page builder.",
+        app_store_url: "https://apps.shopify.com/shogun",
+        website_url: "https://getshogun.com",
+        script_pattern: "cdn.getshogun.com",
+        category: "Store Design"    
+    },
+    {
+        name: "Hello Announcements",
+        short_description: "Welcome your customers, give offers, get sales.",
+        app_store_url: "https://apps.shopify.com/announcement-bar",
+        website_url: "https://www.webyze.com",
+        script_pattern: "HelloAnnouncements",
+        category: "Store Design"    
+    },
+    {
+        name: "Smart Search & Instant Search",
+        short_description: "Smart Search, Filters, Recommendations to boost conversion.",
+        app_store_url: "https://apps.shopify.com/searchanise",
+        website_url: "https://start.searchanise.com/shopify",
+        script_pattern: "www.searchanise.com",
+        category: "Sales and Conversion Optimization"    
+    },
+    {
+        name: "Hubspot",
+        short_description: "Integrate marketing, sales, online data and more!",
+        app_store_url: "https://apps.shopify.com/hubspot",
+        website_url: "https://hubspot.com",
+        script_pattern: "api.hubapi.com",
+        category: "Marketing & Reporting"    
     }
 ];
