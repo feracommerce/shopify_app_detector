@@ -47,5 +47,13 @@ var SHOPIFY_APPS = [
         website_url: "https://hubspot.com",
         script_pattern: "api.hubapi.com",
         category: "Marketing & Reporting"    
+    },
+    {
+        name: "Upsell and Cross‑sell Products",
+        short_description: "Increase sales with upsell and cross-sell recommendations",
+        app_store_url: "https://apps.shopify.com/automatic-related-products",
+        website_url: "http://shopify.exto.io/",
+        script_pattern: "arp.apps1.exto.io",
+        category: "Sales & Conversion Optimization"    
     }
 ];
