@@ -55,5 +55,37 @@ var SHOPIFY_APPS = [
         website_url: "http://shopify.exto.io/",
         script_pattern: "arp.apps1.exto.io",
         category: "Sales & Conversion Optimization"    
+    },
+    {
+        name: "Bold Upsell",
+        short_description: "Product Upsell, Cross-sell & Smart Upsells to make more money",
+        app_store_url: "https://apps.shopify.com/product-upsell",
+        website_url: "https://boldcommerce.com/",
+        script_pattern: "upsells.boldapps.net",
+        category: "Sales & Conversion Optimization"    
+    },
+    {
+        name: "Back in Stock",
+        short_description: "Stop losing sales with Back in Stock Notification alerts",
+        app_store_url: "https://apps.shopify.com/back-in-stock",
+        website_url: "https://backinstock.org",
+        script_pattern: "app.backinstock.org",
+        category: "Sales & Conversion Optimization"    
+    },
+    {
+        name: "SMS + Free Web Push messages (FirePush)",
+        short_description: "Order recovery with SMS and FREE Web push notifications",
+        app_store_url: "https://apps.shopify.com/firepush",
+        website_url: "https://getfirepush.com/",
+        script_pattern: "cdn.firepush.net",
+        category: "Sales & Conversion Optimization"    
+    },
+    {
+        name: "Loyalty, Rewards & Referrals (SLoyalty)",
+        short_description: "Reward customers, build loyalty and grow referral sales.",
+        app_store_url: "https://apps.shopify.com/s-loyalty",
+        website_url: "https://www.sloyalty.com/",
+        script_pattern: "sloyalty.shopify.js",
+        category: "Marketing"    
     }
 ];
