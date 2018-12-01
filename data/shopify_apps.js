@@ -325,7 +325,7 @@ var SHOPIFY_APPS = [
         short_description: "Collect Product reviews, site reviews and photo/video reviews",
         app_store_url: "https://apps.shopify.com/product-reviews-addon",
         website_url: "https://stamped.io",
-        script_pattern: "files/shopify.v2.min.js",
+        script_pattern: "cdn-stamped-io.azureedge.net/files/shopify.v2.min.js",
         category: "Sales"    
     },
     {
