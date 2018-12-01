@@ -17,7 +17,9 @@ SAD.Detector = function(opts) {
         return self.apps;
     };
 
-    self.isShopify = function() {
+    self.isShopifyStore = function() {
+        if (opts.pageUrl.indexOf('shopify.') !== -1) return false;
+
         for (var i = 0; i < self.scripts.length; i++) {
             var script = self.scripts[i];
             if (script.indexOf('shopify.com') !== -1) {

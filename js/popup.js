@@ -10,8 +10,8 @@ SAD.Popup = function(opts) {
               self.apps = msgObj.apps;
               self.detectableApps = msgObj.detectableApps;
               self.displayApps();
-            } else if (msgObj.action == 'setdetectableApps') {
-                detectableApps = msgObj.num;
+            } else if (msgObj.action == 'setLoading') {
+                $('#appsTable').css('opacity', 0.5);
             }
          });
 
@@ -48,6 +48,7 @@ SAD.Popup = function(opts) {
         if (self.apps.length < 1) {
             $table.hide();
         } else {
+            $table.css('opacity', 1);
             $table.show();
         }
     }
