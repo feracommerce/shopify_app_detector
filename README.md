@@ -1,14 +1,30 @@
 # Fera.ai Shopify App Detector
 This is a Chrome extension that lets you detect what Shopify apps a store is running.
 
+![Shopify app detector demo](https://uploads.fera.ai/shopify_app_detector/demo.gif)
+
+# Installation
+### From the chrome app store
+To install the app simply visit the chrome app store once the app is approved.
+
+### Manually
+1. Download the latest packed version of the extension from here: https://uploads.fera.ai/shopify_app_detector/shopify_app_detector.crx
+2. Navigate to `chrome://extensions/` in your chrome.
+3. Drag and drop the file into your extensions section.
+
+### For development
+1. Clone the repo somewhere
+2. Navigate to `chrome://extensions/` and turn on developer mode
+3. Load unpacked extension and select the cloned repo directory
+
+# Support
+It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_shopify_app_detector), a real-time personalization and conversion rate optimization platform for Shopify. Please post questions or concerns about this chrome extension [here](https://github.com/feracommerce/shopify_app_detector/issues).
+
 
 ## Adding an app detection
 To add an app detection, add an entry in the data/shopify_apps.js file. You can submit a pull request with the addition and one of the community contributers will update it.
 
-## Support
-It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_shopify_app_detector), a real-time personalization and conversion rate optimization platform for Shopify. Please post questions or concerns about this chrome extension [here](https://github.com/feracommerce/shopify_app_detector/issues).
-
-# Current List of Detectable Apps
+# Current List of Detectable Apps (146)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -154,6 +170,7 @@ It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_s
 143. Develic Maps - https://apps.shopify.com/maps-by-develic
 144. Estimated Delivery Date - https://apps.shopify.com/estimated-delivery-date
 145. Easy GDPR - https://apps.shopify.com/easy-gdpr
+146. Shophero - https://apps.shopify.com/shophero
 
 
 # Contributing to the Repo
@@ -180,13 +197,9 @@ To contribute to the repository:
 
 Henceforth the root master repo (`feracommerce/shpoify_app_detector`) will be referred to as `upstream` and your own fork will be referred to as `origin`.
 
-### When to push to upstream
-We only push branches to upstream if you:
-1. Want to let other developers test and run the code, or
-2. You want to work with other developers on some code that needs to be branched from master.
-
 For example if you're working on `some_large_feature_x` you could create the branch, push to `upstream/some_large_feature_x` and then developer A and developer B can both submit PRs against `upstream/some_large_feature_x`.
 Then when that feature is ready for merge into master, you just submit a single PR from `upstream/some_large_feature_x` to `upstream/master`
+
 
 ### Getting your PR approved
 A few key things to note:
@@ -200,6 +213,13 @@ A few key things to note:
 * For contractors, your PR must be approved and merged before you may bill for your work on that component.
 * PR reviews will happen ASAP but generally within 24 hours.
 
+
+### Making a release
+For now the maintainers of the repo can only make a release public, but they will follow the following steps:
+1. Update the version in manefest.json
+2. Update the version at the top of this readme.
+3. Package the extension and upload the file to the uploads.fera.ai CDN
+4. Zip the package and upload it to the chrome extension store.
 
 ## JavaScript Style Guide
 We use an object-oriented approach to JavaScript (as object-oriented as we can).

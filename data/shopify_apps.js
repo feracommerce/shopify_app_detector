@@ -349,7 +349,7 @@ var SHOPIFY_APPS = [
         short_description: "Order recovery with SMS and FREE Web push notifications",
         app_store_url: "https://apps.shopify.com/firepush",
         website_url: "https://firepush.io/",
-        script_pattern: "sdk/shopify/180724082403gemem4kb4ppap6q3rr1c/shopify.min.js",
+        script_pattern: "firepush.",
         category: "Sales"    
     },
     {
@@ -359,6 +359,14 @@ var SHOPIFY_APPS = [
         website_url: "https://www.codeblackbelt.com",
         script_pattern: "js/modules/frequently-bought-together/main.min.js",
         category: "Sales"    
+    },
+    {
+        name: "Shophero",
+        short_description: "Email Marketing & Push Notification",
+        app_store_url: "https://apps.shopify.com/shophero",
+        website_url: "https://shophero.io/",
+        script_pattern: "shophero.",
+        category: "Marketing"    
     },
     {
         name: "LimeSpot",

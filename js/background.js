@@ -16,11 +16,7 @@ SAD.Background = function(opts) {
                 self.detectScripts(msgObj.pageScripts, msgObj.pageUrl);
                 return true;
             } else if (msgObj.action =='setLoading') {
-                chrome.browserAction.disable();
-                chrome.browserAction.setIcon({ path: 'img/icon.png' });
-                chrome.browserAction.setBadgeText({
-                    text: '..'
-                });
+                self.setLoading();
                 return true;
             } else {
                 return false;
@@ -28,6 +24,14 @@ SAD.Background = function(opts) {
          });
 
         chrome.tabs.onActivated.addListener(self.disable);
+    };
+
+    self.setLoading = function() {
+        chrome.browserAction.disable();
+        chrome.browserAction.setIcon({ path: 'img/icon.png' });
+        chrome.browserAction.setBadgeText({
+            text: '..'
+        });
     };
 
     self.disable = function() {
