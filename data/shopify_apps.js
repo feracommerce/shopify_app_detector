@@ -58,12 +58,12 @@ var SHOPIFY_APPS = [
     },
     {
         name: "Beeketing Apps (Multiple possibilites)",
-        short_description: "Add urgency, sales popups, happy email, better Coupon Box, mobile converter",
+        short_description: "Add urgency, sales popups, happy email, better coupon box",
         app_store_url: "https://apps.shopify.com/beeketing",
         website_url: "https://beeketing.com",
         script_pattern: "js/beeketing.js",
-        category: "Sales, Marketing"    
-    },    
+        category: "Sales"    
+    },
     {
         name: "Omnisend",
         short_description: "Email & Marketing Automation",
