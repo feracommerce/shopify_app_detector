@@ -17,29 +17,33 @@
     <script src="js/popup.js"></script>
   </head>
   <body>
-    <p class="summary-satement">
-      The Fera.ai Shopify App Detector has detected 
-      <span class="num-detections">some</span> apps on this website.
-    </p>
-    <div class="apps-table-container">
-      <table class="table table-hover  table-apps" id="appsTable">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col" style="min-width: 100px;">App</th>
-            <th scope="col">Description</th>
-            <th scope="col" style="min-width: 75px;">Links</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-          </tr>
-        </tbody>
-      </table>
+    <div class="main-content">
+      <p class="summary-satement">
+        Of the <span class="num-detectable-apps">several</span> detectable apps, 
+        <strong><span class="num-detections">some</span> were detected in this store</strong>. Refresh the page to check again.
+      </p>
+      <div class="apps-table-container">
+        <table class="table table-hover  table-apps" id="appsTable">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col" style="min-width: 100px;">App</th>
+              <th scope="col">Description</th>
+              <th scope="col" style="min-width: 75px;">Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <p class="support-statement">
-      <img src="/img/fera_icon-64px.png" class="img-responsive" style="height: 14px;">
-      This free chrome extension is supported by the <a href="https://www.github.com/feracommerce/shopify_app_detector" target="github">community on github</a> and the <a href="https://www.fera.ai?ref=fera_ai_shopify_app_detector">fera.ai</a> real-time personalization platform.
-    </p>
+    <div class="footer-content">
+      <div class="support-statement">
+        Support provided by <a href="https://www.github.com/feracommerce/shopify_app_detector" target="github">the community </a> and 
+        <a href="https://www.fera.ai?ref=fera_ai_shopify_app_detector">fera.ai</a> <img src="/img/fera_icon-64px.png" class="img-responsive" style="height: 14px;">.
+      </div>
+    </div>
   </body>
 </html>

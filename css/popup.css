@@ -1,6 +1,19 @@
 body {
     font-size: 10px;
+}
+
+.main-content {
     padding: 12px;
+    padding-bottom: 0;
+}
+
+.footer-content {
+    padding: 12px;
+    background-color: #f7f7f7;
+    box-shadow: 1px -2px 10px #0000001c;
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    font-style: italic;
 }
 
 .num-detections {
@@ -23,4 +36,14 @@ body {
 
 .app-name {
     font-weight: bold;
+}
+.support-statement {
+    margin: 0 12px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.footer-content:hover .support-statement {
+    opacity: 1;
 }

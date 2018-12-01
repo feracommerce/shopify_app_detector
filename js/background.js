@@ -8,7 +8,7 @@ SAD.Background = function(opts) {
 
         chrome.runtime.onMessage.addListener(function(msgObj) {
             if (msgObj.action == 'getApps') {
-                chrome.runtime.sendMessage({ action: "setApps", apps: self.apps });
+                chrome.runtime.sendMessage({ action: "setApps", apps: self.apps, detectableApps: SHOPIFY_APPS });
                 return true;
             } else if (msgObj.action =='setPageScripts') {
                 self.detectScripts(msgObj.pageScripts);

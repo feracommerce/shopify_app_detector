@@ -7,7 +7,6 @@ SAD.Detector = function(opts) {
         self.apps = [];
     };
 
-
     self.detectApps = function() {
         self.apps = [];
 

@@ -23,7 +23,6 @@ SAD.Content = function(opts) {
           self.sendScriptsToSad();
         }, false);
 
-
         if(window.attachEvent) {
             window.attachEvent('onload', self.sendScriptsToSad);
         } else {

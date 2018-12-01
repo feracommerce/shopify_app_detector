@@ -25,7 +25,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Shipping Bar",
+        name: "Hextom Shipping Bar",
         short_description: "Free shipping bar with updated cart goal to boost order value",
         app_store_url: "https://apps.shopify.com/free-shipping-bar",
         website_url: "https://hextom.com",
@@ -73,7 +73,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: " Smile.io",
+        name: "Smile.io",
         short_description: "Loyalty Points, VIP, Referral Programs",
         app_store_url: "https://apps.shopify.com/smile-io",
         website_url: "https://smile.io",
@@ -97,7 +97,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Ali Reviews",
+        name: "FireApps Ali Reviews",
         short_description: "Import reviews from AliExpress, Photo & Site Reviews",
         app_store_url: "https://apps.shopify.com/ali-reviews",
         website_url: "https://fireapps.io",
@@ -105,15 +105,15 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Jilt eCommerce email marketing",
-        short_description: "Boost revenue in minutes with effective automated emails",
+        name: "Jilt",
+        short_description: "Automated emails",
         app_store_url: "https://apps.shopify.com/jilt-cart-abandonment-solution",
         website_url: "https://jilt.com",
         script_pattern: "storefront/v1/jilt.js",
         category: "Marketing"    
     },
     {
-        name: "Conversio Marketing Automation",
+        name: "Conversio",
         short_description: "Email Marketing Automation. Make every email count",
         app_store_url: "https://apps.shopify.com/conversio",
         website_url: "https://conversio.com",
@@ -129,7 +129,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "MailChimp Forms",
+        name: "MailChimp",
         short_description: "MailChimp list with exit intent popups and coupons",
         app_store_url: "https://apps.shopify.com/mailchimp-forms",
         website_url: "https://www.mailmunch.co",
@@ -177,7 +177,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Popup Upsell on Exit & Visit",
+        name: "Spur-i-t Popup Upsell",
         short_description: "Fully Customizable Popup",
         app_store_url: "https://apps.shopify.com/upsell-popup-on-exit-visit",
         website_url: "https://spur-i-t.com",
@@ -193,7 +193,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Pixelpop Popups & Banners",
+        name: "Pixelpop",
         short_description: "Build your mailing list and boost sales with popups",
         app_store_url: "https://apps.shopify.com/popups-promos-banners-pixelpop",
         website_url: "http://pixelunion.net",
@@ -201,7 +201,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Welcome Header Bar",
+        name: "Zotabox Welcome",
         short_description: "Header Bar to Promote Your Best Deals and Increase Shares",
         app_store_url: "https://apps.shopify.com/promo-bar",
         website_url: "https://info.zotabox.com",
@@ -226,14 +226,14 @@ var SHOPIFY_APPS = [
     },
     {
         name: "Sumo",
-        short_description: "Grow Sales & Conversion",
+        short_description: "Grow Sales & Conversio?",
         app_store_url: "https://apps.shopify.com/sumome",
         website_url: "https://sumo.com",
         script_pattern: "sumome-plugin/js/sumome.js",
         category: "Marketing"    
     },
     {
-        name: "Refersion: Affiliate Marketing",
+        name: "Refersion",
         short_description: "Track referrals & pay commissions to affiliates + influencers",
         app_store_url: "https://apps.shopify.com/refersion",
         website_url: "https://www.refersion.com",
@@ -241,7 +241,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Care Cart Abandoned Recovery",
+        name: "Care Cart",
         short_description: "Recover Abandon Cart Orders by Sales & Marketing Automation",
         app_store_url: "https://apps.shopify.com/care-cart",
         website_url: "https://carecart.io",
@@ -273,7 +273,7 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Sales Pop ‑ Sales Notification",
+        name: "Sales Pop",
         short_description: "Add urgency, boost conversions with Recent Sales Notifications",
         app_store_url: "https://apps.shopify.com/sales-pop",
         website_url: "https://beeketing.com",
@@ -281,7 +281,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Recart Messenger Marketing",
+        name: "Recart",
         short_description: "Facebook Messenger Marketing & Abandoned Cart App",
         app_store_url: "https://apps.shopify.com/recart",
         website_url: "https://recart.com",
@@ -305,15 +305,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Discounted Upsells",
-        short_description: "Cross Sell and Upsell for more Sales",
-        app_store_url: "https://apps.shopify.com/discounted-upsells",
-        website_url: "",
-        script_pattern: "ajax/libs/jquery/1.12.0/jquery.min.js",
-        category: "Sales"    
-    },
-    {
-        name: "Conversion Plus",
+        name: "Conversion+",
         short_description: "Free cart reservation countdown timer that increases sales",
         app_store_url: "https://apps.shopify.com/conversion",
         website_url: "https://trust.varinode.com/",
@@ -337,7 +329,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Ads by Varinode",
+        name: "Varinode",
         short_description: "Free Ad exchange to help you acquire high quality traffic",
         app_store_url: "https://apps.shopify.com/ads",
         website_url: "http://avs.varinode.com",
@@ -345,7 +337,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Loox Reviews",
+        name: "Loox",
         short_description: "Photo Reviews (Product Reviews)",
         app_store_url: "https://apps.shopify.com/loox",
         website_url: "https://loox.app",
@@ -353,7 +345,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "SMS FREE Web Push messages",
+        name: "Firepush",
         short_description: "Order recovery with SMS and FREE Web push notifications",
         app_store_url: "https://apps.shopify.com/firepush",
         website_url: "https://firepush.io/",
@@ -369,7 +361,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Personalizer by LimeSpot",
+        name: "LimeSpot",
         short_description: "Upsell, Cross-sell and Personalized Recommendations by AI",
         app_store_url: "https://apps.shopify.com/limespot",
         website_url: "https://www.limespot.com",
@@ -385,7 +377,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Quick View by Secomapp",
+        name: "Secomapp",
         short_description: "Product preview in a click",
         app_store_url: "https://apps.shopify.com/quick-view",
         website_url: "https://www.secomapp.com",
@@ -401,7 +393,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Subscriptions",
+        name: "Recharge",
         short_description: "Launch and scale your subscription and recurring business",
         app_store_url: "https://apps.shopify.com/subscription-payments",
         website_url: "https://rechargepayments.com",
@@ -409,7 +401,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Also Bought",
+        name: "Code Black Belt Also Bought",
         short_description: "Recommendations - Customers Who Bought This Item Also Bought",
         app_store_url: "https://apps.shopify.com/also-bought",
         website_url: "https://www.codeblackbelt.com",
@@ -417,7 +409,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Personalized Recommendation",
+        name: "Beeketing Pers. Reco",
         short_description: "Recommend & upsell targeted products to the right customers",
         app_store_url: "https://apps.shopify.com/product-recommendation",
         website_url: "https://beeketing.com/",
@@ -426,14 +418,14 @@ var SHOPIFY_APPS = [
     },
     {
         name: "Persistent Cart",
-        short_description: "Increase sales: Remember customers' carts across their devices",
+        short_description: "Remember customers' carts across their devices",
         app_store_url: "https://apps.shopify.com/remember-my-cart",
         website_url: "https://recovermycart.freshdesk.com/support/solutions/articles/33000213763-remember-my-cart-faq",
         script_pattern: "RememberMyCart/Manage/CartJS",
         category: "Sales"    
     },
     {
-        name: "Wishlist Pro",
+        name: "Wishy",
         short_description: "A beautiful, advanced & customizable wishlist plugin",
         app_store_url: "https://apps.shopify.com/wishy",
         website_url: "",
@@ -449,7 +441,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Bold Upsell ‑ Upsell Smarter",
+        name: "Bold Upsell",
         short_description: "Product Upsell, Cross-sell & Smart Upsells to make more money",
         app_store_url: "https://apps.shopify.com/product-upsell",
         website_url: "https://boldcommerce.com",
@@ -457,15 +449,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Easy Tabs ‑ Product Tabs",
-        short_description: "Tabs for your products. Simple yet powerful tabs app",
-        app_store_url: "https://apps.shopify.com/product-description-tabs",
-        website_url: "https://nexusmedia-ua.com",
-        script_pattern: "easyslide/jquery191.min.js",
-        category: "Sales"    
-    },
-    {
-        name: "Yotpo Reviews",
+        name: "Yotpo",
         short_description: "Collect product reviews, site reviews, and photo reviews",
         app_store_url: "https://apps.shopify.com/yotpo-social-reviews",
         website_url: "https://www.yotpo.com",
@@ -473,7 +457,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Bizzy Social Proof",
+        name: "Bizzy",
         short_description: "Create urgency with recent sales notifications",
         app_store_url: "https://apps.shopify.com/bizzy-social-proof",
         website_url: "https://www.pixelunion.net/",
@@ -481,7 +465,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Buy Me",
+        name: "MPS Buy Me",
         short_description: "Sticky Buy Button",
         app_store_url: "https://apps.shopify.com/mps-buy-me",
         website_url: "https://makeprosimp.com/",
@@ -489,7 +473,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Bold Product Options",
+        name: "Nexusmedia-ua Product Options",
         short_description: "Product options to one or one thousand products with a click!",
         app_store_url: "https://apps.shopify.com/product-options",
         website_url: "https://nexusmedia-ua.com",
@@ -505,7 +489,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Cart Convert",
+        name: "East Side Co Cart Convert",
         short_description: "Product Upsell & Cross-sell",
         app_store_url: "https://apps.shopify.com/cart-convert",
         website_url: "https://eastsideco.com/",
@@ -513,7 +497,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "SMAR7 Bundle Upsell",
+        name: "SMAR7",
         short_description: "Smart, adaptive & user friendly upsells",
         app_store_url: "https://apps.shopify.com/smar7-bundle-upsell",
         website_url: "https://smar7apps.com",
@@ -521,7 +505,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Abandoned Cart Reminder",
+        name: "Supr-i-t Aban. Cart Rem.",
         short_description: "Bring Back Your Store Visitors with Abandoned Cart Reminds",
         app_store_url: "https://apps.shopify.com/abandoned-cart-reminder",
         website_url: "https://spur-i-t.com",
@@ -529,7 +513,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Gift Cards, Loyalty & Rewards",
+        name: "Gift Wizard",
         short_description: "Gift Card Solutions, Loyalty and Rewards, Store Credit",
         app_store_url: "https://apps.shopify.com/giftwizard",
         website_url: "https://www.giftwizard.co/",
@@ -537,7 +521,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Cross Sell",
+        name: "Csell",
         short_description: "Hand-picked product recommendations",
         app_store_url: "https://apps.shopify.com/cross-sell",
         website_url: "https://csell.co",
@@ -545,15 +529,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Discounted Pricing",
-        short_description: "Generate more sales by offering discounts on volume pricing",
-        app_store_url: "https://apps.shopify.com/discounted-pricing",
-        website_url: "",
-        script_pattern: "ajax/libs/jquery/1.12.0/jquery.min.js",
-        category: "Sales"    
-    },
-    {
-        name: "Product review ‑ Photo Review",
+        name: "Enorm Photo Reviews",
         short_description: "Review app for product reviews , photo reviews & site reviews",
         app_store_url: "https://apps.shopify.com/product-photo-reviews-by-enormapps",
         website_url: "https://www.enormapps.com",
@@ -569,7 +545,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Social Proof",
+        name: "Spur-i-t Social Proof",
         short_description: "Increase Sales & Create Urgency With SpurIT Social Proof App",
         app_store_url: "https://apps.shopify.com/social-proof-urgency",
         website_url: "https://spur-i-t.com",
@@ -577,7 +553,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Abandoned Cart Recovery",
+        name: "Recovermycart",
         short_description: "Prevent abandoned orders",
         app_store_url: "https://apps.shopify.com/recover-my-cart",
         website_url: "https://recovermycart.squarespace.com/?utm_source=shopify&utm_medium=add-on-store&utm_campaign=shopify-add-on-store",
@@ -585,7 +561,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Boost Sales‑ Upsell Cross‑sel",
+        name: "Beeketing Upsell Cross‑sell",
         short_description: "Smart, Auto upsell & cross-sell to boost order value & sales",
         app_store_url: "https://apps.shopify.com/boost-sales",
         website_url: "https://beeketing.com",
@@ -593,7 +569,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Order Limits (MinMaxify)",
+        name: "MinMaxify Order Limits",
         short_description: "Minimum - Maximum limits on your products, groups or entire cart",
         app_store_url: "https://apps.shopify.com/order-limits-minmaxify",
         website_url: "http://www.minmaxify.com/",
@@ -601,7 +577,7 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Social Sharing Buttons",
+        name: "Zotabox Social Sharing",
         short_description: "Social Share and Messaging Buttons. Improve Your Communication",
         app_store_url: "https://apps.shopify.com/social-buttons",
         website_url: "https://info.zotabox.com",
@@ -609,7 +585,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Cartback Messenger Marketing",
+        name: "Cartback",
         short_description: "Facebook Messenger Abandoned Cart app and Messenger Marketing",
         app_store_url: "https://apps.shopify.com/fb-messenger-remarketing",
         website_url: "",
@@ -617,7 +593,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Shop Instagram",
+        name: "Apps2grow.us Shop Instagram",
         short_description: "Stunning Instagram galleries that sell",
         app_store_url: "https://apps.shopify.com/instagram-photos",
         website_url: "http://www.apps2grow.us/instaphotos",
@@ -625,7 +601,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram Feed & Gallery",
+        name: "Expertvillagemedia.com Instagram Feed & Gallery",
         short_description: "Top Instagram Gallery, Instagram Lookbook & Instagram Feed App",
         app_store_url: "https://apps.shopify.com/instagram-feed",
         website_url: "https://www.expertvillagemedia.com/shopify-apps/instafeed/",
@@ -641,7 +617,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Reviews Wishlist",
+        name: "Shopwave Reviews Wishlist",
         short_description: "Photos Reviews, Wishlist, Instagram, Loyalty and 7 apps in one",
         app_store_url: "https://apps.shopify.com/socialshopwave",
         website_url: "https://www.socialshopwave.com/",
@@ -657,7 +633,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Checkout Boost",
+        name: "Beeketing Checkout Boost",
         short_description: "Prevent cart abandonment, boost conversions & social traffic",
         app_store_url: "https://apps.shopify.com/checkout-boost",
         website_url: "https://beeketing.com",
@@ -665,8 +641,8 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Kudobuzz Testimonials and Reviews",
-        short_description: "Grow your business with social reviews",
+        name: "Kudobuzz",
+        short_description: "Testimonials and Reviews - Grow your business with social reviews",
         app_store_url: "https://apps.shopify.com/kudobuzz-testimonials",
         website_url: "https://kudobuzz.com/",
         script_pattern: "js/widgetLoader.js",
@@ -689,7 +665,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Shoppable Instagram",
+        name: "Foursixty.com Shoppable Instagram",
         short_description: "Shop Instagram. Shoppable UGC. Rights Management. Anywhere.",
         app_store_url: "https://apps.shopify.com/foursixty",
         website_url: "http://www.foursixty.com",
@@ -697,7 +673,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram In‑Shop",
+        name: "Dvcloudsoftware.com Instagram In‑Shop",
         short_description: "Shop your instagram! Create an Instagram shop in minutes",
         app_store_url: "https://apps.shopify.com/instagram-in-shop",
         website_url: "http://instagram-shop.devcloudsoftware.com/support",
@@ -705,7 +681,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Smart Social Login",
+        name: "Web Desk Solution Smart Social Login",
         short_description: "Login with your social media accounts",
         app_store_url: "https://apps.shopify.com/smart-social-login",
         website_url: "http://webdesksolution.com",
@@ -713,7 +689,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram Feed + Facebook Feed",
+        name: "Powr.io Instagram Feed + Facebook Feed",
         short_description: "Instagram gallery or Facebook feed for Instagram + Facebook",
         app_store_url: "https://apps.shopify.com/powr-social-feed",
         website_url: "https://www.powr.io",
@@ -721,7 +697,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Social Media Icons",
+        name: "Powr.io Social Media Icons",
         short_description: "FREE social icons. Display social media buttons on your site!",
         app_store_url: "https://apps.shopify.com/powr-social-media-icons",
         website_url: "https://www.powr.io",
@@ -729,7 +705,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram ‑ Instagram Feed",
+        name: "99Commerce  Instagram Feed",
         short_description: "Instagram App to Add Instagram Gallery from Instagram Account",
         app_store_url: "https://apps.shopify.com/snapzy-the-instagram-feed",
         website_url: "http://www.99ecommerceexperts.com",
@@ -737,7 +713,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Social Mobile Share Bar",
+        name: "Zotabox Social Mobile Share Bar",
         short_description: "Free Mobile Messaging via WhatsApp, Messenger, Skype. SMS etc",
         app_store_url: "https://apps.shopify.com/mobile-messaging-social-share-bar",
         website_url: "https://info.zotabox.com/",
@@ -753,7 +729,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Twitter Feed",
+        name: "Powr.io Twitter Feed",
         short_description: "Grow your Twitter following with a Twitter feed!",
         app_store_url: "https://apps.shopify.com/powr-twitter-feed",
         website_url: "https://www.powr.io/",
@@ -769,7 +745,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram Shop",
+        name: "AAAE Instagram Shop",
         short_description: "Shoppable Instagram, Instagram Feed & Instagram Look Book APP",
         app_store_url: "https://apps.shopify.com/insta-feed",
         website_url: "https://www.aaaecommerce.com",
@@ -777,7 +753,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Social Media Tabs",
+        name: "Leadslide Social Media Tabs",
         short_description: "Design a Social Media Tab",
         app_store_url: "https://apps.shopify.com/social-media-tabs",
         website_url: "https://leadslide.com",
@@ -785,7 +761,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Open SignIn",
+        name: "Okas Open SignIn",
         short_description: "Social Login - Use any Social Network platform to login to your store",
         app_store_url: "https://apps.shopify.com/open-signin",
         website_url: "",
@@ -793,7 +769,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Twitter Feed",
+        name: "Zestard Twitter Feed",
         short_description: "Responsive Widget to display tweets, follow button",
         app_store_url: "https://apps.shopify.com/twitter-feed",
         website_url: "https://www.zestard.com",
@@ -801,7 +777,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Facebook Chat Box",
+        name: "Autoketing Facebook Chat",
         short_description: "Live chat with customers via Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-chat-box",
         website_url: "https://autoketing.com",
@@ -809,7 +785,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram Shoppable Feed",
+        name: "Elfsight Instagram",
         short_description: "Add to website shoppable Instagram photos with tagged items",
         app_store_url: "https://apps.shopify.com/elfsight-shoppable-feed",
         website_url: "https://elfsight.com",
@@ -817,7 +793,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Like Button Rating",
+        name: "Likebtn.com",
         short_description: "Get tons of likes and boost sharing",
         app_store_url: "https://apps.shopify.com/like-button-rating",
         website_url: "https://likebtn.com",
@@ -825,7 +801,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram Feed",
+        name: "Sketch ThemesInstagram Feed",
         short_description: "Add aliveness to your store by integrating Instagram's feeds",
         app_store_url: "https://apps.shopify.com/instagram-feed-by-sketch-themes",
         website_url: "",
@@ -833,7 +809,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram Shop Feed",
+        name: "Sprbot Instagram Shop Feed",
         short_description: "Make your Instagram Feed Shop-able",
         app_store_url: "https://apps.shopify.com/dev-instagram-sell-1",
         website_url: "http://sprbot.com/instashop/",
@@ -849,7 +825,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Facebook Image Gallery",
+        name: "Code Back Belt Facebook Image Gallery",
         short_description: "Awesome & dynamic image gallery for your Facebook pictures",
         app_store_url: "https://apps.shopify.com/facebook-image-gallery",
         website_url: "https://www.codeblackbelt.com",
@@ -857,7 +833,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Shareable Cart",
+        name: "CFF Shareable Cart",
         short_description: "Makes your cart shareable and transferrable between devices",
         app_store_url: "https://apps.shopify.com/portable-cart",
         website_url: "https://customerfirstfocus.com/",
@@ -865,7 +841,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Instagram",
+        name: "Green Frog Instagram",
         short_description: "Instagram pic in slider & grid in instagram",
         app_store_url: "https://apps.shopify.com/greenfrog-instashow",
         website_url: "https://greenfrogweb.com",
@@ -873,7 +849,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Social Caller",
+        name: "Roar Social Caller",
         short_description: "Social Caller gives you a hand, to increase your inbound calls",
         app_store_url: "https://apps.shopify.com/social-caller",
         website_url: "https://roartheme.com/",
@@ -881,7 +857,7 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Facebook Chat",
+        name: "Beeketing Facebook Chat",
         short_description: "Live chat with your customers using Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-live-chat",
         website_url: "https://beeketing.com/contact",
@@ -889,7 +865,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Wishlist Plus",
+        name: "Swym.it Wishlist Plus",
         short_description: "Help your customers pick up where they left off",
         app_store_url: "https://apps.shopify.com/swym-relay",
         website_url: "http://swym.it",
@@ -897,7 +873,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Easy Contact Form",
+        name: "Zotabox Contact Form",
         short_description: "Free Stylish, Responsive Contact Form. Unlimited Submissions",
         app_store_url: "https://apps.shopify.com/better-contact-form-1",
         website_url: "https://info.zotabox.com",
@@ -905,7 +881,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "HelpCenter",
+        name: "Vertex LV HelpCenter",
         short_description: "Build an Attractive FAQs Page",
         app_store_url: "https://apps.shopify.com/helpcenter",
         website_url: "",
@@ -913,7 +889,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Tidio Live Chat",
+        name: "Tidio",
         short_description: "Live chat boosted with Bots and Marketing Automation",
         app_store_url: "https://apps.shopify.com/tidio-chat",
         website_url: "http://www.tidiochat.com",
@@ -921,7 +897,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Abandonment Protector",
+        name: "Chilli Abandonment Protector",
         short_description: "Email marketing automation & Popups with Exit intent",
         app_store_url: "https://apps.shopify.com/linkerfriend-lead-management-tools",
         website_url: "https://www.chilliapps.com",
@@ -929,7 +905,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Improved Contact Form",
+        name: "AWIO",
         short_description: "Contact Us Page Generator and Popup Contact Widget",
         app_store_url: "https://apps.shopify.com/improved-contact-form",
         website_url: "https://www.awio.com",
@@ -937,7 +913,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "WhatsHelp Chat Button",
+        name: "WhatsHelp.io",
         short_description: "Chat with website visitors via popular Messaging Apps",
         app_store_url: "https://apps.shopify.com/whatshelp-chat-button",
         website_url: "https://whatshelp.io/widget",
@@ -945,7 +921,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Facebook Live Chat",
+        name: "Zotabox FB Chat",
         short_description: "Customer Support via Facebook Live Chat",
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat",
         website_url: "https://info.zotabox.com",
@@ -953,7 +929,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Chatra Live Chat",
+        name: "Chatra",
         short_description: "Live chat and Facebook chat for your store",
         app_store_url: "https://apps.shopify.com/chatra",
         website_url: "https://chatra.io",
@@ -961,7 +937,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Simple Contact Us Form",
+        name: "Hulk Contact Us Form",
         short_description: "Take Less Than 2 Minutes to Get In Touch With Your Customers",
         app_store_url: "https://apps.shopify.com/contact-us-by-hulkapps",
         website_url: "https://www.hulkcode.com",
@@ -969,7 +945,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Form Builder",
+        name: "AAAE Form Builder",
         short_description: "Form Builder App with Custom Registration Form and Order Form",
         app_store_url: "https://apps.shopify.com/form-builder",
         website_url: "https://www.aaaecommerce.com/",
@@ -985,7 +961,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Re:amaze Live Chat & Helpdesk",
+        name: "Re:amaze",
         short_description: "Customer support helpdesk with live chat, ticketing, and FAQ",
         app_store_url: "https://apps.shopify.com/reamaze",
         website_url: "https://www.reamaze.com",
@@ -1001,15 +977,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Product Questions and Answers",
-        short_description: "Helps you create Product Specific FAQ Section on Product Pages",
-        app_store_url: "https://apps.shopify.com/simp-questions-and-answers",
-        website_url: "https://simprosys.com",
-        script_pattern: "ajax/libs/jquery/2.1.4/jquery.min.js",
-        category: "Customer service"    
-    },
-    {
-        name: "Ultimate FAQ",
+        name: "Etoile Ultimate FAQ",
         short_description: "A feature-rich and complete FAQ solution",
         app_store_url: "https://apps.shopify.com/ultimate-faqs",
         website_url: "https://www.etoilewebdesign.com",
@@ -1017,7 +985,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Live Chat",
+        name: "Zendesk Chat",
         short_description: "Live chat provides a fast way to connect with customers",
         app_store_url: "https://apps.shopify.com/zendeskchatplus",
         website_url: "http://help.combidesk.com/instruction-manuals/shopify/instruction-manual-shopify-zendesk-chat-integration-formerly-zopim",
@@ -1025,7 +993,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Facebook Chat",
+        name: "Customer.guru Facebook Chat",
         short_description: "Turn your visitors into your customers with Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-chat-2-0",
         website_url: "",
@@ -1049,7 +1017,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Custom Order Status",
+        name: "W3Trends Custom Order Status",
         short_description: "Create and manage the status of your orders",
         app_store_url: "https://apps.shopify.com/ultimate-order-status",
         website_url: "http://www.w3trends.com",
@@ -1057,7 +1025,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Product Fees and Charges",
+        name: "Mageworx Product Fees/Charges",
         short_description: "Add extra fees to incease your sales and average order value",
         app_store_url: "https://apps.shopify.com/product-fees",
         website_url: "https://appstore.mageworx.com/",
@@ -1065,7 +1033,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Easy Google Customer Reviews",
+        name: "Unionworks Google Reviews",
         short_description: "Add Google Customer Reviews to your site, no coding required!",
         app_store_url: "https://apps.shopify.com/easy-google-customer-reviews",
         website_url: "https://unionworks.co.uk/shopify-apps/easy-google-customer-reviews/support",
@@ -1089,7 +1057,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Tracking Genie",
+        name: "Two Zillas Tracking Genie",
         short_description: "Tracking set on autopilot",
         app_store_url: "https://apps.shopify.com/trackinggenie",
         website_url: "http://www.twozillas.com",
@@ -1097,7 +1065,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Facebook Live Chat and Tracking",
+        name: "Roartheme Live Chat Tracking",
         short_description: "Chat with your shoppers via Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat-tracking",
         website_url: "https://roartheme.com",
@@ -1105,7 +1073,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Survey",
+        name: "Powr.io Survey",
         short_description: "Customizable surveys for collecting customer feedback",
         app_store_url: "https://apps.shopify.com/powr-survey",
         website_url: "https://www.powr.io",
@@ -1113,7 +1081,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Returns Management System",
+        name: "Spice Gems Returns",
         short_description: "Handle Return Requests & send Prepaid Shipping Labels",
         app_store_url: "https://apps.shopify.com/return-management-system",
         website_url: "https://spicegems.com",
@@ -1153,7 +1121,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"    
     },
     {
-        name: "Custom Contact Forms",
+        name: "EastSideCo Forms",
         short_description: "Smart Contact Form Builder",
         app_store_url: "https://apps.shopify.com/contact-forms-1",
         website_url: "https://eastsideco.com",
@@ -1165,11 +1133,11 @@ var SHOPIFY_APPS = [
         short_description: "Merchants can offer discounts to different customer groups",
         app_store_url: "https://apps.shopify.com/wholesale-simplified",
         website_url: "http://support.solvercircle.com",
-        script_pattern: "wholesale-simplified/scripts/js/sc_ws_jquery.min.js",
+        script_pattern: "wholesale-simplified/scripts",
         category: "Customer service"    
     },
     {
-        name: "Maps",
+        name: "Develic Maps",
         short_description: "Add Google Maps with store locations to your Shopify store",
         app_store_url: "https://apps.shopify.com/maps-by-develic",
         website_url: "https://www.develic.com/",

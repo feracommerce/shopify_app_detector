@@ -8,7 +8,10 @@ SAD.Popup = function(opts) {
         chrome.runtime.onMessage.addListener(function(msgObj) {
             if (msgObj.action == 'setApps') {
               self.apps = msgObj.apps;
+              self.detectableApps = msgObj.detectableApps;
               self.displayApps();
+            } else if (msgObj.action == 'setdetectableApps') {
+                detectableApps = msgObj.num;
             }
          });
 
@@ -20,6 +23,8 @@ SAD.Popup = function(opts) {
         var $body = $table.find('tbody');
         var $num = $('.num-detections');
 
+        if (self.detectableApps) $('.num-detectable-apps').text(self.detectableApps.length);
+
         for (var i = 0; i < self.apps.length; i++) {
             var app = self.apps[i];
             $body.append(
@@ -30,7 +35,7 @@ SAD.Popup = function(opts) {
                     '<td>' + app.short_description + '</td>' +
                     '<td>' +
                       '<div class="app-links">' + 
-                        '<a href="' + app.website_url + '?ref=fera_ai_app_detector" target="website_' + i + '">website</a>' + 
+                        (app.website_url && app.website_url !== '' ? (' <a href="' + app.website_url + '?ref=fera_ai_app_detector" target="website_' + i + '">website</a>') : '') + 
                         '<a href="' + app.app_store_url + '?ref=fera_ai_app_detector" target="app_store_' + i + '">app store</a>' + 
                       '</div>' +
                     '</td>' +
