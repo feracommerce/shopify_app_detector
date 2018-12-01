@@ -989,7 +989,7 @@ var SHOPIFY_APPS = [
         short_description: "Customer support helpdesk with live chat, ticketing, and FAQ",
         app_store_url: "https://apps.shopify.com/reamaze",
         website_url: "https://www.reamaze.com",
-        script_pattern: "https://cdn.reamaze.com/assets/reamaze.js",
+        script_pattern: "reamaze.com/assets/reamaze.js",
         category: "Customer service"    
     },
     {
