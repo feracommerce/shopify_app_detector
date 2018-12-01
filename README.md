@@ -1,7 +1,7 @@
 # Fera.ai Shopify App Detector
 This is a Chrome extension that lets you detect what Shopify apps a store is running.
 
-![Shopify app detector demo](https://uploads.fera.ai/shopify_app_detector/demo.gif)
+![Shopify app detector demo](https://uploads.fera.ai/shopify_app_detector/demo.png)
 
 # Installation
 ### From the chrome app store
