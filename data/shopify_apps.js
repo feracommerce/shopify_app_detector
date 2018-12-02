@@ -58,7 +58,7 @@ var SHOPIFY_APPS = [
     },
     {
         name: "Beeketing Apps (Multiple possibilites)",
-        short_description: "Add urgency, sales popups, happy email, better coupon box",
+        short_description: "Add urgency, sales popups, happy email, better coupon box, etc.",
         app_store_url: "https://apps.shopify.com/beeketing",
         website_url: "https://beeketing.com",
         script_pattern: "js/beeketing.js",
@@ -246,6 +246,14 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/retargetapp-facebook-retargeting",
         website_url: "http://retargetapp.com",
         script_pattern: "pixel/pixel.min.js",
+        category: "Marketing"    
+    },
+    {
+        name: "SLoyalty",
+        short_description: "Reward customers, build loyalty and grow referral sales.",
+        app_store_url: "https://apps.shopify.com/s-loyalty",
+        website_url: "https://www.sloyalty.com",
+        script_pattern: "sloyalty.shopify.js",
         category: "Marketing"    
     },
     {
