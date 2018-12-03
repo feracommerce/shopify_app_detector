@@ -77,7 +77,7 @@ var SHOPIFY_APPS = [
         short_description: "Loyalty Points, VIP, Referral Programs",
         app_store_url: "https://apps.shopify.com/smile-io",
         website_url: "https://smile.io",
-        script_pattern: "assets/storefront.js",
+        script_pattern: "smile-shopify.js",
         category: "Marketing"    
     },
     {
