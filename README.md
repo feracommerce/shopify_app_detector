@@ -24,7 +24,7 @@ It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_s
 ## Adding an app detection
 To add an app detection, add an entry in the data/shopify_apps.js file. You can submit a pull request with the addition and one of the community contributers will update it.
 
-# Current List of Detectable Apps (146)
+# Current List of Detectable Apps (139)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
