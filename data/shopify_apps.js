@@ -57,11 +57,11 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Happy Email",
-        short_description: "Automated and personalized welcome emails to new customers",
+        name: "Beeketing Apps (Multiple possibilites)",
+        short_description: "Add urgency, sales popups, happy email, better coupon box, etc.",
         app_store_url: "https://apps.shopify.com/beeketing",
         website_url: "https://beeketing.com",
-        script_pattern: "js/1.beeketing.2818b52aa5a936e219c8.js",
+        script_pattern: "js/beeketing.js",
         category: "Marketing"    
     },
     {
@@ -142,14 +142,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/pagefly",
         website_url: "https://www.sellersmith.com",
         script_pattern: "assets/pagefly/assets/1.3.5/helper.js",
-        category: "Marketing"    
-    },
-    {
-        name: "Better Coupon Box",
-        short_description: "Email Popups with Exit Intent",
-        app_store_url: "https://apps.shopify.com/better-coupon-box",
-        website_url: "https://beeketing.com",
-        script_pattern: "js/10.beeketing.c587799de2101deaf133.js",
         category: "Marketing"    
     },
     {
@@ -273,27 +265,11 @@ var SHOPIFY_APPS = [
         category: "Marketing"    
     },
     {
-        name: "Sales Pop",
-        short_description: "Add urgency, boost conversions with Recent Sales Notifications",
-        app_store_url: "https://apps.shopify.com/sales-pop",
-        website_url: "https://beeketing.com",
-        script_pattern: "js/1.beeketing.2818b52aa5a936e219c8.js",
-        category: "Sales"    
-    },
-    {
         name: "Recart",
         short_description: "Facebook Messenger Marketing & Abandoned Cart App",
         app_store_url: "https://apps.shopify.com/recart",
         website_url: "https://recart.com",
         script_pattern: "messenger/loader.js",
-        category: "Sales"    
-    },
-    {
-        name: "Mobile Converter",
-        short_description: "Easily boost conversion rates and sales on mobile devices",
-        app_store_url: "https://apps.shopify.com/mobile-web-boost",
-        website_url: "https://beeketing.com",
-        script_pattern: "js/1.beeketing.2818b52aa5a936e219c8.js",
         category: "Sales"    
     },
     {
@@ -414,14 +390,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/also-bought",
         website_url: "https://www.codeblackbelt.com",
         script_pattern: "js/modules/also-bought/main.min.js",
-        category: "Sales"    
-    },
-    {
-        name: "Beeketing Pers. Reco",
-        short_description: "Recommend & upsell targeted products to the right customers",
-        app_store_url: "https://apps.shopify.com/product-recommendation",
-        website_url: "https://beeketing.com/",
-        script_pattern: "js/1.beeketing.e77d5447ed45412d08d4.js",
         category: "Sales"    
     },
     {
@@ -569,14 +537,6 @@ var SHOPIFY_APPS = [
         category: "Sales"    
     },
     {
-        name: "Beeketing Upsell Cross‑sell",
-        short_description: "Smart, Auto upsell & cross-sell to boost order value & sales",
-        app_store_url: "https://apps.shopify.com/boost-sales",
-        website_url: "https://beeketing.com",
-        script_pattern: "js/beeketing.js?20180724",
-        category: "Sales"    
-    },
-    {
         name: "MinMaxify Order Limits",
         short_description: "Minimum - Maximum limits on your products, groups or entire cart",
         app_store_url: "https://apps.shopify.com/order-limits-minmaxify",
@@ -638,14 +598,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/oxi-social-login",
         website_url: "http://www.oxiapps.com",
         script_pattern: "api/init?shop=pipoldidik.myshopify.com",
-        category: "Social media"    
-    },
-    {
-        name: "Beeketing Checkout Boost",
-        short_description: "Prevent cart abandonment, boost conversions & social traffic",
-        app_store_url: "https://apps.shopify.com/checkout-boost",
-        website_url: "https://beeketing.com",
-        script_pattern: "1.beeketing.33fe0214250771df781a.js",
         category: "Social media"    
     },
     {
@@ -863,14 +815,6 @@ var SHOPIFY_APPS = [
         website_url: "https://roartheme.com/",
         script_pattern: "socialcaller/lib/assets/socialcaller.js?1532513013&shop=pipoldidik.myshopify.com",
         category: "Social media"    
-    },
-    {
-        name: "Beeketing Facebook Chat",
-        short_description: "Live chat with your customers using Facebook Messenger",
-        app_store_url: "https://apps.shopify.com/facebook-live-chat",
-        website_url: "https://beeketing.com/contact",
-        script_pattern: "1.beeketing.2818b52aa5a936e219c8.js",
-        category: "Customer service"    
     },
     {
         name: "Swym.it Wishlist Plus",
