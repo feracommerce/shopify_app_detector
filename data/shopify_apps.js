@@ -445,7 +445,7 @@ var SHOPIFY_APPS = [
         short_description: "Sticky Buy Button",
         app_store_url: "https://apps.shopify.com/mps-buy-me",
         website_url: "https://makeprosimp.com/",
-        script_pattern: "app/js/app.js?shop=wolfieshaven.myshopify.com&key=a4db70fac62243deace0648b079a7a19",
+        script_pattern: "buy-me.makeprosimp.com/app/js/app.js",
         category: "Sales"    
     },
     {
