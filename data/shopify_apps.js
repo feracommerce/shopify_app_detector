@@ -21,7 +21,7 @@ var SHOPIFY_APPS = [
         short_description: "Free email popups, exit intent, targeted modals, wheels & more",
         app_store_url: "https://apps.shopify.com/privy",
         website_url: "https://www.privy.com",
-        script_pattern: "shopify.privy.com/widget.js?shop=wolfieshaven.myshopify.com",
+        script_pattern: "shopify.privy.com/widget.js",
         category: "Marketing"    
     },
     {
@@ -68,7 +68,7 @@ var SHOPIFY_APPS = [
         name: "Omnisend",
         short_description: "Email & Marketing Automation",
         app_store_url: "https://apps.shopify.com/omnisend",
-        website_url: "https://apps.shopify.com/omnisend",
+        website_url: "https://www.omnisend.com",
         script_pattern: "inShop/forms.js?v=2018-07-23T08",
         category: "Marketing"    
     },
@@ -156,7 +156,7 @@ var SHOPIFY_APPS = [
         name: "Swell",
         short_description: "Rewards and Referrals",
         app_store_url: "https://apps.shopify.com/swell",
-        website_url: "https://www.cleverecommerce.com",
+        website_url: "http://www.swellrewards.com",
         script_pattern: "loader/aRJ9CNJobels-PwCyJj49w.js",
         category: "Marketing"    
     },
@@ -334,7 +334,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/frequently-bought-together",
         website_url: "https://www.codeblackbelt.com",
         script_pattern: "js/modules/frequently-bought-together/main.min.js",
-        category: "Sales"    
+        category: "Sales"   
     },
     {
         name: "Shophero",
@@ -813,7 +813,7 @@ var SHOPIFY_APPS = [
         short_description: "Social Caller gives you a hand, to increase your inbound calls",
         app_store_url: "https://apps.shopify.com/social-caller",
         website_url: "https://roartheme.com/",
-        script_pattern: "socialcaller/lib/assets/socialcaller.js?1532513013&shop=pipoldidik.myshopify.com",
+        script_pattern: "socialcaller/lib/assets/socialcaller.js?1532513013",
         category: "Social media"    
     },
     {
@@ -957,7 +957,7 @@ var SHOPIFY_APPS = [
         short_description: "Easy-to-use live chat software with unlimited users and chats",
         app_store_url: "https://apps.shopify.com/pure-chat",
         website_url: "https://www.purechat.com/",
-        script_pattern: "shopify/ShopifySnippet?widgetId=5e772704-f3b8-4a89-b767-a18328d29a06&shop=pipoldidik.myshopify.com",
+        script_pattern: "shopify/ShopifySnippet?widgetId=5e772704-f3b8-4a89-b767-a18328d29a06",
         category: "Customer service"    
     },
     {
@@ -1005,7 +1005,7 @@ var SHOPIFY_APPS = [
         short_description: "Service for Direct Sales",
         app_store_url: "https://apps.shopify.com/free-call",
         website_url: "https://www.freecallinc.com",
-        script_pattern: "freecall_trackdiv1.js?company_id=56483&site_id=54667&js_enabled=1&phpsessid_js=1532540951689xumteit8o4acyrz6rg3&is_first_js=1&psid=1532540951689xumteit8o4acyrz6rg3|1|||||||&http_referer_js=https://pipoldidik.myshopify.com/&title=PipolDidik&uid=&uml=&unm=&cnm=&wixpageTitle=&wixurl=&wixreferer=&enc=UTF-8&plng=en&globid=21221532540807&timestamp=1532540951700",
+        script_pattern: "freecall_trackdiv1.js",
         category: "Customer service"    
     },
     {
@@ -1021,7 +1021,7 @@ var SHOPIFY_APPS = [
         short_description: "Chat with your shoppers via Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat-tracking",
         website_url: "https://roartheme.com",
-        script_pattern: "fblivechat/lib/asset/script.js?1532542457&shop=pipoldidik.myshopify.com",
+        script_pattern: "fblivechat/lib/asset/script.js?1532542457",
         category: "Customer service"    
     },
     {
@@ -1053,7 +1053,7 @@ var SHOPIFY_APPS = [
         short_description: "Live chat with visitors in real-time",
         app_store_url: "https://apps.shopify.com/formilla-live-chat",
         website_url: "https://www.formilla.com",
-        script_pattern: "scripts/loadFormilla.js?guid=csfef828-ca8f-4234-b152-c26c8f6fdd96&shop=pipoldidik.myshopify.com",
+        script_pattern: "scripts/loadFormilla.js?guid=csfef828-ca8f-4234-b152-c26c8f6fdd96",
         category: "Customer service"    
     },
     {
@@ -1061,7 +1061,7 @@ var SHOPIFY_APPS = [
         short_description: "Create any kind of custom form with Powerful Form Builder app",
         app_store_url: "https://apps.shopify.com/powerful-form-builder",
         website_url: "http://www.globosoftware.net",
-        script_pattern: "s/files/1/0016/7591/9458/t/1/assets/globoformbuilder_init.js?shop=pipoldidik.myshopify.com",
+        script_pattern: "s/files/1/0016/7591/9458/t/1/assets/globoformbuilder_init.js",
         category: "Customer service"    
     },
     {
@@ -1069,7 +1069,7 @@ var SHOPIFY_APPS = [
         short_description: "Display the estimated delivery date range on the product page",
         app_store_url: "https://apps.shopify.com/delivery-date-range",
         website_url: "http://www.ecomstoreapps.com",
-        script_pattern: "assets/ddr_embed.js?ddr_token=3d55a85a-5d3a-4260-8358-d0628f46716f&shop=pipoldidik.myshopify.com",
+        script_pattern: "assets/ddr_embed.js?ddr_token=3d55a85a-5d3a-4260-8358-d0628f46716f",
         category: "Customer service"    
     },
     {
