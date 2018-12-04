@@ -24,7 +24,7 @@ It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_s
 ## Adding an app detection
 To add an app detection, add an entry in the data/shopify_apps.js file. You can submit a pull request with the addition and one of the community contributers will update it.
 
-# Current List of Detectable Apps (139)
+# Current List of Detectable Apps (136)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -105,65 +105,62 @@ To add an app detection, add an entry in the data/shopify_apps.js file. You can 
 78. Foursixty.com Shoppable Instagram - https://apps.shopify.com/foursixty
 79. Dvcloudsoftware.com Instagram In‑Shop - https://apps.shopify.com/instagram-in-shop
 80. Web Desk Solution Smart Social Login - https://apps.shopify.com/smart-social-login
-81. Powr.io Instagram Feed + Facebook Feed - https://apps.shopify.com/powr-social-feed
-82. Powr.io Social Media Icons - https://apps.shopify.com/powr-social-media-icons
-83. 99Commerce  Instagram Feed - https://apps.shopify.com/snapzy-the-instagram-feed
-84. Zotabox Social Mobile Share Bar - https://apps.shopify.com/mobile-messaging-social-share-bar
-85. Widgetic - https://apps.shopify.com/facebook-like-by-widgetic
-86. Powr.io Twitter Feed - https://apps.shopify.com/powr-twitter-feed
-87. Yottie - https://apps.shopify.com/yottie-shopify-youtube-channel-plugin
-88. AAAE Instagram Shop - https://apps.shopify.com/insta-feed
-89. Leadslide Social Media Tabs - https://apps.shopify.com/social-media-tabs
-90. Okas Open SignIn - https://apps.shopify.com/open-signin
-91. Zestard Twitter Feed - https://apps.shopify.com/twitter-feed
-92. Autoketing Facebook Chat - https://apps.shopify.com/facebook-chat-box
-93. Elfsight Instagram - https://apps.shopify.com/elfsight-shoppable-feed
-94. Likebtn.com - https://apps.shopify.com/like-button-rating
-95. Sketch ThemesInstagram Feed - https://apps.shopify.com/instagram-feed-by-sketch-themes
-96. Sprbot Instagram Shop Feed - https://apps.shopify.com/dev-instagram-sell-1
-97. TagTray - https://apps.shopify.com/tagtray
-98. Code Back Belt Facebook Image Gallery - https://apps.shopify.com/facebook-image-gallery
-99. CFF Shareable Cart - https://apps.shopify.com/portable-cart
-100. Green Frog Instagram - https://apps.shopify.com/greenfrog-instashow
-101. Roar Social Caller - https://apps.shopify.com/social-caller
-102. Swym.it Wishlist Plus - https://apps.shopify.com/swym-relay
-103. Zotabox Contact Form - https://apps.shopify.com/better-contact-form-1
-104. Vertex LV HelpCenter - https://apps.shopify.com/helpcenter
-105. Tidio - https://apps.shopify.com/tidio-chat
-106. Chilli Abandonment Protector - https://apps.shopify.com/linkerfriend-lead-management-tools
-107. AWIO - https://apps.shopify.com/improved-contact-form
-108. WhatsHelp.io - https://apps.shopify.com/whatshelp-chat-button
-109. Zotabox FB Chat - https://apps.shopify.com/facebook-messenger-live-chat
-110. Chatra - https://apps.shopify.com/chatra
-111. Hulk Contact Us Form - https://apps.shopify.com/contact-us-by-hulkapps
-112. AAAE Form Builder - https://apps.shopify.com/form-builder
-113. Zendesk Support - https://apps.shopify.com/zendesk
-114. Re:amaze - https://apps.shopify.com/reamaze
-115. Orderify - https://apps.shopify.com/orderify
-116. Etoile Ultimate FAQ - https://apps.shopify.com/ultimate-faqs
-117. Zendesk Chat - https://apps.shopify.com/zendeskchatplus
-118. Customer.guru Facebook Chat - https://apps.shopify.com/facebook-chat-2-0
-119. Pure Chat - https://apps.shopify.com/pure-chat
-120. Jivo Omnichannel Suite - https://apps.shopify.com/jivochat
-121. W3Trends Custom Order Status - https://apps.shopify.com/ultimate-order-status
-122. Mageworx Product Fees/Charges - https://apps.shopify.com/product-fees
-123. Unionworks Google Reviews - https://apps.shopify.com/easy-google-customer-reviews
-124. Intercom - https://apps.shopify.com/intercom
-125. Free Call - https://apps.shopify.com/free-call
-126. Two Zillas Tracking Genie - https://apps.shopify.com/trackinggenie
-127. Roartheme Live Chat Tracking - https://apps.shopify.com/facebook-messenger-live-chat-tracking
-128. Powr.io Survey - https://apps.shopify.com/powr-survey
-129. Spice Gems Returns - https://apps.shopify.com/return-management-system
-130. Raven Callback Request - https://apps.shopify.com/raven
-131. Formilla Live Chat - https://apps.shopify.com/formilla-live-chat
-132. Powerful Form Builder - https://apps.shopify.com/powerful-form-builder
-133. Delivery Date Range - https://apps.shopify.com/delivery-date-range
-134. EastSideCo Forms - https://apps.shopify.com/contact-forms-1
-135. Wholesale Simplified - https://apps.shopify.com/wholesale-simplified
-136. Develic Maps - https://apps.shopify.com/maps-by-develic
-137. Estimated Delivery Date - https://apps.shopify.com/estimated-delivery-date
-138. Easy GDPR - https://apps.shopify.com/easy-gdpr
-139. Shophero - https://apps.shopify.com/shophero
+81. Powr.io (Multiple possibilites) - https://apps.shopify.com/powr-social-feed
+82. 99Commerce  Instagram Feed - https://apps.shopify.com/snapzy-the-instagram-feed
+83. Zotabox Social Mobile Share Bar - https://apps.shopify.com/mobile-messaging-social-share-bar
+84. Widgetic - https://apps.shopify.com/facebook-like-by-widgetic
+85. Yottie - https://apps.shopify.com/yottie-shopify-youtube-channel-plugin
+86. AAAE Instagram Shop - https://apps.shopify.com/insta-feed
+87. Leadslide Social Media Tabs - https://apps.shopify.com/social-media-tabs
+88. Okas Open SignIn - https://apps.shopify.com/open-signin
+89. Zestard Twitter Feed - https://apps.shopify.com/twitter-feed
+90. Autoketing Facebook Chat - https://apps.shopify.com/facebook-chat-box
+91. Elfsight Instagram - https://apps.shopify.com/elfsight-shoppable-feed
+92. Likebtn.com - https://apps.shopify.com/like-button-rating
+93. Sketch ThemesInstagram Feed - https://apps.shopify.com/instagram-feed-by-sketch-themes
+94. Sprbot Instagram Shop Feed - https://apps.shopify.com/dev-instagram-sell-1
+95. TagTray - https://apps.shopify.com/tagtray
+96. Code Back Belt Facebook Image Gallery - https://apps.shopify.com/facebook-image-gallery
+97. CFF Shareable Cart - https://apps.shopify.com/portable-cart
+98. Green Frog Instagram - https://apps.shopify.com/greenfrog-instashow
+99. Roar Social Caller - https://apps.shopify.com/social-caller
+100. Swym.it Wishlist Plus - https://apps.shopify.com/swym-relay
+101. Zotabox Contact Form - https://apps.shopify.com/better-contact-form-1
+102. Vertex LV HelpCenter - https://apps.shopify.com/helpcenter
+103. Tidio - https://apps.shopify.com/tidio-chat
+104. Chilli Abandonment Protector - https://apps.shopify.com/linkerfriend-lead-management-tools
+105. AWIO - https://apps.shopify.com/improved-contact-form
+106. WhatsHelp.io - https://apps.shopify.com/whatshelp-chat-button
+107. Zotabox FB Chat - https://apps.shopify.com/facebook-messenger-live-chat
+108. Chatra - https://apps.shopify.com/chatra
+109. Hulk Contact Us Form - https://apps.shopify.com/contact-us-by-hulkapps
+110. AAAE Form Builder - https://apps.shopify.com/form-builder
+111. Zendesk Support - https://apps.shopify.com/zendesk
+112. Re:amaze - https://apps.shopify.com/reamaze
+113. Orderify - https://apps.shopify.com/orderify
+114. Etoile Ultimate FAQ - https://apps.shopify.com/ultimate-faqs
+115. Zendesk Chat - https://apps.shopify.com/zendeskchatplus
+116. Customer.guru Facebook Chat - https://apps.shopify.com/facebook-chat-2-0
+117. Pure Chat - https://apps.shopify.com/pure-chat
+118. Jivo Omnichannel Suite - https://apps.shopify.com/jivochat
+119. W3Trends Custom Order Status - https://apps.shopify.com/ultimate-order-status
+120. Mageworx Product Fees/Charges - https://apps.shopify.com/product-fees
+121. Unionworks Google Reviews - https://apps.shopify.com/easy-google-customer-reviews
+122. Intercom - https://apps.shopify.com/intercom
+123. Free Call - https://apps.shopify.com/free-call
+124. Two Zillas Tracking Genie - https://apps.shopify.com/trackinggenie
+125. Roartheme Live Chat Tracking - https://apps.shopify.com/facebook-messenger-live-chat-tracking
+126. Spice Gems Returns - https://apps.shopify.com/return-management-system
+127. Raven Callback Request - https://apps.shopify.com/raven
+128. Formilla Live Chat - https://apps.shopify.com/formilla-live-chat
+129. Powerful Form Builder - https://apps.shopify.com/powerful-form-builder
+130. Delivery Date Range - https://apps.shopify.com/delivery-date-range
+131. EastSideCo Forms - https://apps.shopify.com/contact-forms-1
+132. Wholesale Simplified - https://apps.shopify.com/wholesale-simplified
+133. Develic Maps - https://apps.shopify.com/maps-by-develic
+134. Estimated Delivery Date - https://apps.shopify.com/estimated-delivery-date
+135. Easy GDPR - https://apps.shopify.com/easy-gdpr
+136. Shophero - https://apps.shopify.com/shophero
 
 
 # Contributing to the Repo
