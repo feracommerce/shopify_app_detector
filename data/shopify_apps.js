@@ -445,7 +445,7 @@ var SHOPIFY_APPS = [
         short_description: "Sticky Buy Button",
         app_store_url: "https://apps.shopify.com/mps-buy-me",
         website_url: "https://makeprosimp.com/",
-        script_pattern: "app/js/app.js?shop=wolfieshaven.myshopify.com&key=a4db70fac62243deace0648b079a7a19",
+        script_pattern: "buy-me.makeprosimp.com/app/js/app.js",
         category: "Sales"    
     },
     {
@@ -649,17 +649,9 @@ var SHOPIFY_APPS = [
         category: "Social media"    
     },
     {
-        name: "Powr.io Instagram Feed + Facebook Feed",
-        short_description: "Instagram gallery or Facebook feed for Instagram + Facebook",
+        name: "Powr.io (Multiple possibilites)",
+        short_description: "Social Media Feed or icons",
         app_store_url: "https://apps.shopify.com/powr-social-feed",
-        website_url: "https://www.powr.io",
-        script_pattern: "powr.js",
-        category: "Social media"    
-    },
-    {
-        name: "Powr.io Social Media Icons",
-        short_description: "FREE social icons. Display social media buttons on your site!",
-        app_store_url: "https://apps.shopify.com/powr-social-media-icons",
         website_url: "https://www.powr.io",
         script_pattern: "powr.js",
         category: "Social media"    
@@ -686,14 +678,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-like-by-widgetic",
         website_url: "https://widgetic.com",
         script_pattern: "sdk/sdk.js",
-        category: "Social media"    
-    },
-    {
-        name: "Powr.io Twitter Feed",
-        short_description: "Grow your Twitter following with a Twitter feed!",
-        app_store_url: "https://apps.shopify.com/powr-twitter-feed",
-        website_url: "https://www.powr.io/",
-        script_pattern: "powr.js",
         category: "Social media"    
     },
     {
@@ -1022,14 +1006,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat-tracking",
         website_url: "https://roartheme.com",
         script_pattern: "fblivechat/lib/asset/script.js?1532542457",
-        category: "Customer service"    
-    },
-    {
-        name: "Powr.io Survey",
-        short_description: "Customizable surveys for collecting customer feedback",
-        app_store_url: "https://apps.shopify.com/powr-survey",
-        website_url: "https://www.powr.io",
-        script_pattern: "powr.js",
         category: "Customer service"    
     },
     {
