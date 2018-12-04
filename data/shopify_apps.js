@@ -45,7 +45,7 @@ var SHOPIFY_APPS = [
         short_description: "Pop Ups & Social Media Marketing Platform",
         app_store_url: "https://apps.shopify.com/justuno-social-email-leads",
         website_url: "https://www.justuno.com",
-        script_pattern: "mwgt_3.6.js?v=1.07",
+        script_pattern: "mwgt_3.6.js",
         category: "Marketing"    
     },
     {
@@ -69,7 +69,7 @@ var SHOPIFY_APPS = [
         short_description: "Email & Marketing Automation",
         app_store_url: "https://apps.shopify.com/omnisend",
         website_url: "https://www.omnisend.com",
-        script_pattern: "inShop/forms.js?v=2018-07-23T08",
+        script_pattern: "inShop/forms.js",
         category: "Marketing"    
     },
     {
@@ -285,7 +285,7 @@ var SHOPIFY_APPS = [
         short_description: "Free cart reservation countdown timer that increases sales",
         app_store_url: "https://apps.shopify.com/conversion",
         website_url: "https://trust.varinode.com/",
-        script_pattern: "cv_initjs.php?shop=wolfieshaven.myshopify.com&rnd=1532408433",
+        script_pattern: "cv_initjs.php",
         category: "Sales"    
     },
     {
@@ -309,7 +309,7 @@ var SHOPIFY_APPS = [
         short_description: "Free Ad exchange to help you acquire high quality traffic",
         app_store_url: "https://apps.shopify.com/ads",
         website_url: "http://avs.varinode.com",
-        script_pattern: "avjs.php?app_id=75cf8109d3ba47f0b4b5b934784f42d4",
+        script_pattern: "avjs.php",
         category: "Sales"    
     },
     {
@@ -493,7 +493,7 @@ var SHOPIFY_APPS = [
         short_description: "Gift Card Solutions, Loyalty and Rewards, Store Credit",
         app_store_url: "https://apps.shopify.com/giftwizard",
         website_url: "https://www.giftwizard.co/",
-        script_pattern: "client-nextgen.js?shop=pipoldidik.myshopify.com",
+        script_pattern: "client-nextgen.js",
         category: "Sales"    
     },
     {
@@ -525,14 +525,14 @@ var SHOPIFY_APPS = [
         short_description: "Increase Sales & Create Urgency With SpurIT Social Proof App",
         app_store_url: "https://apps.shopify.com/social-proof-urgency",
         website_url: "https://spur-i-t.com",
-        script_pattern: "shopify-extensions/social-proof/store/c54a5ad7c7b4a0069ca3eddae2a0406a.js?0.813961015628798",
+        script_pattern: "shopify-extensions/social-proof/store/c54a5ad7c7b4a0069ca3eddae2a0406a.js",
         category: "Sales"    
     },
     {
         name: "Recovermycart",
         short_description: "Prevent abandoned orders",
         app_store_url: "https://apps.shopify.com/recover-my-cart",
-        website_url: "https://recovermycart.squarespace.com/?utm_source=shopify&utm_medium=add-on-store&utm_campaign=shopify-add-on-store",
+        website_url: "https://recovermycart.squarespace.com",
         script_pattern: "Manage//CartJS_v2",
         category: "Sales"    
     },
@@ -597,7 +597,7 @@ var SHOPIFY_APPS = [
         short_description: "One click login with Facebook, Google and many more",
         app_store_url: "https://apps.shopify.com/oxi-social-login",
         website_url: "http://www.oxiapps.com",
-        script_pattern: "api/init?shop=pipoldidik.myshopify.com",
+        script_pattern: "api/init",
         category: "Social media"    
     },
     {
@@ -637,7 +637,7 @@ var SHOPIFY_APPS = [
         short_description: "Shop your instagram! Create an Instagram shop in minutes",
         app_store_url: "https://apps.shopify.com/instagram-in-shop",
         website_url: "http://instagram-shop.devcloudsoftware.com/support",
-        script_pattern: "resource/resource.js?shop=pipoldidik.myshopify.com",
+        script_pattern: "resource/resource.js",
         category: "Social media"    
     },
     {
@@ -669,7 +669,7 @@ var SHOPIFY_APPS = [
         short_description: "Free Mobile Messaging via WhatsApp, Messenger, Skype. SMS etc",
         app_store_url: "https://apps.shopify.com/mobile-messaging-social-share-bar",
         website_url: "https://info.zotabox.com/",
-        script_pattern: "a384d78e2f3e7d78c9d09a15f7f1b51e/widgets.js?1532499517552",
+        script_pattern: "a384d78e2f3e7d78c9d09a15f7f1b51e/widgets.js",
         category: "Social media"    
     },
     {
@@ -685,7 +685,7 @@ var SHOPIFY_APPS = [
         short_description: "YouTube Video App",
         app_store_url: "https://apps.shopify.com/yottie-shopify-youtube-channel-plugin",
         website_url: "https://elfsight.com",
-        script_pattern: "platform.js?shop=pipoldidik.myshopify.com",
+        script_pattern: "platform.js",
         category: "Social media"    
     },
     {
@@ -797,7 +797,7 @@ var SHOPIFY_APPS = [
         short_description: "Social Caller gives you a hand, to increase your inbound calls",
         app_store_url: "https://apps.shopify.com/social-caller",
         website_url: "https://roartheme.com/",
-        script_pattern: "socialcaller/lib/assets/socialcaller.js?1532513013",
+        script_pattern: "socialcaller/lib/assets/socialcaller.js",
         category: "Social media"    
     },
     {
@@ -845,7 +845,7 @@ var SHOPIFY_APPS = [
         short_description: "Contact Us Page Generator and Popup Contact Widget",
         app_store_url: "https://apps.shopify.com/improved-contact-form",
         website_url: "https://www.awio.com",
-        script_pattern: "ws/loader/?shop=pipoldidik.myshopify.com",
+        script_pattern: "ws/loader",
         category: "Customer service"    
     },
     {
@@ -869,7 +869,7 @@ var SHOPIFY_APPS = [
         short_description: "Live chat and Facebook chat for your store",
         app_store_url: "https://apps.shopify.com/chatra",
         website_url: "https://chatra.io",
-        script_pattern: "shopify?chatraId=EZY6tASJdNaeCsgXY",
+        script_pattern: "shopify?chatraId",
         category: "Customer service"    
     },
     {
@@ -933,7 +933,7 @@ var SHOPIFY_APPS = [
         short_description: "Turn your visitors into your customers with Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-chat-2-0",
         website_url: "",
-        script_pattern: "chat/loader?cache=3711665326&user_id=2922&shop=pipoldidik.myshopify.com",
+        script_pattern: "chat/loader",
         category: "Customer service"    
     },
     {
@@ -949,7 +949,7 @@ var SHOPIFY_APPS = [
         short_description: "Finally! Chats, FB messages, calls & emails, all in one app",
         app_store_url: "https://apps.shopify.com/jivochat",
         website_url: "https://www.jivochat.com/",
-        script_pattern: "script/widget/hJcGpURH4C?shop=pipoldidik.myshopify.com",
+        script_pattern: "script/widget/hJcGpURH4C",
         category: "Customer service"    
     },
     {
@@ -973,7 +973,7 @@ var SHOPIFY_APPS = [
         short_description: "Add Google Customer Reviews to your site, no coding required!",
         app_store_url: "https://apps.shopify.com/easy-google-customer-reviews",
         website_url: "https://unionworks.co.uk/shopify-apps/easy-google-customer-reviews/support",
-        script_pattern: "scripts/google-customer-reviews-badge.js?shop=pipoldidik.myshopify.com",
+        script_pattern: "scripts/google-customer-reviews-badge.js",
         category: "Customer service"    
     },
     {
@@ -1045,7 +1045,7 @@ var SHOPIFY_APPS = [
         short_description: "Display the estimated delivery date range on the product page",
         app_store_url: "https://apps.shopify.com/delivery-date-range",
         website_url: "http://www.ecomstoreapps.com",
-        script_pattern: "assets/ddr_embed.js?ddr_token=3d55a85a-5d3a-4260-8358-d0628f46716f",
+        script_pattern: "ddr_embed.js",
         category: "Customer service"    
     },
     {
