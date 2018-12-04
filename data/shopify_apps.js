@@ -14,7 +14,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/tawk-to",
         website_url: "https://www.tawk.to",
         script_pattern: "embed.tawk.to",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Privy",
@@ -22,7 +22,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/privy",
         website_url: "https://www.privy.com",
         script_pattern: "shopify.privy.com/widget.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Hextom Shipping Bar",
@@ -30,7 +30,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/free-shipping-bar",
         website_url: "https://hextom.com",
         script_pattern: "lastsecondcoupon/js/freeshippingbar.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "PushOwl",
@@ -38,15 +38,15 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/pushowl",
         website_url: "https://pushowl.com",
         script_pattern: "sdks/pushowl-shopify.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Just Uno",
         short_description: "Pop Ups & Social Media Marketing Platform",
         app_store_url: "https://apps.shopify.com/justuno-social-email-leads",
         website_url: "https://www.justuno.com",
-        script_pattern: "mwgt_3.6.js",
-        category: "Marketing"    
+        script_pattern: "scripttags.justuno.com", 
+        category: "Marketing"
     },
     {
         name: "Shogun",
@@ -54,7 +54,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/shogun",
         website_url: "https://getshogun.com",
         script_pattern: "cdn.getshogun.com/pixel.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Beeketing Apps (Multiple possibilites)",
@@ -62,15 +62,15 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/beeketing",
         website_url: "https://beeketing.com",
         script_pattern: "js/beeketing.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Omnisend",
         short_description: "Email & Marketing Automation",
         app_store_url: "https://apps.shopify.com/omnisend",
         website_url: "https://www.omnisend.com",
-        script_pattern: "inShop/forms.js",
-        category: "Marketing"    
+        script_pattern: "inShop/Embed/shopify.js",
+        category: "Marketing"
     },
     {
         name: "Smile.io",
@@ -78,7 +78,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/smile-io",
         website_url: "https://smile.io",
         script_pattern: "smile-shopify.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Mailchimp",
@@ -86,7 +86,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/mailchimp",
         website_url: "https://mailchimp.com",
         script_pattern: "js/signup-forms/popup/1.0/popup.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Spin‑a‑Sale",
@@ -94,7 +94,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/spin-a-sale",
         website_url: "https://spinasale.com",
         script_pattern: "js/spin-v3.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "FireApps Ali Reviews",
@@ -102,7 +102,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/ali-reviews",
         website_url: "https://fireapps.io",
         script_pattern: "js/frontend/comment.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Jilt",
@@ -110,7 +110,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/jilt-cart-abandonment-solution",
         website_url: "https://jilt.com",
         script_pattern: "storefront/v1/jilt.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Conversio",
@@ -118,7 +118,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/conversio",
         website_url: "https://conversio.com",
         script_pattern: "scripts/shopify.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Wheelio",
@@ -126,7 +126,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/wheelio-first-interactive-exit-intent-pop-up",
         website_url: "http://wheelio.conversionpirate.com",
         script_pattern: "wlocomplete.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "MailChimp",
@@ -134,7 +134,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/mailchimp-forms",
         website_url: "https://www.mailmunch.co",
         script_pattern: "widgets/site-519579-1d4a0439b676bb9b4e1159635561fda7fb2c0857.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "PageFly",
@@ -142,7 +142,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/pagefly",
         website_url: "https://www.sellersmith.com",
         script_pattern: "assets/pagefly/assets/1.3.5/helper.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Clever Google Adwords",
@@ -150,7 +150,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/cleverppc",
         website_url: "https://www.cleverecommerce.com",
         script_pattern: "mc.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Swell",
@@ -158,7 +158,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/swell",
         website_url: "http://www.swellrewards.com",
         script_pattern: "loader/aRJ9CNJobels-PwCyJj49w.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Email Collection Bar",
@@ -166,7 +166,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/email-collection-bar",
         website_url: "https://hextom.com",
         script_pattern: "lastsecondcoupon/js/emailcollectionbar.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Spur-i-t Popup Upsell",
@@ -174,7 +174,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/upsell-popup-on-exit-visit",
         website_url: "https://spur-i-t.com",
         script_pattern: "upsell-on-exit-visit/js/common.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "MailMunch",
@@ -182,7 +182,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/mailmunch",
         website_url: "https://www.mailmunch.co",
         script_pattern: "widgets/site-519579-1d4a0439b676bb9b4e1159635561fda7fb2c0857.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Pixelpop",
@@ -190,7 +190,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/popups-promos-banners-pixelpop",
         website_url: "http://pixelunion.net",
         script_pattern: "scripts/0a0d1e73-e299-407f-8c22-da5d1b2f5f22/pixelpop.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Zotabox Welcome",
@@ -198,7 +198,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/promo-bar",
         website_url: "https://info.zotabox.com",
         script_pattern: "3/7/37d2da9877506cbc6580b0f68fea8c59/widgets.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "WhatsApp Share + Chat",
@@ -206,7 +206,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/whatsapp-sharing",
         website_url: "https://shopiapps.in",
         script_pattern: "whatsapp-share/inc/whatsapp-button.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "OptinMate",
@@ -214,7 +214,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/optinmate-2",
         website_url: "https://optinmate.com",
         script_pattern: "3980/get.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Sumo",
@@ -222,7 +222,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/sumome",
         website_url: "https://sumo.com",
         script_pattern: "sumome-plugin/js/sumome.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Refersion",
@@ -230,7 +230,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/refersion",
         website_url: "https://www.refersion.com",
         script_pattern: "cdn.refersion.com/pixel.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Care Cart",
@@ -238,7 +238,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/care-cart",
         website_url: "https://carecart.io",
         script_pattern: "api/abandoned-cart/js-script",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "RetargetApp",
@@ -246,7 +246,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/retargetapp-facebook-retargeting",
         website_url: "http://retargetapp.com",
         script_pattern: "pixel/pixel.min.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Push Nova",
@@ -254,7 +254,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/simple-push",
         website_url: "https://pushnova.streamlinedapps.com",
         script_pattern: "streamlined-apps-production/streamlined-push-assets/store-site-plugin/js/streamlined-push-plugin.production.min.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Sales Rocket",
@@ -262,7 +262,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/window-shoppers",
         website_url: "http://www.codeinero.net",
         script_pattern: "Scripts/windowshoppers.min.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Recart",
@@ -270,7 +270,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/recart",
         website_url: "https://recart.com",
         script_pattern: "messenger/loader.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Consistent Cart",
@@ -278,7 +278,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/consistent-cart",
         website_url: "https://www.consistentcart.com/",
         script_pattern: "s/files/1/0015/3160/9160/t/1/assets/consistent_cart_addon.min.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Conversion+",
@@ -286,7 +286,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/conversion",
         website_url: "https://trust.varinode.com/",
         script_pattern: "cv_initjs.php",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Stamped.io",
@@ -294,7 +294,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/product-reviews-addon",
         website_url: "https://stamped.io",
         script_pattern: "cdn-stamped-io.azureedge.net/files/shopify.v2.min.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Product Reviews",
@@ -302,7 +302,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/product-reviews",
         website_url: "https://help.shopify.com/en/manual/apps/apps-by-shopify/product-reviews",
         script_pattern: "assets/v4/spr.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Varinode",
@@ -310,7 +310,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/ads",
         website_url: "http://avs.varinode.com",
         script_pattern: "avjs.php",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Loox",
@@ -318,7 +318,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/loox",
         website_url: "https://loox.app",
         script_pattern: "widget/Vy-vTrskEB/loox.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Firepush",
@@ -326,7 +326,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/firepush",
         website_url: "https://firepush.io/",
         script_pattern: "firepush.",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Frequently Bought Together",
@@ -334,7 +334,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/frequently-bought-together",
         website_url: "https://www.codeblackbelt.com",
         script_pattern: "js/modules/frequently-bought-together/main.min.js",
-        category: "Sales"   
+        category: "Sales"
     },
     {
         name: "Shophero",
@@ -342,7 +342,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/shophero",
         website_url: "https://shophero.io/",
         script_pattern: "shophero.",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "LimeSpot",
@@ -350,7 +350,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/limespot",
         website_url: "https://www.limespot.com",
         script_pattern: "storefront/2.0.0/js/shopify/checkout-tracker.min.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "McAfee SECURE",
@@ -358,7 +358,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/mcafee-secure",
         website_url: "https://www.mcafeesecure.com/for-consumers",
         script_pattern: "js/partner-shopify.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Secomapp",
@@ -366,7 +366,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/quick-view",
         website_url: "https://www.secomapp.com",
         script_pattern: "s/files/1/0015/3160/9160/t/1/assets/sca-qv-scripts-noconfig.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Judge.me",
@@ -374,7 +374,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/judgeme",
         website_url: "https://judge.me/",
         script_pattern: "assets/installed.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Recharge",
@@ -382,7 +382,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/subscription-payments",
         website_url: "https://rechargepayments.com",
         script_pattern: "static/js/recharge.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Code Black Belt Also Bought",
@@ -390,7 +390,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/also-bought",
         website_url: "https://www.codeblackbelt.com",
         script_pattern: "js/modules/also-bought/main.min.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Persistent Cart",
@@ -398,7 +398,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/remember-my-cart",
         website_url: "https://recovermycart.freshdesk.com/support/solutions/articles/33000213763-remember-my-cart-faq",
         script_pattern: "RememberMyCart/Manage/CartJS",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Wishy",
@@ -406,7 +406,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/wishy",
         website_url: "",
         script_pattern: "wishy-placer.production.min.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Bold Subscription",
@@ -414,7 +414,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/recurring-orders",
         website_url: "https://boldcommerce.com/bold-subscriptions",
         script_pattern: "v2_ui/js/ro.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Bold Upsell",
@@ -422,7 +422,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/product-upsell",
         website_url: "https://boldcommerce.com",
         script_pattern: "v2_ui/js/upsell.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Yotpo",
@@ -430,7 +430,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/yotpo-social-reviews",
         website_url: "https://www.yotpo.com",
         script_pattern: "IXIPbUUaSDk7SJp6bMDePLV8uhTmVmaq3V5NzG5i/widget.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Bizzy",
@@ -438,7 +438,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/bizzy-social-proof",
         website_url: "https://www.pixelunion.net/",
         script_pattern: "recent-sales/5464b27b39123911a1759ecea085f176/bootstrap.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "MPS Buy Me",
@@ -446,7 +446,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/mps-buy-me",
         website_url: "https://makeprosimp.com/",
         script_pattern: "buy-me.makeprosimp.com/app/js/app.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Nexusmedia-ua Product Options",
@@ -454,7 +454,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/product-options",
         website_url: "https://nexusmedia-ua.com",
         script_pattern: "js/options.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Express Reviews",
@@ -462,7 +462,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/express-reviews",
         website_url: "https://appiversal.net/",
         script_pattern: "src/er.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "East Side Co Cart Convert",
@@ -470,7 +470,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/cart-convert",
         website_url: "https://eastsideco.com/",
         script_pattern: "client.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "SMAR7",
@@ -478,7 +478,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/smar7-bundle-upsell",
         website_url: "https://smar7apps.com",
         script_pattern: "js/bundle-upsell.min.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Supr-i-t Aban. Cart Rem.",
@@ -486,7 +486,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/abandoned-cart-reminder",
         website_url: "https://spur-i-t.com",
         script_pattern: "shopify-apps/abandoned-cart-reminder/js/common.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Gift Wizard",
@@ -494,7 +494,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/giftwizard",
         website_url: "https://www.giftwizard.co/",
         script_pattern: "client-nextgen.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Csell",
@@ -502,7 +502,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/cross-sell",
         website_url: "https://csell.co",
         script_pattern: "assets/v2/js/core/xsell.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Enorm Photo Reviews",
@@ -510,7 +510,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/product-photo-reviews-by-enormapps",
         website_url: "https://www.enormapps.com",
         script_pattern: "productreviews/embed.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "In Cart Upsell",
@@ -518,7 +518,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/in-cart-upsell",
         website_url: "http://www.incartupsell.com",
         script_pattern: "ceadh-gqM5-Saye2WsysHBtcB-.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Spur-i-t Social Proof",
@@ -526,7 +526,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/social-proof-urgency",
         website_url: "https://spur-i-t.com",
         script_pattern: "shopify-extensions/social-proof/store/c54a5ad7c7b4a0069ca3eddae2a0406a.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Recovermycart",
@@ -534,7 +534,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/recover-my-cart",
         website_url: "https://recovermycart.squarespace.com",
         script_pattern: "Manage//CartJS_v2",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "MinMaxify Order Limits",
@@ -542,7 +542,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/order-limits-minmaxify",
         website_url: "http://www.minmaxify.com/",
         script_pattern: "limits/pipoldidik.myshopify.com",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Zotabox Social Sharing",
@@ -550,7 +550,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/social-buttons",
         website_url: "https://info.zotabox.com",
         script_pattern: "a384d78e2f3e7d78c9d09a15f7f1b51e/widgets.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Cartback",
@@ -558,7 +558,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/fb-messenger-remarketing",
         website_url: "",
         script_pattern: "messenger/js/exit_messenger.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Apps2grow.us Shop Instagram",
@@ -566,7 +566,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/instagram-photos",
         website_url: "http://www.apps2grow.us/instaphotos",
         script_pattern: "files/1/0016/7591/9458/t/1/assets/ssw-libraries.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Expertvillagemedia.com Instagram Feed & Gallery",
@@ -574,7 +574,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/instagram-feed",
         website_url: "https://www.expertvillagemedia.com/shopify-apps/instafeed/",
         script_pattern: "instagramfeed/embed.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Covet.pics",
@@ -582,7 +582,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/covet-pics",
         website_url: "https://covet.pics",
         script_pattern: "embed_v1.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Shopwave Reviews Wishlist",
@@ -590,7 +590,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/socialshopwave",
         website_url: "https://www.socialshopwave.com/",
         script_pattern: "scripts/socialshopwave_l_1531306320.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Oxi Social Login",
@@ -598,7 +598,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/oxi-social-login",
         website_url: "http://www.oxiapps.com",
         script_pattern: "api/init",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Kudobuzz",
@@ -606,7 +606,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/kudobuzz-testimonials",
         website_url: "https://kudobuzz.com/",
         script_pattern: "js/widgetLoader.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "AddThis Share Buttons",
@@ -614,7 +614,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/addthis-sharing-tool",
         website_url: "https://www.addthis.com",
         script_pattern: "js/300/addthis_widget.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "InstaShow",
@@ -622,7 +622,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/instashow",
         website_url: "https://elfsight.com",
         script_pattern: "platform.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Foursixty.com Shoppable Instagram",
@@ -630,7 +630,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/foursixty",
         website_url: "http://www.foursixty.com",
         script_pattern: "media/scripts/fs.embed.v2.5.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Dvcloudsoftware.com Instagram In‑Shop",
@@ -638,7 +638,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/instagram-in-shop",
         website_url: "http://instagram-shop.devcloudsoftware.com/support",
         script_pattern: "resource/resource.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Web Desk Solution Smart Social Login",
@@ -646,7 +646,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/smart-social-login",
         website_url: "http://webdesksolution.com",
         script_pattern: "loginwithsocialmedia//assets/scripts/custom/demo.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Powr.io (Multiple possibilites)",
@@ -654,7 +654,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/powr-social-feed",
         website_url: "https://www.powr.io",
         script_pattern: "powr.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "99Commerce  Instagram Feed",
@@ -662,7 +662,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/snapzy-the-instagram-feed",
         website_url: "http://www.99ecommerceexperts.com",
         script_pattern: "instagramfeedexperts.herokuapp.com/embed.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Zotabox Social Mobile Share Bar",
@@ -670,7 +670,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/mobile-messaging-social-share-bar",
         website_url: "https://info.zotabox.com/",
         script_pattern: "a384d78e2f3e7d78c9d09a15f7f1b51e/widgets.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Widgetic",
@@ -678,7 +678,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-like-by-widgetic",
         website_url: "https://widgetic.com",
         script_pattern: "sdk/sdk.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Yottie",
@@ -686,7 +686,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/yottie-shopify-youtube-channel-plugin",
         website_url: "https://elfsight.com",
         script_pattern: "platform.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "AAAE Instagram Shop",
@@ -694,7 +694,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/insta-feed",
         website_url: "https://www.aaaecommerce.com",
         script_pattern: "instagram-feed/appfiles/aaa-insta-feed-script.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Leadslide Social Media Tabs",
@@ -702,7 +702,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/social-media-tabs",
         website_url: "https://leadslide.com",
         script_pattern: "apps/leadslide-js/1/LS-19zZV-1532502759",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Okas Open SignIn",
@@ -710,7 +710,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/open-signin",
         website_url: "",
         script_pattern: "customer/modal",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Zestard Twitter Feed",
@@ -718,7 +718,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/twitter-feed",
         website_url: "https://www.zestard.com",
         script_pattern: "zestard_tweet_feed.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Autoketing Facebook Chat",
@@ -726,7 +726,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-chat-box",
         website_url: "https://autoketing.com",
         script_pattern: "dist/fb-chat-embed.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Elfsight Instagram",
@@ -734,7 +734,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/elfsight-shoppable-feed",
         website_url: "https://elfsight.com",
         script_pattern: "assets/elfsight.shoppable.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Likebtn.com",
@@ -742,7 +742,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/like-button-rating",
         website_url: "https://likebtn.com",
         script_pattern: "js/w/widget.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Sketch ThemesInstagram Feed",
@@ -750,7 +750,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/instagram-feed-by-sketch-themes",
         website_url: "",
         script_pattern: "live/instagram_feeds/js/instaapp_loadn.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Sprbot Instagram Shop Feed",
@@ -758,7 +758,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/dev-instagram-sell-1",
         website_url: "http://sprbot.com/instashop/",
         script_pattern: "instagram-sell/ins-shop.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "TagTray",
@@ -766,7 +766,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/tagtray",
         website_url: "https://www.tagtray.com/",
         script_pattern: "v3/tagtray.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Code Back Belt Facebook Image Gallery",
@@ -774,7 +774,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-image-gallery",
         website_url: "https://www.codeblackbelt.com",
         script_pattern: "js/modules/facebook-image-gallery/main.min.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "CFF Shareable Cart",
@@ -782,7 +782,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/portable-cart",
         website_url: "https://customerfirstfocus.com/",
         script_pattern: "cff.production.min.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Green Frog Instagram",
@@ -790,7 +790,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/greenfrog-instashow",
         website_url: "https://greenfrogweb.com",
         script_pattern: "instashow/instashow.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Roar Social Caller",
@@ -798,7 +798,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/social-caller",
         website_url: "https://roartheme.com/",
         script_pattern: "socialcaller/lib/assets/socialcaller.js",
-        category: "Social media"    
+        category: "Social media"
     },
     {
         name: "Swym.it Wishlist Plus",
@@ -806,7 +806,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/swym-relay",
         website_url: "http://swym.it",
         script_pattern: "code/swym-shopify.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Zotabox Contact Form",
@@ -814,7 +814,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/better-contact-form-1",
         website_url: "https://info.zotabox.com",
         script_pattern: "a/3/a384d78e2f3e7d78c9d09a15f7f1b51e/widgets.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Vertex LV HelpCenter",
@@ -822,7 +822,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/helpcenter",
         website_url: "",
         script_pattern: "recaptcha/api2/v1531759913576/recaptcha__en.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Tidio",
@@ -830,7 +830,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/tidio-chat",
         website_url: "http://www.tidiochat.com",
         script_pattern: "1_0_3/static/js/render.9d38c0e4a0866fbf5663.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Chilli Abandonment Protector",
@@ -838,7 +838,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/linkerfriend-lead-management-tools",
         website_url: "https://www.chilliapps.com",
         script_pattern: "main/chpmgr.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "AWIO",
@@ -846,7 +846,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/improved-contact-form",
         website_url: "https://www.awio.com",
         script_pattern: "ws/loader",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "WhatsHelp.io",
@@ -854,7 +854,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/whatshelp-chat-button",
         website_url: "https://whatshelp.io/widget",
         script_pattern: "widget-send-button/js/init.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Zotabox FB Chat",
@@ -862,7 +862,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat",
         website_url: "https://info.zotabox.com",
         script_pattern: "sdk/xfbml.customerchat.js#xfbml=1&version=v2.11",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Chatra",
@@ -870,7 +870,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/chatra",
         website_url: "https://chatra.io",
         script_pattern: "shopify?chatraId",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Hulk Contact Us Form",
@@ -878,7 +878,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/contact-us-by-hulkapps",
         website_url: "https://www.hulkcode.com",
         script_pattern: "skeletopapp.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "AAAE Form Builder",
@@ -886,7 +886,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/form-builder",
         website_url: "https://www.aaaecommerce.com/",
         script_pattern: "formbuilder/appfiles/aaa_form_builder_script_minify.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Zendesk Support",
@@ -894,7 +894,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/zendesk",
         website_url: "https://www.zendesk.com",
         script_pattern: "s/files/1/0016/7591/9458/t/1/assets/zendesk-embeddable.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Re:amaze",
@@ -902,7 +902,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/reamaze",
         website_url: "https://www.reamaze.com",
         script_pattern: "reamaze.com/assets/reamaze.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Orderify",
@@ -910,7 +910,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/orderify",
         website_url: "https://customerfirstfocus.com",
         script_pattern: "cffOrderEdit.production.min.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Etoile Ultimate FAQ",
@@ -918,7 +918,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/ultimate-faqs",
         website_url: "https://www.etoilewebdesign.com",
         script_pattern: "shopify-testing/FrontEnd/js/ewd-ufaq-js.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Zendesk Chat",
@@ -926,7 +926,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/zendeskchatplus",
         website_url: "http://help.combidesk.com/instruction-manuals/shopify/instruction-manual-shopify-zendesk-chat-integration-formerly-zopim",
         script_pattern: "js/integration/shopify/zopim/widget.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Customer.guru Facebook Chat",
@@ -934,7 +934,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-chat-2-0",
         website_url: "",
         script_pattern: "chat/loader",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Pure Chat",
@@ -942,7 +942,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/pure-chat",
         website_url: "https://www.purechat.com/",
         script_pattern: "shopify/ShopifySnippet?widgetId=5e772704-f3b8-4a89-b767-a18328d29a06",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Jivo Omnichannel Suite",
@@ -950,7 +950,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/jivochat",
         website_url: "https://www.jivochat.com/",
         script_pattern: "script/widget/hJcGpURH4C",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "W3Trends Custom Order Status",
@@ -958,7 +958,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/ultimate-order-status",
         website_url: "http://www.w3trends.com",
         script_pattern: "js/orderlookup.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Mageworx Product Fees/Charges",
@@ -966,7 +966,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/product-fees",
         website_url: "https://appstore.mageworx.com/",
         script_pattern: "productfees/source.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Unionworks Google Reviews",
@@ -974,7 +974,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/easy-google-customer-reviews",
         website_url: "https://unionworks.co.uk/shopify-apps/easy-google-customer-reviews/support",
         script_pattern: "scripts/google-customer-reviews-badge.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Intercom",
@@ -982,7 +982,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/intercom",
         website_url: "http://intercom.com",
         script_pattern: "shim.f772198b.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Free Call",
@@ -990,7 +990,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/free-call",
         website_url: "https://www.freecallinc.com",
         script_pattern: "freecall_trackdiv1.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Two Zillas Tracking Genie",
@@ -998,7 +998,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/trackinggenie",
         website_url: "http://www.twozillas.com",
         script_pattern: "app/app.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Roartheme Live Chat Tracking",
@@ -1006,7 +1006,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat-tracking",
         website_url: "https://roartheme.com",
         script_pattern: "fblivechat/lib/asset/script.js?1532542457",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Spice Gems Returns",
@@ -1014,7 +1014,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/return-management-system",
         website_url: "https://spicegems.com",
         script_pattern: "assets/embedOrderLookup.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Raven Callback Request",
@@ -1022,7 +1022,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/raven",
         website_url: "http://raven-callback.webflow.io",
         script_pattern: "api/widget/raven-script/pipoldidik/raven-widget.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Formilla Live Chat",
@@ -1030,7 +1030,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/formilla-live-chat",
         website_url: "https://www.formilla.com",
         script_pattern: "scripts/loadFormilla.js?guid=csfef828-ca8f-4234-b152-c26c8f6fdd96",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Powerful Form Builder",
@@ -1038,7 +1038,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/powerful-form-builder",
         website_url: "http://www.globosoftware.net",
         script_pattern: "s/files/1/0016/7591/9458/t/1/assets/globoformbuilder_init.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Delivery Date Range",
@@ -1046,7 +1046,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/delivery-date-range",
         website_url: "http://www.ecomstoreapps.com",
         script_pattern: "ddr_embed.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "EastSideCo Forms",
@@ -1054,7 +1054,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/contact-forms-1",
         website_url: "https://eastsideco.com",
         script_pattern: "widget/2.10.2/uploadcare/uploadcare.full.min.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Wholesale Simplified",
@@ -1062,7 +1062,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/wholesale-simplified",
         website_url: "http://support.solvercircle.com",
         script_pattern: "wholesale-simplified/scripts",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Develic Maps",
@@ -1070,7 +1070,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/maps-by-develic",
         website_url: "https://www.develic.com/",
         script_pattern: "packs/front.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Estimated Delivery Date",
@@ -1078,7 +1078,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/estimated-delivery-date",
         website_url: "http://www.estimateddelivery.com",
         script_pattern: "assets/js/countdown/moment.js",
-        category: "Customer service"    
+        category: "Customer service"
     },
     {
         name: "Easy GDPR",
@@ -1086,6 +1086,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/easy-gdpr",
         website_url: "https://www.easygdpr.io",
         script_pattern: "gdpr.js",
-        category: "Customer service"    
+        category: "Customer service"
     }
 ];
