@@ -69,7 +69,7 @@ var SHOPIFY_APPS = [
         short_description: "Email & Marketing Automation",
         app_store_url: "https://apps.shopify.com/omnisend",
         website_url: "https://www.omnisend.com",
-        script_pattern: "inShop/forms.js",
+        script_pattern: "inShop/Embed/shopify.js",
         category: "Marketing"
     },
     {
@@ -102,7 +102,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/ali-reviews",
         website_url: "https://fireapps.io",
         script_pattern: "js/frontend/comment.js",
-        category: "Marketing"  
+        category: "Marketing"
     },
     {
         name: "Jilt",
