@@ -85,7 +85,7 @@ var SHOPIFY_APPS = [
         short_description: "Email & Marketing",
         app_store_url: "https://apps.shopify.com/mailchimp",
         website_url: "https://mailchimp.com",
-        script_pattern: "js/signup-forms/popup/1.0/popup.js",
+        script_pattern: "mcjs-connected/js",
         category: "Marketing"
     },
     {
@@ -117,7 +117,7 @@ var SHOPIFY_APPS = [
         short_description: "Email Marketing Automation. Make every email count",
         app_store_url: "https://apps.shopify.com/conversio",
         website_url: "https://conversio.com",
-        script_pattern: "scripts/shopify.js",
+        script_pattern: "conversio.com/scripts/shopify.js",
         category: "Marketing"
     },
     {
@@ -125,7 +125,7 @@ var SHOPIFY_APPS = [
         short_description: "Gamified pop‑up",
         app_store_url: "https://apps.shopify.com/wheelio-first-interactive-exit-intent-pop-up",
         website_url: "http://wheelio.conversionpirate.com",
-        script_pattern: "wlocomplete.js",
+        script_pattern: "wheelio-a62f3.firebaseapp.com/scripttag.js",
         category: "Marketing"
     },
     {
@@ -357,7 +357,7 @@ var SHOPIFY_APPS = [
         short_description: "Show visitors your site is secure",
         app_store_url: "https://apps.shopify.com/mcafee-secure",
         website_url: "https://www.mcafeesecure.com/for-consumers",
-        script_pattern: "js/partner-shopify.js",
+        script_pattern: "ywxi.net/js/partner-shopify.js",
         category: "Sales"
     },
     {
@@ -617,11 +617,11 @@ var SHOPIFY_APPS = [
         category: "Social media"
     },
     {
-        name: "InstaShow",
-        short_description: "Add Instagram images to your website to engage your visitors",
+        name: "InstaShow or Yottie",
+        short_description: "Instagram Feed or Embed any YouTube video and shaping video gallery",
         app_store_url: "https://apps.shopify.com/instashow",
         website_url: "https://elfsight.com",
-        script_pattern: "platform.js",
+        script_pattern: "shy.elfsight.com/p/platform.js",
         category: "Social media"
     },
     {
@@ -678,14 +678,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/facebook-like-by-widgetic",
         website_url: "https://widgetic.com",
         script_pattern: "sdk/sdk.js",
-        category: "Social media"
-    },
-    {
-        name: "Yottie",
-        short_description: "YouTube Video App",
-        app_store_url: "https://apps.shopify.com/yottie-shopify-youtube-channel-plugin",
-        website_url: "https://elfsight.com",
-        script_pattern: "platform.js",
         category: "Social media"
     },
     {
@@ -845,7 +837,7 @@ var SHOPIFY_APPS = [
         short_description: "Contact Us Page Generator and Popup Contact Widget",
         app_store_url: "https://apps.shopify.com/improved-contact-form",
         website_url: "https://www.awio.com",
-        script_pattern: "ws/loader",
+        script_pattern: "improvedcontactform.com/icf.js",
         category: "Customer service"
     },
     {
