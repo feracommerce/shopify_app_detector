@@ -449,7 +449,7 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-        name: "Nexusmedia-ua Product Options",
+        name: "Product Options",
         short_description: "Product options to one or one thousand products with a click!",
         app_store_url: "https://apps.shopify.com/product-options",
         website_url: "https://nexusmedia-ua.com",
@@ -685,7 +685,7 @@ var SHOPIFY_APPS = [
         short_description: "Shoppable Instagram, Instagram Feed & Instagram Look Book APP",
         app_store_url: "https://apps.shopify.com/insta-feed",
         website_url: "https://www.aaaecommerce.com",
-        script_pattern: "instagram-feed/appfiles/aaa-insta-feed-script.js",
+        script_pattern: "aaa-insta-feed-script.js",
         category: "Social media"
     },
     {
@@ -845,7 +845,7 @@ var SHOPIFY_APPS = [
         short_description: "Chat with website visitors via popular Messaging Apps",
         app_store_url: "https://apps.shopify.com/whatshelp-chat-button",
         website_url: "https://whatshelp.io/widget",
-        script_pattern: "widget-send-button/js/init.js",
+        script_pattern: "whatshelp.io/shopify/widget",
         category: "Customer service"
     },
     {
@@ -885,7 +885,7 @@ var SHOPIFY_APPS = [
         short_description: "Omnichannel customer service and engagement platform",
         app_store_url: "https://apps.shopify.com/zendesk",
         website_url: "https://www.zendesk.com",
-        script_pattern: "s/files/1/0016/7591/9458/t/1/assets/zendesk-embeddable.js",
+        script_pattern: "zendesk-embeddable.js",
         category: "Customer service"
     },
     {
@@ -909,7 +909,7 @@ var SHOPIFY_APPS = [
         short_description: "A feature-rich and complete FAQ solution",
         app_store_url: "https://apps.shopify.com/ultimate-faqs",
         website_url: "https://www.etoilewebdesign.com",
-        script_pattern: "shopify-testing/FrontEnd/js/ewd-ufaq-js.js",
+        script_pattern: "ewd-ufaq-js.js",
         category: "Customer service"
     },
     {
@@ -921,7 +921,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"
     },
     {
-        name: "Customer.guru Facebook Chat",
+        name: "Facebook Chat",
         short_description: "Turn your visitors into your customers with Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-chat-2-0",
         website_url: "",
@@ -933,7 +933,7 @@ var SHOPIFY_APPS = [
         short_description: "Easy-to-use live chat software with unlimited users and chats",
         app_store_url: "https://apps.shopify.com/pure-chat",
         website_url: "https://www.purechat.com/",
-        script_pattern: "shopify/ShopifySnippet?widgetId=5e772704-f3b8-4a89-b767-a18328d29a06",
+        script_pattern: "purechat.com",
         category: "Customer service"
     },
     {
@@ -941,11 +941,11 @@ var SHOPIFY_APPS = [
         short_description: "Finally! Chats, FB messages, calls & emails, all in one app",
         app_store_url: "https://apps.shopify.com/jivochat",
         website_url: "https://www.jivochat.com/",
-        script_pattern: "script/widget/hJcGpURH4C",
+        script_pattern: "jivosite.com/script/widget",
         category: "Customer service"
     },
     {
-        name: "W3Trends Custom Order Status",
+        name: "Custom Order Status",
         short_description: "Create and manage the status of your orders",
         app_store_url: "https://apps.shopify.com/ultimate-order-status",
         website_url: "http://www.w3trends.com",
@@ -953,7 +953,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"
     },
     {
-        name: "Mageworx Product Fees/Charges",
+        name: "Mageworx Product Fees",
         short_description: "Add extra fees to incease your sales and average order value",
         app_store_url: "https://apps.shopify.com/product-fees",
         website_url: "https://appstore.mageworx.com/",
@@ -961,7 +961,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"
     },
     {
-        name: "Unionworks Google Reviews",
+        name: "Google Reviews",
         short_description: "Add Google Customer Reviews to your site, no coding required!",
         app_store_url: "https://apps.shopify.com/easy-google-customer-reviews",
         website_url: "https://unionworks.co.uk/shopify-apps/easy-google-customer-reviews/support",
@@ -973,7 +973,7 @@ var SHOPIFY_APPS = [
         short_description: "Catch, convert and keep more customers with modern live chat",
         app_store_url: "https://apps.shopify.com/intercom",
         website_url: "http://intercom.com",
-        script_pattern: "shim.f772198b.js",
+        script_pattern: "intercomcdn.com/shim.f772198b.js",
         category: "Customer service"
     },
     {
@@ -989,15 +989,15 @@ var SHOPIFY_APPS = [
         short_description: "Tracking set on autopilot",
         app_store_url: "https://apps.shopify.com/trackinggenie",
         website_url: "http://www.twozillas.com",
-        script_pattern: "app/app.js",
+        script_pattern: "trackinggenie.co",
         category: "Customer service"
     },
     {
-        name: "Roartheme Live Chat Tracking",
+        name: "Facebook Live Chat",
         short_description: "Chat with your shoppers via Facebook Messenger",
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat-tracking",
         website_url: "https://roartheme.com",
-        script_pattern: "fblivechat/lib/asset/script.js?1532542457",
+        script_pattern: "fblivechat/lib/asset/script.js",
         category: "Customer service"
     },
     {
@@ -1013,7 +1013,7 @@ var SHOPIFY_APPS = [
         short_description: "Turn website visitors into qualified sales calls",
         app_store_url: "https://apps.shopify.com/raven",
         website_url: "http://raven-callback.webflow.io",
-        script_pattern: "api/widget/raven-script/pipoldidik/raven-widget.js",
+        script_pattern: "raven-script/pipoldidik/raven-widget.js",
         category: "Customer service"
     },
     {
@@ -1021,7 +1021,7 @@ var SHOPIFY_APPS = [
         short_description: "Live chat with visitors in real-time",
         app_store_url: "https://apps.shopify.com/formilla-live-chat",
         website_url: "https://www.formilla.com",
-        script_pattern: "scripts/loadFormilla.js?guid=csfef828-ca8f-4234-b152-c26c8f6fdd96",
+        script_pattern: "loadFormilla.js",
         category: "Customer service"
     },
     {
@@ -1061,7 +1061,7 @@ var SHOPIFY_APPS = [
         short_description: "Add Google Maps with store locations to your Shopify store",
         app_store_url: "https://apps.shopify.com/maps-by-develic",
         website_url: "https://www.develic.com/",
-        script_pattern: "packs/front.js",
+        script_pattern: "maps.develic.com",
         category: "Customer service"
     },
     {
@@ -1077,7 +1077,7 @@ var SHOPIFY_APPS = [
         short_description: "Get GDPR compliant with 1 click. Cookie bar",
         app_store_url: "https://apps.shopify.com/easy-gdpr",
         website_url: "https://www.easygdpr.io",
-        script_pattern: "gdpr.js",
+        script_pattern: "gdpr-app.firebaseapp.com/gdpr.min.js",
         category: "Customer service"
     }
 ];
