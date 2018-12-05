@@ -157,7 +157,7 @@ var SHOPIFY_APPS = [
         short_description: "Rewards and Referrals",
         app_store_url: "https://apps.shopify.com/swell",
         website_url: "http://www.swellrewards.com",
-        script_pattern: "loader/aRJ9CNJobels-PwCyJj49w.js",
+        script_pattern: "swellrewards.com/loader",
         category: "Marketing"
     },
     {
@@ -317,7 +317,7 @@ var SHOPIFY_APPS = [
         short_description: "Photo Reviews (Product Reviews)",
         app_store_url: "https://apps.shopify.com/loox",
         website_url: "https://loox.app",
-        script_pattern: "widget/Vy-vTrskEB/loox.js",
+        script_pattern: "loox.io/widget",
         category: "Sales"
     },
     {
@@ -361,11 +361,11 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-        name: "Secomapp",
+        name: "Quick View",
         short_description: "Product preview in a click",
         app_store_url: "https://apps.shopify.com/quick-view",
         website_url: "https://www.secomapp.com",
-        script_pattern: "s/files/1/0015/3160/9160/t/1/assets/sca-qv-scripts-noconfig.js",
+        script_pattern: "assets/cdn/sca-qv-scripts-noconfig.js",
         category: "Sales"
     },
     {
@@ -373,7 +373,7 @@ var SHOPIFY_APPS = [
         short_description: "Product Reviews",
         app_store_url: "https://apps.shopify.com/judgeme",
         website_url: "https://judge.me/",
-        script_pattern: "assets/installed.js",
+        script_pattern: "cdn.judge.me/assets/installed.js",
         category: "Sales"
     },
     {
@@ -429,7 +429,7 @@ var SHOPIFY_APPS = [
         short_description: "Collect product reviews, site reviews, and photo reviews",
         app_store_url: "https://apps.shopify.com/yotpo-social-reviews",
         website_url: "https://www.yotpo.com",
-        script_pattern: "IXIPbUUaSDk7SJp6bMDePLV8uhTmVmaq3V5NzG5i/widget.js",
+        script_pattern: "staticw2.yotpo.com",
         category: "Sales"
     },
     {
@@ -597,7 +597,7 @@ var SHOPIFY_APPS = [
         short_description: "One click login with Facebook, Google and many more",
         app_store_url: "https://apps.shopify.com/oxi-social-login",
         website_url: "http://www.oxiapps.com",
-        script_pattern: "api/init",
+        script_pattern: "social-login.oxiapps.com/api/init",
         category: "Social media"
     },
     {
