@@ -133,7 +133,7 @@ var SHOPIFY_APPS = [
         short_description: "MailChimp list with exit intent popups and coupons",
         app_store_url: "https://apps.shopify.com/mailchimp-forms",
         website_url: "https://www.mailmunch.co",
-        script_pattern: "widgets/site-519579-1d4a0439b676bb9b4e1159635561fda7fb2c0857.js",
+        script_pattern: "a.mailmunch.co/widgets",
         category: "Marketing"
     },
     {
@@ -141,7 +141,7 @@ var SHOPIFY_APPS = [
         short_description: "Advanced Page Builder",
         app_store_url: "https://apps.shopify.com/pagefly",
         website_url: "https://www.sellersmith.com",
-        script_pattern: "assets/pagefly/assets/1.3.5/helper.js",
+        script_pattern: "pagefly/assets",
         category: "Marketing"
     },
     {
@@ -189,7 +189,7 @@ var SHOPIFY_APPS = [
         short_description: "Build your mailing list and boost sales with popups",
         app_store_url: "https://apps.shopify.com/popups-promos-banners-pixelpop",
         website_url: "http://pixelunion.net",
-        script_pattern: "scripts/0a0d1e73-e299-407f-8c22-da5d1b2f5f22/pixelpop.js",
+        script_pattern: "pixelpop.js",
         category: "Marketing"
     },
     {
@@ -197,7 +197,7 @@ var SHOPIFY_APPS = [
         short_description: "Header Bar to Promote Your Best Deals and Increase Shares",
         app_store_url: "https://apps.shopify.com/promo-bar",
         website_url: "https://info.zotabox.com",
-        script_pattern: "3/7/37d2da9877506cbc6580b0f68fea8c59/widgets.js",
+        script_pattern: "static.zotabox.co",
         category: "Marketing"
     },
     {
@@ -849,7 +849,7 @@ var SHOPIFY_APPS = [
         category: "Customer service"
     },
     {
-        name: "Zotabox FB Chat",
+        name: "Facebook Live Chat1",
         short_description: "Customer Support via Facebook Live Chat",
         app_store_url: "https://apps.shopify.com/facebook-messenger-live-chat",
         website_url: "https://info.zotabox.com",
@@ -877,7 +877,7 @@ var SHOPIFY_APPS = [
         short_description: "Form Builder App with Custom Registration Form and Order Form",
         app_store_url: "https://apps.shopify.com/form-builder",
         website_url: "https://www.aaaecommerce.com/",
-        script_pattern: "formbuilder/appfiles/aaa_form_builder_script_minify.js",
+        script_pattern: "formbuilder.aaawebstore.com/appfiles/aaa_form_builder_script_minify.js",
         category: "Customer service"
     },
     {
