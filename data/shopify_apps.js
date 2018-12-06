@@ -193,8 +193,8 @@ var SHOPIFY_APPS = [
         category: "Marketing"
     },
     {
-        name: "Zotabox Welcome",
-        short_description: "Header Bar to Promote Your Best Deals and Increase Shares",
+        name: "Zotabox (Multiple possibilites)",
+        short_description: "Header Bar or easy contact form",
         app_store_url: "https://apps.shopify.com/promo-bar",
         website_url: "https://info.zotabox.com",
         script_pattern: "static.zotabox.co",
@@ -213,7 +213,7 @@ var SHOPIFY_APPS = [
         short_description: "Email Collection, Coupons & Social Popups, Bards & Cards",
         app_store_url: "https://apps.shopify.com/optinmate-2",
         website_url: "https://optinmate.com",
-        script_pattern: "3980/get.js",
+        script_pattern: "optinmate.com",
         category: "Marketing"
     },
     {
@@ -277,7 +277,7 @@ var SHOPIFY_APPS = [
         short_description: "Messenger Marketing & Abandoned Cart Recovery",
         app_store_url: "https://apps.shopify.com/consistent-cart",
         website_url: "https://www.consistentcart.com/",
-        script_pattern: "s/files/1/0015/3160/9160/t/1/assets/consistent_cart_addon.min.js",
+        script_pattern: "consistent_cart_addon.min.js",
         category: "Sales"
     },
     {
@@ -437,7 +437,7 @@ var SHOPIFY_APPS = [
         short_description: "Create urgency with recent sales notifications",
         app_store_url: "https://apps.shopify.com/bizzy-social-proof",
         website_url: "https://www.pixelunion.net/",
-        script_pattern: "recent-sales/5464b27b39123911a1759ecea085f176/bootstrap.js",
+        script_pattern: "pxu-recent-sales-apps.s3.amazonaws.com/recent-sales",
         category: "Sales"
     },
     {
@@ -509,7 +509,7 @@ var SHOPIFY_APPS = [
         short_description: "Review app for product reviews , photo reviews & site reviews",
         app_store_url: "https://apps.shopify.com/product-photo-reviews-by-enormapps",
         website_url: "https://www.enormapps.com",
-        script_pattern: "productreviews/embed.js",
+        script_pattern: "productreviews/collection-embed.js",
         category: "Sales"
     },
     {
@@ -517,7 +517,7 @@ var SHOPIFY_APPS = [
         short_description: "Laser targeted upsell offers in the shopping cart - no popups!",
         app_store_url: "https://apps.shopify.com/in-cart-upsell",
         website_url: "http://www.incartupsell.com",
-        script_pattern: "ceadh-gqM5-Saye2WsysHBtcB-.js",
+        script_pattern: "incartupsell.com",
         category: "Sales"
     },
     {
@@ -533,7 +533,7 @@ var SHOPIFY_APPS = [
         short_description: "Prevent abandoned orders",
         app_store_url: "https://apps.shopify.com/recover-my-cart",
         website_url: "https://recovermycart.squarespace.com",
-        script_pattern: "Manage//CartJS_v2",
+        script_pattern: "Manage/CartJS_v2",
         category: "Sales"
     },
     {
@@ -541,7 +541,7 @@ var SHOPIFY_APPS = [
         short_description: "Minimum - Maximum limits on your products, groups or entire cart",
         app_store_url: "https://apps.shopify.com/order-limits-minmaxify",
         website_url: "http://www.minmaxify.com/",
-        script_pattern: "limits/pipoldidik.myshopify.com",
+        script_pattern: "shopifyorderlimits.s3.amazonaws.com/limits",
         category: "Sales"
     },
     {
@@ -573,7 +573,7 @@ var SHOPIFY_APPS = [
         short_description: "Top Instagram Gallery, Instagram Lookbook & Instagram Feed App",
         app_store_url: "https://apps.shopify.com/instagram-feed",
         website_url: "https://www.expertvillagemedia.com/shopify-apps/instafeed/",
-        script_pattern: "instagramfeed/embed.js",
+        script_pattern: "expertvillagemedia.com/instagramfeed/embed.js",
         category: "Social media"
     },
     {
@@ -589,7 +589,7 @@ var SHOPIFY_APPS = [
         short_description: "Photos Reviews, Wishlist, Instagram, Loyalty and 7 apps in one",
         app_store_url: "https://apps.shopify.com/socialshopwave",
         website_url: "https://www.socialshopwave.com/",
-        script_pattern: "scripts/socialshopwave_l_1531306320.js",
+        script_pattern: "scripts/socialshopwave",
         category: "Social media"
     },
     {
@@ -605,7 +605,7 @@ var SHOPIFY_APPS = [
         short_description: "Testimonials and Reviews - Grow your business with social reviews",
         app_store_url: "https://apps.shopify.com/kudobuzz-testimonials",
         website_url: "https://kudobuzz.com/",
-        script_pattern: "js/widgetLoader.js",
+        script_pattern: "kudobuzz.com/widget",
         category: "Social media"
     },
     {
@@ -613,7 +613,7 @@ var SHOPIFY_APPS = [
         short_description: "Grow your website with free tools trusted by over 15M sites",
         app_store_url: "https://apps.shopify.com/addthis-sharing-tool",
         website_url: "https://www.addthis.com",
-        script_pattern: "js/300/addthis_widget.js",
+        script_pattern: "addthis_widget.js",
         category: "Social media"
     },
     {
@@ -693,7 +693,7 @@ var SHOPIFY_APPS = [
         short_description: "Design a Social Media Tab",
         app_store_url: "https://apps.shopify.com/social-media-tabs",
         website_url: "https://leadslide.com",
-        script_pattern: "apps/leadslide-js/1/LS-19zZV-1532502759",
+        script_pattern: "apps/leadslide-js",
         category: "Social media"
     },
     {
@@ -701,7 +701,7 @@ var SHOPIFY_APPS = [
         short_description: "Social Login - Use any Social Network platform to login to your store",
         app_store_url: "https://apps.shopify.com/open-signin",
         website_url: "",
-        script_pattern: "customer/modal",
+        script_pattern: "open-signin.okasconcepts.com",
         category: "Social media"
     },
     {
@@ -733,7 +733,7 @@ var SHOPIFY_APPS = [
         short_description: "Get tons of likes and boost sharing",
         app_store_url: "https://apps.shopify.com/like-button-rating",
         website_url: "https://likebtn.com",
-        script_pattern: "js/w/widget.js",
+        script_pattern: "w.likebtn.com/js/w/widget.js",
         category: "Social media"
     },
     {
@@ -801,27 +801,11 @@ var SHOPIFY_APPS = [
         category: "Customer service"
     },
     {
-        name: "Zotabox Contact Form",
-        short_description: "Free Stylish, Responsive Contact Form. Unlimited Submissions",
-        app_store_url: "https://apps.shopify.com/better-contact-form-1",
-        website_url: "https://info.zotabox.com",
-        script_pattern: "a/3/a384d78e2f3e7d78c9d09a15f7f1b51e/widgets.js",
-        category: "Customer service"
-    },
-    {
-        name: "Vertex LV HelpCenter",
-        short_description: "Build an Attractive FAQs Page",
-        app_store_url: "https://apps.shopify.com/helpcenter",
-        website_url: "",
-        script_pattern: "recaptcha/api2/v1531759913576/recaptcha__en.js",
-        category: "Customer service"
-    },
-    {
-        name: "Tidio",
+        name: "Tidiochat",
         short_description: "Live chat boosted with Bots and Marketing Automation",
         app_store_url: "https://apps.shopify.com/tidio-chat",
         website_url: "http://www.tidiochat.com",
-        script_pattern: "1_0_3/static/js/render.9d38c0e4a0866fbf5663.js",
+        script_pattern: "tidiochat.com",
         category: "Customer service"
     },
     {
