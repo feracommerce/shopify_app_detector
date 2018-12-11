@@ -1063,5 +1063,45 @@ var SHOPIFY_APPS = [
         website_url: "https://www.easygdpr.io",
         script_pattern: "gdpr-app.firebaseapp.com/gdpr.min.js",
         category: "Customer service"
-    }
+    },
+    {
+        name: "Smart Search",
+        short_description: "Smart Search, Filters, Recommendations to boost conversion.",
+        app_store_url: "https://apps.shopify.com/searchanise",
+        website_url: "https://start.searchanise.com/shopify",
+        script_pattern: "searchanise.com/widgets/shopify/init.js",
+        category: "Sales"    
+    },
+    {
+        name: "Hubspot",
+        short_description: "Integrate marketing, sales, online data and more!",
+        app_store_url: "https://apps.shopify.com/hubspot",
+        website_url: "https://hubspot.com",
+        script_pattern: "api.hubapi.com",
+        category: "Marketing"    
+    },
+    {
+        name: "Exto",
+        short_description: "Increase sales with upsell and cross-sell recommendations",
+        app_store_url: "https://apps.shopify.com/automatic-related-products",
+        website_url: "http://shopify.exto.io/",
+        script_pattern: "apps1.exto.io",
+        category: "Sales"    
+    },
+    {
+        name: "Back in Stock",
+        short_description: "Stop losing sales with Back in Stock Notification alerts",
+        app_store_url: "https://apps.shopify.com/back-in-stock",
+        website_url: "https://backinstock.org",
+        script_pattern: "app.backinstock.org",
+        category: "Sales"    
+    },
+    {
+        name: "SLoyalty",
+        short_description: "Reward customers, build loyalty and grow referral sales.",
+        app_store_url: "https://apps.shopify.com/s-loyalty",
+        website_url: "https://www.sloyalty.com/",
+        script_pattern: "sloyalty.shopify.js",
+        category: "Marketing"    
+    },
 ];

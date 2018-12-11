@@ -24,7 +24,7 @@ It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_s
 ## Adding an app detection
 To add an app detection, add an entry in the data/shopify_apps.js file. You can submit a pull request with the addition and one of the community contributers will update it.
 
-# Current List of Detectable Apps (133)
+# Current List of Detectable Apps (138)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -158,6 +158,11 @@ To add an app detection, add an entry in the data/shopify_apps.js file. You can 
 131. Estimated Delivery Date - https://apps.shopify.com/estimated-delivery-date
 132. Easy GDPR - https://apps.shopify.com/easy-gdpr
 133. Shophero - https://apps.shopify.com/shophero
+134. Smart Search - https://apps.shopify.com/searchanise
+135. Hubspot - https://apps.shopify.com/hubspot
+136. Exto - https://apps.shopify.com/automatic-related-products
+137. Back in Stock - https://apps.shopify.com/back-in-stock
+138. SLoyalty - https://apps.shopify.com/s-loyalty
 
 
 # Contributing to the Repo
