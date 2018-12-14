@@ -10,10 +10,10 @@ SAD.Background = function(opts) {
 
         chrome.runtime.onMessage.addListener(function(msgObj) {
             if (msgObj.action == 'getApps') {
-                chrome.runtime.sendMessage({ action: "setApps", apps: self.apps, detectableApps: SHOPIFY_APPS });
+                chrome.runtime.sendMessage({ action: "setApps", apps: self.apps, detectableApps: SHOPIFY_APPS, detectableThemes: SHOPIFY_THEMES, theme: self.theme });
                 return true;
             } else if (msgObj.action =='setPageScripts') {
-                self.detectScripts(msgObj.pageScripts, msgObj.pageUrl);
+                self.detectScripts(msgObj.pageScripts, msgObj.pageUrl, msgObj.theme);
                 return true;
             } else if (msgObj.action =='setLoading') {
                 self.setLoading();
@@ -42,18 +42,22 @@ SAD.Background = function(opts) {
         chrome.browserAction.disable();
     };
 
-    self.detectScripts = function(scripts, pageUrl) {
-        var detector = new SAD.Detector({ scripts: scripts, pageUrl: pageUrl });
+    self.detectScripts = function(scripts, pageUrl, windowTheme) {
+        var detector = new SAD.Detector({ scripts: scripts, pageUrl: pageUrl, windowTheme: windowTheme });
 
         if (detector.isShopifyStore()) {
             self.apps = detector.detectApps();
+            self.theme = detector.detectTheme();
+            
             chrome.browserAction.setBadgeText({
                 text: self.apps.length.toString()
             });
             chrome.browserAction.enable();
             chrome.browserAction.setIcon({ path: 'img/icon.png' });
+            return true;
         } else {
             self.disable();
+            return false;
         }
 
     }

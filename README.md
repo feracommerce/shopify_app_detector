@@ -1,5 +1,5 @@
 # Fera.ai Shopify App Detector
-This is a Chrome extension that lets you detect what Shopify apps a store is running.
+This is a Chrome extension that lets you detect what Shopify apps a store is running in **it's frontend**. Note: This cannot (and probably _should_ not) detect back-end apps that a store is running unless those apps include scripts or unique components in the frontend.
 
 ![Shopify app detector demo](https://uploads.fera.ai/shopify_app_detector/demo.png)
 
@@ -21,8 +21,32 @@ To install the app simply visit the chrome app store once the app is approved.
 It is supported by the community and [fera.ai](https://www.fera.ai?ref=fera_ai_shopify_app_detector), a real-time personalization and conversion rate optimization platform for Shopify. Please post questions or concerns about this chrome extension [here](https://github.com/feracommerce/shopify_app_detector/issues).
 
 
-## Adding an app detection
-To add an app detection, add an entry in the data/shopify_apps.js file. You can submit a pull request with the addition and one of the community contributers will update it.
+# Adding an app detection
+* To add an app detection, add an entry in the data/shopify_apps.js file. You can submit a pull request with the addition and one of the community contributers will update it.
+
+## Updating theme list
+* To generate a list of themes from the app store and update data/shopify_themes.js , you can use this Ruby script:
+```ruby
+page = 1;
+list = []
+while (links = Nokogiri::HTML(HTTParty.get("https://themes.shopify.com/themes?page=#{page}")).css('.grid-item--theme .theme-info a')).any?
+    puts "Parsing page #{page}..."
+    links.each do |link|
+        list << {
+            name: link.text.strip,
+            theme_store_url: "https://themes.shopify.com/" + link.attributes['href'].value,
+            id: link.attributes['data-trekkie-theme-id'].value.to_i, 
+            handle: link.attributes['data-trekkie-theme-handle'].value, 
+            style_id: link.attributes['data-trekkie-style-id'].value.to_i, 
+            style_handle: link.attributes['data-trekkie-style-handle'].value
+        }
+    end
+    page +=1
+    sleep(0.5.seconds) # To avoid rate limiting
+end
+puts JSON.pretty_generate(list)
+
+```
 
 # Current List of Detectable Apps (138)
 1. Fera.ai - https://apps.shopify.com/fera
@@ -208,10 +232,8 @@ A few key things to note:
 
 ### Making a release
 For now the maintainers of the repo can only make a release public, but they will follow the following steps:
-1. Update the version in manefest.json
-2. Update the version at the top of this readme.
-3. Package the extension and upload the file to the uploads.fera.ai CDN
-4. Zip the package and upload it to the chrome extension store.
+1. Update the version in manifest.json
+2. Zip the package and upload it to the chrome extension store.
 
 ## JavaScript Style Guide
 We use an object-oriented approach to JavaScript (as object-oriented as we can).

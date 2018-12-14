@@ -4,6 +4,7 @@ SAD.Detector = function(opts) {
 
     var init = function() {
         self.scripts = opts.scripts;
+        self.windowTheme = opts.windowTheme;
         self.apps = [];
     };
 
@@ -15,6 +16,19 @@ SAD.Detector = function(opts) {
         }
 
         return self.apps;
+    };
+
+    self.detectTheme = function() {
+        for (var i = 0; i < SHOPIFY_THEMES.length; i++) {
+            if (parseInt(self.windowTheme.theme_store_id) == parseInt(SHOPIFY_THEMES[i].id)) {
+                self.theme = SHOPIFY_THEMES[i];
+                self.theme.custom_name = self.windowTheme.name;
+                self.theme.fully_custom = false;
+                return self.theme;
+            }
+        }
+
+        return { name: self.windowTheme.name, custom_name: self.windowTheme.name, fully_custom: true};
     };
 
     self.isShopifyStore = function() {

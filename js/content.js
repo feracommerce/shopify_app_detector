@@ -11,18 +11,29 @@ SAD.Content = function(opts) {
 
         var $scripts = $('script');
         var pageScripts = $scripts.map(function(i) { return $(this).attr('src'); }).toArray();
-        if (chrome.runtime) chrome.runtime.sendMessage(
-            { action: "setPageScripts", pageScripts: pageScripts, pageUrl: window.location.toString() }, 
-            function(response) { }
-        );
+        var windowTheme = locateThemeDataFromScripts($scripts);
 
+
+        if (chrome.runtime) {
+            chrome.runtime.sendMessage(
+                {
+                    action: "setPageScripts", 
+                    pageScripts: pageScripts, 
+                    pageUrl: window.location.toString(), 
+                    theme: windowTheme
+                }, 
+                function(response) { }
+            );
+        }
     };
 
     self.sendLoading = function() {
-        chrome.runtime.sendMessage(
-            { action: "setLoading" }, 
-            function(response) { }
-        );
+        if (chrome.runtime) {
+            chrome.runtime.sendMessage(
+                { action: "setLoading" }, 
+                function(response) { }
+            );
+        }
     };
 
     var attachEvents = function() {
@@ -43,6 +54,22 @@ SAD.Content = function(opts) {
             }
 
         }
+    };
+
+    var locateThemeDataFromScripts = function($scripts) {
+        for (var i = 0; i < $scripts.length; i++) {
+            var html = $scripts.get(i).innerHTML;
+            if (!html || html === '') continue; // No content in this script
+            if (html.length > 1000) continue; // Script too large to use regular expression parsing. Skip so we don't affect memory.
+            if (html.indexOf('Shopify.theme') === -1) continue; // No theme definition in this script so it's not what we're looking for.
+
+            var matchers = html.match(/Shopify\.theme\s*=\s*(\{.+\})\s*;?/gm);
+            if (matchers.length < 1) continue;
+            var json = matchers[0].replace(/Shopify\.theme\s*=\s*/gm, '').replace(/\}\s*;?\s*/gm, '}');
+            return JSON.parse(json);
+        };
+
+        return {};
     };
 
     init();
