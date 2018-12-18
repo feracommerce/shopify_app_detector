@@ -1,4 +1,4 @@
-// Last updated December 14, 2018.
+// Last updated December 18, 2018.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
@@ -1145,5 +1145,61 @@ var SHOPIFY_APPS = [
         website_url: "http://leaddyno.com",
         script_pattern: "leaddyno.com",
         category: "Affiliate"
+    },
+    {
+        name: "Signifyd",
+        short_description: "Guaranteed fraud and chargeback protection",
+        app_store_url: "https://apps.shopify.com/signifyd",
+        website_url: "https://www.signifyd.com",
+        script_pattern: "cdn-scripts.signifyd.com",
+        category: "Sales"
+    },
+    {
+        name: "ShopMessage",
+        short_description: "FB Messenger",
+        app_store_url: "https://apps.shopify.com/shopmessage",
+        website_url: "https://www.shopmessage.me",
+        script_pattern: "shopmessage_platform.js",
+        category: "Marketing"
+    },
+    {
+        name: "Smart Wishlist",
+        short_description: "Wishlist",
+        app_store_url: "https://apps.shopify.com/smart-wishlist",
+        website_url: "https://www.webmarked.net",
+        script_pattern: "smartwishlist.js",
+        category: "Marketing"
+    },
+    {
+        name: "Hypervisual",
+        short_description: "Beautiful landing and product pages",
+        app_store_url: "https://apps.shopify.com/hypervisual",
+        website_url: "https://gethypervisual.com",
+        script_pattern: "hypervisual.js",
+        category: "Store Design"
+    },
+    {
+        name: "Fomo",
+        short_description: "Increase Conversions with Social Proof Automation",
+        app_store_url: "https://apps.shopify.com/fomo",
+        website_url: "https://fomo.com/",
+        script_pattern: "usefomo.com",
+        category: "Sales"
+    },
+    {
+        name: "Currency Converter",
+        short_description: "Show prices in customers local currency",
+        app_store_url: "https://apps.shopify.com/doubly-currency-converter",
+        website_url: "",
+        script_pattern: "doubly.js",
+        category: "Store Design"
+    },
+    {
+        name: "Klaviyo",
+        short_description: "Email and social campaigns",
+        app_store_url: "https://apps.shopify.com/klaviyo-email-marketing",
+        website_url: "https://www.klaviyo.com/",
+        script_pattern: "klaviyo.js",
+        category: "Marketing"
     }
 ];

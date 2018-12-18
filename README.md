@@ -48,7 +48,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (138)
+# Current List of Detectable Apps (150)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -192,6 +192,13 @@ puts JSON.pretty_generate(list)
 141. Carts Guru - https://apps.shopify.com/cartsguru
 142. East Side Co Back In Stock - https://eastsideco.com/shopify-apps
 143. LeadDyno - https://apps.shopify.com/leaddyno
+144. Signifyd - https://apps.shopify.com/signifyd
+145. ShopMessage - https://apps.shopify.com/shopmessage
+146. Smart Wishlist - https://apps.shopify.com/smart-wishlist
+147. Hypervisual - https://apps.shopify.com/hypervisual
+148. Fomo - https://apps.shopify.com/fomo
+149. Currency Converter - https://apps.shopify.com/doubly-currency-converter
+150. Klaviyo - https://apps.shopify.com/klaviyo-email-marketing
 
 
 # Contributing to the Repo
