@@ -3,7 +3,7 @@
 
   "name": "Fera.ai Shopify App Detector",
   "description": "This app will let you detect which apps a Shopify store is using.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": "Fera.ai",
   "homepage_url": "https://www.github.com/feracommerce/shopify_app_detector",
   "icons": { "16": "img/icon.png",

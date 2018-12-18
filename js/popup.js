@@ -75,7 +75,7 @@ SAD.Popup = function(opts) {
                 $fullyCustomTheme.hide();
                 $existingTheme.show();
 
-                $themeName.text(self.theme.name);
+                $themeName.text(self.theme.name + " theme");
                 $themeName.attr('href', self.theme.theme_store_url);
                 if (typeof self.theme.custom_name === 'string' && self.theme.custom_name.trim() !== self.theme.name.trim() && self.theme.custom_name !== '') {
                     $themeCustomNameContainer.show();
