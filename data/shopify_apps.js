@@ -294,7 +294,7 @@ var SHOPIFY_APPS = [
         short_description: "Collect Product reviews, site reviews and photo/video reviews",
         app_store_url: "https://apps.shopify.com/product-reviews-addon",
         website_url: "https://stamped.io",
-        script_pattern: "cdn-stamped-io.azureedge.net/files/shopify.v2.min.js",
+        script_pattern: "stamped-io",
         category: "Sales"
     },
     {
@@ -1083,7 +1083,7 @@ var SHOPIFY_APPS = [
     },
     {
         name: "Exto",
-        short_description: "Increase sales with upsell and cross-sell recommendations",
+        short_description: "Upsell and cross-sell recommendations",
         app_store_url: "https://apps.shopify.com/automatic-related-products",
         website_url: "http://shopify.exto.io/",
         script_pattern: "apps1.exto.io",
@@ -1091,7 +1091,7 @@ var SHOPIFY_APPS = [
     },
     {
         name: "Back in Stock",
-        short_description: "Stop losing sales with Back in Stock Notification alerts",
+        short_description: "Back in Stock Notification alerts",
         app_store_url: "https://apps.shopify.com/back-in-stock",
         website_url: "https://backinstock.org",
         script_pattern: "app.backinstock.org",
@@ -1105,4 +1105,37 @@ var SHOPIFY_APPS = [
         script_pattern: "sloyalty.shopify.js",
         category: "Marketing"    
     },
+    {
+        name: "Trackify",
+        short_description: "Pixel App and Facebook Audience Builder",
+        long_description: "All-in-one Facebook pixel app that lets you integrate multiple pixels, add advanced event data, and see your ROI take off.",
+        app_store_url: "https://apps.shopify.com/trackify-1",
+        website_url: "http://help.redretarget.com/trackify",
+        script_pattern: "trackify_script.js",
+        category: "Marketing"
+    },
+    {
+        name: "Adroll",
+        short_description: "Retargeting",
+        app_store_url: "https://apps.shopify.com/adroll-retargeting",
+        website_url: "http://www.adroll.com",
+        script_pattern: ".adroll.com",
+        category: "Advertising"
+    },
+    {
+        name: "Carts Guru",
+        short_description: "Shopping cart abandonment",
+        app_store_url: "https://apps.shopify.com/cartsguru",
+        website_url: "http://carts.guru",
+        script_pattern: "carts.guru",
+        category: "Sales"
+    },
+    {
+        name: "East Side Co - Back In Stock",
+        short_description: "Email and SMS Out of Stock alerts",
+        app_store_url: "https://apps.shopify.com/out-of-stock-1",
+        website_url: "https://eastsideco.com/shopify-apps",
+        script_pattern: "intlTelInput.js",
+        category: "Sales"
+    }
 ];

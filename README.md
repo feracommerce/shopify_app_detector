@@ -187,6 +187,10 @@ puts JSON.pretty_generate(list)
 136. Exto - https://apps.shopify.com/automatic-related-products
 137. Back in Stock - https://apps.shopify.com/back-in-stock
 138. SLoyalty - https://apps.shopify.com/s-loyalty
+139. Trackify - https://apps.shopify.com/trackify-1
+140. Adroll - https://apps.shopify.com/adroll-retargeting
+141. Carts Guru - https://apps.shopify.com/cartsguru
+142. East Side Co Back In Stock - https://eastsideco.com/shopify-apps
 
 
 # Contributing to the Repo
