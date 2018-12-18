@@ -1201,5 +1201,69 @@ var SHOPIFY_APPS = [
         website_url: "https://www.klaviyo.com/",
         script_pattern: "klaviyo.js",
         category: "Marketing"
+    },
+    {
+        name: "Credible",
+        short_description: "Sales Booster",
+        app_store_url: "https://apps.shopify.com/credible",
+        website_url: "http://convertwithcredible.com",
+        script_pattern: "credible.js",
+        category: "Sales"
+    },
+    {
+        name: "Hektor Commerce - Discount Direct",
+        short_description: "Automatically apply discounts through a custom URL",
+        app_store_url: "https://apps.shopify.com/discount-direct",
+        website_url: "",
+        script_pattern: "discountdirect.js",
+        category: "Marketing"
+    },
+    {
+        name: "Affiliatly",
+        short_description: "Affiliate tracking",
+        app_store_url: "https://apps.shopify.com/affiliatly",
+        website_url: "https://www.affiliatly.com",
+        script_pattern: "affiliatly.com",
+        category: "Affiliate"
+    },
+    {
+        name: "Product Filter",
+        short_description: "Product filter & search",
+        app_store_url: "https://apps.shopify.com/product-filter-search",
+        website_url: "https://boostcommerce.net",
+        script_pattern: "bc-sf-filter.js",
+        category: "Store Design"
+    },
+    {
+        name: "Hive",
+        short_description: "Send targeted email campaigns",
+        app_store_url: "https://apps.shopify.com/hive",
+        website_url: "https://www.hive.co",
+        script_pattern: "cdn-prod.hive.co",
+        category: "Marketing"
+    },
+    {
+        name: "Nosto",
+        short_description: "Powerful Personalization",
+        app_store_url: "https://apps.shopify.com/nosto-personalization-for-shopify",
+        website_url: "http://nosto.com",
+        script_pattern: "connect.nosto.com",
+        category: "Sales"
+    },
+    {
+        name: "Coin",
+        short_description: "Automatic currency conversion",
+        app_store_url: "https://apps.shopify.com/coin",
+        website_url: "https://www.theshoppad.com/coin-for-shopify",
+        script_pattern: "coin.js",
+        category: "Store Design"
+    },
+    {
+        name: "Riskified",
+        short_description: "Fraud prevention",
+        app_store_url: "https://www.riskified.com",
+        website_url: "https://www.riskified.com",
+        script_pattern: "beacon.riskified.com",
+        category: "Marketing"
     }
 ];
