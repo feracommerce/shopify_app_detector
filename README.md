@@ -191,6 +191,7 @@ puts JSON.pretty_generate(list)
 140. Adroll - https://apps.shopify.com/adroll-retargeting
 141. Carts Guru - https://apps.shopify.com/cartsguru
 142. East Side Co Back In Stock - https://eastsideco.com/shopify-apps
+143. LeadDyno - https://apps.shopify.com/leaddyno
 
 
 # Contributing to the Repo

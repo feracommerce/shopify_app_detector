@@ -1137,5 +1137,13 @@ var SHOPIFY_APPS = [
         website_url: "https://eastsideco.com/shopify-apps",
         script_pattern: "intlTelInput.js",
         category: "Sales"
+    },
+    {
+        name: "Lead Dyno",
+        short_description: "Affiliate and influencer marketing",
+        app_store_url: "https://apps.shopify.com/leaddyno",
+        website_url: "http://leaddyno.com",
+        script_pattern: "leaddyno.com",
+        category: "Affiliate"
     }
 ];
