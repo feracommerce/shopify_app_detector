@@ -48,7 +48,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (158)
+# Current List of Detectable Apps (186)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -207,6 +207,35 @@ puts JSON.pretty_generate(list)
 156. Nosto - https://apps.shopify.com/nosto-personalization-for-shopify
 157. Coin - https://apps.shopify.com/coin
 158. Riskified - https://www.riskified.com
+159. Upsell X - https://apps.shopify.com/direct-upsell-by-eri
+160. Retention Rocket - https://retentionrocket.com/
+161. Appifiny - https://apps.shopify.com/recently
+161. Octane AI Messenger - https://apps.shopify.com/octane-ai-messenger-marketing
+162. GeoIP Country Redirect - https://apps.shopify.com/geoip-country-redirect
+163. Please Stay - https://apps.shopify.com/please-stay
+164. NeatTracker - https://apps.shopify.com/neattracker
+165. Automatic Discount - https://apps.shopify.com/automatic-discount-rules
+166. Cart Notifications - https://apps.shopify.com/cart-notifications
+167. SimplyTick - https://apps.shopify.com/simplytick
+168. Free Gifts - https://apps.shopify.com/freegifts
+169. Bold Sales Motivator - https://apps.shopify.com/the-motivator
+170. Product Labels - https://apps.shopify.com/product-labels
+171. Order Deadline - https://apps.shopify.com/order-deadline
+172. GDPR Banner - https://apps.shopify.com/smart-eu-cookie-banner
+173. Dealio - https://apps.shopify.com/dealio-gamified-product-page-up-sell-app
+174. Custom Pricing - https://apps.shopify.com/customer-pricing
+175. Easy Messenger - https://apps.shopify.com/easymessenger-livechat-messenger-as-a-live-chat
+176. Code Black Belt Currency Converter - https://apps.shopify.com/currency-converter-plus
+177. TrustBadges - https://apps.shopify.com/trust-by-kamozi
+178. Appsolve Trustful - https://apps.shopify.com/trust-seals-badges
+179. Bold Quantity Break - https://apps.shopify.com/quantity-breaks
+180. Shopper & Stock Counter - https://apps.shopify.com/pressure-cooker
+181. Recomify - https://apps.shopify.com/recomify
+182. Bought Together - https://apps.shopify.com/product-bundles-by-vitals
+183. Sales Pop - https://apps.shopify.com/sales-pop-master
+184. Sales Notification - https://apps.shopify.com/mps-sales-notification
+185. Trust Badge - https://apps.shopify.com/trust-badge
+186. Trust Hero - https://apps.shopify.com/trust-hero
 
 
 # Contributing to the Repo
