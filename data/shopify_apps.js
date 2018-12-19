@@ -1,4 +1,4 @@
-// Last updated December 18, 2018.
+// Last updated December 19, 2018.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
@@ -358,7 +358,7 @@ var SHOPIFY_APPS = [
         short_description: "Show visitors your site is secure",
         app_store_url: "https://apps.shopify.com/mcafee-secure",
         website_url: "https://www.mcafeesecure.com/for-consumers",
-        script_pattern: "ywxi.net/js/partner-shopify.js",
+        script_pattern: "ywxi.net",
         category: "Sales"
     },
     {
@@ -366,7 +366,7 @@ var SHOPIFY_APPS = [
         short_description: "Product preview in a click",
         app_store_url: "https://apps.shopify.com/quick-view",
         website_url: "https://www.secomapp.com",
-        script_pattern: "assets/cdn/sca-qv-scripts-noconfig.js",
+        script_pattern: "sca-qv-scripts-noconfig.js",
         category: "Sales"
     },
     {
@@ -1265,5 +1265,229 @@ var SHOPIFY_APPS = [
         website_url: "https://www.riskified.com",
         script_pattern: "beacon.riskified.com",
         category: "Marketing"
+    },
+    {
+        name: "Upsell X",
+        short_description: "Upsell & Cross-Sel",
+        app_store_url: "https://apps.shopify.com/direct-upsell-by-eri",
+        website_url: "",
+        script_pattern: "eri-upsell-modal.js",
+        category: "Sales"
+    },
+    {
+        name: "Retention Rocket",
+        short_description: "Retention Marketing",
+        app_store_url: "https://retentionrocket.com/",
+        website_url: "https://retentionrocket.com/",
+        script_pattern: "cdn.retentionrock.com",
+        category: "Marketing"
+    },
+    {
+        name: "Appifiny - Recently",
+        short_description: "Recently purchased popup notifications",
+        app_store_url: "https://apps.shopify.com/recently",
+        website_url: "https://appifiny.co.uk",
+        script_pattern: "recently.appifiny.io",
+        category: "Sales"
+    },
+    {
+        name: "Octane - AI Messenger",
+        short_description: "Facebook Messenger",
+        app_store_url: "https://apps.shopify.com/octane-ai-messenger-marketing",
+        website_url: "https://octaneai.com",
+        script_pattern: "octaneai.com",
+        category: "Sales"
+    },
+    {
+        name: "GeoIP",
+        short_description: "Redirect Visitors based on their IP Address",
+        app_store_url: "https://apps.shopify.com/geoip-country-redirect",
+        website_url: "https://spicegems.com",
+        script_pattern: "conditional-redirect.spicegems.com/js/scripttags",
+        category: "Store Design"
+    },
+    {
+        name: "Lamify- Please Stay",
+        short_description: "Recover Sales with Your Tab",
+        app_store_url: "https://apps.shopify.com/please-stay",
+        website_url: "https://www.pleasestay.co",
+        script_pattern: "pleasestay.js",
+        category: "Sales"
+    },
+    {
+        name: "NeatTracker",
+        short_description: "Simple product add to cart and view reports",
+        app_store_url: "https://apps.shopify.com/neattracker",
+        website_url: "https://neattracker.com",
+        script_pattern: "neattracker.js",
+        category: "Sales"
+    },
+    {
+        name: "Automatic Discount",
+        short_description: "Apply automatic discounts",
+        app_store_url: "https://apps.shopify.com/automatic-discount-rules",
+        website_url: "https://desk.zoho.com/portal/tabarnapp/home",
+        script_pattern: "wallsh_dp.min.js",
+        category: "Marketing"
+    },
+    {
+        name: "Cart Notifications",
+        short_description: "Stylish favicon notification to reduce cart abandonment",
+        app_store_url: "https://apps.shopify.com/cart-notifications",
+        website_url: "",
+        script_pattern: "cart-notifications",
+        category: "Store Design"
+    },
+    {
+        name: "SimplyTick",
+        short_description: "Reporting",
+        app_store_url: "https://apps.shopify.com/simplytick",
+        website_url: "https://simplytick.com/",
+        script_pattern: "track.js",
+        category: "Sales"
+    },
+    {
+        name: "Secomapp Free Gifts",
+        short_description: "Free Gifts",
+        app_store_url: "https://apps.shopify.com/freegifts",
+        website_url: "https://secomapp.com/",
+        script_pattern: "freegifts/app/freegifts_20181205.min.js",
+        category: "Marketing"
+    },
+    {
+        name: "Bold Sales Motivator",
+        short_description: "Increase the amount of every order",
+        app_store_url: "https://apps.shopify.com/the-motivator",
+        website_url: "http://boldcommerce.com/",
+        script_pattern: "motivate.boldapps.net/motivator.php",
+        category: "Sales"
+    },
+    {
+        name: "Product Labels",
+        short_description: "Product Labels",
+        app_store_url: "https://apps.shopify.com/product-labels",
+        website_url: "https://secomapp.com",
+        script_pattern: "cdn.secomapp.com/product_label",
+        category: "Store Design"
+    },
+    {
+        name: "Order Deadline",
+        short_description: "Order Deadline",
+        app_store_url: "https://apps.shopify.com/order-deadline",
+        website_url: "https://www.evilegg.co.uk",
+        script_pattern: "order-deadline.min.js",
+        category: "Sales"
+    },
+    {
+        name: "Dealio",
+        short_description: "Gamified Up-Sell",
+        app_store_url: "https://apps.shopify.com/dealio-gamified-product-page-up-sell-app",
+        website_url: "http://www.dealio-app.com",
+        script_pattern: "dealioapp.azurewebsites.net",
+        category: "Sales"
+    },
+    {
+        name: "Bold - Custom Pricing",
+        short_description: "Custom Pricing ‑ Wholesale",
+        app_store_url: "https://apps.shopify.com/customer-pricing",
+        website_url: "https://boldcommerce.com/custom-pricing",
+        script_pattern: "customer_pricing.php",
+        category: "Sales"
+    },
+    {
+        name: "Easy Messenger",
+        short_description: "Live Chat",
+        app_store_url: "https://apps.shopify.com/easymessenger-livechat-messenger-as-a-live-chat",
+        website_url: "https://nexusmedia-ua.com",
+        script_pattern: "easybot.js",
+        category: "Customer service"
+    },
+    {
+        name: "Code Black Belt Currency Converter",
+        short_description: "Currency Converter for Multi Currency Stores",
+        app_store_url: "https://apps.shopify.com/currency-converter-plus",
+        website_url: "https://www.codeblackbelt.com",
+        script_pattern: "currency-converter-plus/main.min.js",
+        category: "Store Design"
+    },
+    {
+        name: "TrustBadges",
+        short_description: "Authenticate And Build Trust",
+        app_store_url: "https://apps.shopify.com/trust-by-kamozi",
+        website_url: "https://kamozi.io/trust",
+        script_pattern: "kamozi_trusted.js",
+        category: "Sales"
+    },
+    {
+        name: "Appsolve Trustful",
+        short_description: "Trust Badges",
+        app_store_url: "https://apps.shopify.com/trust-seals-badges",
+        website_url: "https://getvitals.io",
+        script_pattern: "appsolve.io/assets/js/trust.js",
+        category: "Sales"
+    },
+    {
+        name: "Bold Quantity Break",
+        short_description: "Quantity Breaks,Tiered Pricing and Bulk Discounts",
+        app_store_url: "https://apps.shopify.com/quantity-breaks",
+        website_url: "https://boldcommerce.com/quantity-breaks",
+        script_pattern: "quantity_breaks.php",
+        category: "Sales"
+    },
+    {
+        name: "Stock Counter",
+        short_description: "Social Proof and Scarcity",
+        app_store_url: "https://apps.shopify.com/pressure-cooker",
+        website_url: "https://websiteondemand.ca",
+        script_pattern: "pressure-cooker.js",
+        category: "Sales"
+    },
+    {
+        name: "Recomify",
+        short_description: "Related Products",
+        app_store_url: "https://apps.shopify.com/recomify",
+        website_url: "https://www.recomify.com",
+        script_pattern: "app.recomify.com/script_tag.js",
+        category: "Sales"
+    },
+    {
+        name: "Bought Together",
+        short_description: "Frequently Bought Together · Upsell via Bundles",
+        app_store_url: "https://apps.shopify.com/product-bundles-by-vitals",
+        website_url: "https://getvitals.io",
+        script_pattern: "appsolve.io/assets/js/product_bundles.js",
+        category: ""
+    },
+    {
+        name: "Sales Pop",
+        short_description: "Automatically show recent transaction",
+        app_store_url: "https://apps.shopify.com/sales-pop-master",
+        website_url: "https://autoketing.com",
+        script_pattern: "sales-pop-dot-autoketing-production-sdk.appspot.com",
+        category: "Sales"
+    },
+    {
+        name: "Sales Notification",
+        short_description: "Recent sales",
+        app_store_url: "https://apps.shopify.com/mps-sales-notification",
+        website_url: "https://makeprosimp.com",
+        script_pattern: "sales-notification.makeprosimp.com",
+        category: "Sales"
+    },
+    {
+        name: "Trust Badge",
+        short_description: "Beautiful payment badges",
+        app_store_url: "https://apps.shopify.com/trust-badge",
+        website_url: "",
+        script_pattern: "hektorcommerce.com/apps/trustbadge",
+        category: "Store Design"
+    },
+    {
+        name: "Trust Hero",
+        short_description: "More Trust, More Sales",
+        app_store_url: "https://apps.shopify.com/trust-hero",
+        website_url: "",
+        script_pattern: "trust_hero_1543471170.js",
+        category: "Sales"
     }
 ];
