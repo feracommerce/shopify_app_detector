@@ -48,7 +48,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (186)
+# Current List of Detectable Apps (213)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -56,7 +56,7 @@ puts JSON.pretty_generate(list)
 5. PushOwl - https://apps.shopify.com/pushowl
 6. Just Uno - https://apps.shopify.com/justuno-social-email-leads
 7. Shogun - https://apps.shopify.com/shogun
-8. Beeketing Apps (Multiple possibilites) - https://apps.shopify.com/beeketing
+8. Beeketing Apps (Multiple possibilites) - https://apps.shopify.com/partners/brodev
 9. Omnisend - https://apps.shopify.com/omnisend
 10. Smile.io - https://apps.shopify.com/smile-io
 11. Mailchimp - https://apps.shopify.com/mailchimp
@@ -73,7 +73,7 @@ puts JSON.pretty_generate(list)
 22. Spur-i-t Popup Upsell - https://apps.shopify.com/upsell-popup-on-exit-visit
 23. MailMunch - https://apps.shopify.com/mailmunch
 24. Pixelpop - https://apps.shopify.com/popups-promos-banners-pixelpop
-25. Zotabox (Multiple possibilites) - https://apps.shopify.com/promo-bar
+25. Zotabox (Multiple possibilites) - https://apps.shopify.com/partners/zotabox
 26. WhatsApp Share + Chat - https://apps.shopify.com/whatsapp-sharing
 27. OptinMate - https://apps.shopify.com/optinmate-2
 28. Sumo - https://apps.shopify.com/sumome
@@ -129,7 +129,7 @@ puts JSON.pretty_generate(list)
 78. Foursixty.com Shoppable Instagram - https://apps.shopify.com/foursixty
 79. Dvcloudsoftware.com Instagram In‑Shop - https://apps.shopify.com/instagram-in-shop
 80. Web Desk Solution Smart Social Login - https://apps.shopify.com/smart-social-login
-81. Powr.io (Multiple possibilites) - https://apps.shopify.com/powr-social-feed
+81. Powr.io (Multiple possibilites) - https://apps.shopify.com/partners/powr-io
 82. 99Commerce  Instagram Feed - https://apps.shopify.com/snapzy-the-instagram-feed
 83. Zotabox Social Mobile Share Bar - https://apps.shopify.com/mobile-messaging-social-share-bar
 84. Widgetic - https://apps.shopify.com/facebook-like-by-widgetic
@@ -236,6 +236,33 @@ puts JSON.pretty_generate(list)
 184. Sales Notification - https://apps.shopify.com/mps-sales-notification
 185. Trust Badge - https://apps.shopify.com/trust-badge
 186. Trust Hero - https://apps.shopify.com/trust-hero
+187. Full Page Zoom - https://apps.shopify.com/full-page-zoom
+188. Checkout Share - https://apps.shopify.com/checkout-share
+189. ReCharge - https://apps.shopify.com/subscription-payments
+190. Klarna Payments - https://www.klarna.com/international/business/shopify
+191. Back in Stock Alerts - https://apps.shopify.com/in-stock-reminder
+192. Analytics - https://gator.io
+193. Recomatic Related Products - https://apps.shopify.com/recomatic
+194. Pixel Union Countdown - https://apps.shopify.com/countdown-timers
+195. Loyalty Rewards - https://apps.shopify.com/referral-loyalty
+196. EggViews - https://apps.shopify.com/eggviews
+197. Sales Booster - https://apps.shopify.com/checkout-booster
+198. Kount - https://kount.com
+199. Multi Vendor - https://apps.shopify.com/multi-vendor-marketplace
+200. Pixlee - https://apps.shopify.com/pixlee
+201. Infinite Options - https://apps.shopify.com/custom-options
+202. Variant Image Automator - https://apps.shopify.com/variant-image-automator
+203. Variant Descriptions - https://apps.shopify.com/variant-descriptions-by-starapps
+204. Announcement Bar - https://apps.shopify.com/quick-announcement-bar-always-keep-your-customers-informed
+205. Ultimate Sales Boost - https://apps.shopify.com/ultimate-sales-boost
+206. PartnerStack - https://apps.shopify.com/growsumo
+207. Preorderly - https://apps.shopify.com/preorderly
+208. Messenger - https://apps.shopify.com/messenger
+209. ShopMessage - https://apps.shopify.com/shopmessage
+210. Shipping Rates Calculator - https://apps.shopify.com/shipping-rates-calculator-plus
+211. NS8 Visitors - https://apps.shopify.com/visitors
+212. Shoelace Retargeting Journeys - https://apps.shopify.com/shoelace-retargeting
+213. Quantity Discount - https://apps.shopify.com/pricing-by-quantity
 
 
 # Contributing to the Repo
