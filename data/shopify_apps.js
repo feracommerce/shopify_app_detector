@@ -60,7 +60,7 @@ var SHOPIFY_APPS = [
     {
         name: "Beeketing Apps (Multiple possibilites)",
         short_description: "Add urgency, sales popups, happy email, better coupon box, etc.",
-        app_store_url: "https://apps.shopify.com/beeketing",
+        app_store_url: "https://apps.shopify.com/partners/brodev",
         website_url: "https://beeketing.com",
         script_pattern: "js/beeketing.js",
         category: "Marketing"
@@ -196,7 +196,7 @@ var SHOPIFY_APPS = [
     {
         name: "Zotabox (Multiple possibilites)",
         short_description: "Header Bar or easy contact form",
-        app_store_url: "https://apps.shopify.com/promo-bar",
+        app_store_url: "https://apps.shopify.com/partners/zotabox",
         website_url: "https://info.zotabox.com",
         script_pattern: "static.zotabox.co",
         category: "Marketing"
@@ -494,7 +494,7 @@ var SHOPIFY_APPS = [
         short_description: "Gift Card Solutions, Loyalty and Rewards, Store Credit",
         app_store_url: "https://apps.shopify.com/giftwizard",
         website_url: "https://www.giftwizard.co/",
-        script_pattern: "client-nextgen.js",
+        script_pattern: "storefront.giftwizard.co/gift.js",
         category: "Sales"
     },
     {
@@ -652,7 +652,7 @@ var SHOPIFY_APPS = [
     {
         name: "Powr.io (Multiple possibilites)",
         short_description: "Social Media Feed or icons",
-        app_store_url: "https://apps.shopify.com/powr-social-feed",
+        app_store_url: "https://apps.shopify.com/partners/powr-io",
         website_url: "https://www.powr.io",
         script_pattern: "powr.js",
         category: "Social media"
@@ -1488,6 +1488,222 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/trust-hero",
         website_url: "",
         script_pattern: "trust_hero_1543471170.js",
+        category: "Sales"
+    },
+    {
+        name: "Full Page Zoom",
+        short_description: "High quality full screen image zoom for high quality images",
+        app_store_url: "https://apps.shopify.com/full-page-zoom",
+        website_url: "https://www.codeblackbelt.com",
+        script_pattern: "cdn.codeblackbelt.com/js/modules/full-page-zoom/main.min.js",
+        category: "Store Design"
+    },
+    {
+        name: "Checkout Share",
+        short_description: "Turn every conversion into a conversation",
+        app_store_url: "https://apps.shopify.com/checkout-share",
+        website_url: "https://spacesquirrel.co/checkout-share",
+        script_pattern: "checkoutshare.spacesquirrel.net/embed_share_a_purchase.js",
+        category: "Sales"
+    },
+    {
+        name: "ReCharge",
+        short_description: "Subscriptions by ReCharge",
+        app_store_url: "https://apps.shopify.com/subscription-payments",
+        website_url: "https://rechargepayments.com",
+        script_pattern: "rechargeassets-bootstrapheroes-rechargeapps.netdna-ssl.com",
+        category: "Sales"
+    },
+    {
+        name: "Klarna",
+        short_description: "Klarna Payments",
+        app_store_url: "https://www.klarna.com/international/business/shopify",
+        website_url: "https://www.klarna.com/international/business/shopify",
+        script_pattern: "www.klarnapayments.com/assets/upstream.js",
+        category: "Sales"
+    },
+    {
+        name: "Back in Stock Alerts",
+        short_description: "Set Up Back in Stock Notifications for Out of Stock Products",
+        app_store_url: "https://apps.shopify.com/in-stock-reminder",
+        website_url: "https://spur-i-t.com",
+        script_pattern: "in-stock-reminder/js/common.js",
+        category: "Marketing"
+    },
+    {
+        name: "Analytics",
+        short_description: "Data Management",
+        app_store_url: "https://gator.io",
+        website_url: "https://gator.io",
+        script_pattern: "api.gator.io/v1/analytics",
+        category: "Marketing"
+    },
+    {
+        name: "Recomatic Related Products",
+        short_description: "Product recommendations",
+        app_store_url: "https://apps.shopify.com/recomatic",
+        website_url: "http://www.recomaticapp.com",
+        script_pattern: "recomaticapp2-wordsensesas.netdna-ssl.com",
+        category: "Sales"
+    },
+    {
+        name: "Pixel Union Countdown",
+        short_description: "Countdown Sales Timer",
+        app_store_url: "https://apps.shopify.com/countdown-timers",
+        website_url: "https://www.pixelunion.net",
+        script_pattern: "apps.pixelunion.net/scripts/js/countdown/bundle.min.js",
+        category: "Sales"
+    },
+    {
+        name: "Loyalty Rewards",
+        short_description: "Loyalty Rewards Referral Point",
+        app_store_url: "https://apps.shopify.com/referral-loyalty",
+        website_url: "https://www.aaaecommerce.com",
+        script_pattern: "aaa-refferal-script.js",
+        category: "Marketing"
+    },
+    {
+        name: "EggViews",
+        short_description: "Product Reviews",
+        app_store_url: "https://apps.shopify.com/eggviews",
+        website_url: "https://www.gowebbaby.com",
+        script_pattern: "eggViewsScript_v2.js",
+        category: "Sales"
+    },
+    {
+        name: "Sales Booster",
+        short_description: "Boost sales- BOGO and upsell",
+        app_store_url: "https://apps.shopify.com/checkout-booster",
+        website_url: "https://www.aaaecommerce.com/",
+        script_pattern: "checkoutbooster_v1.js",
+        category: "Sales"
+    },
+    {
+        name: "Kount",
+        short_description: "Fraud Prevention and Detection",
+        app_store_url: "https://kount.com",
+        website_url: "https://kount.com",
+        script_pattern: "shopify.kount.net",
+        category: "Sales"
+    },
+    {
+        name: "Multi Vendor",
+        short_description: "Convert your ECommerce Store",
+        app_store_url: "https://apps.shopify.com/multi-vendor-marketplace",
+        website_url: "https://webkul.com",
+        script_pattern: "shopify.webkul.com/multivendor/js/download_prod.js",
+        category: "Products"
+    },
+    {
+        name: "Pixlee",
+        short_description: "UGC + Shoppable IG",
+        app_store_url: "https://apps.shopify.com/pixlee",
+        website_url: "https://www.pixlee.com",
+        script_pattern: "pixlee.shopify.v2.prod.js",
+        category: "Sales"
+    },
+    {
+        name: "Infinite Options",
+        short_description: "Customize your products",
+        app_store_url: "https://apps.shopify.com/custom-options",
+        website_url: "https://www.theshoppad.com/infinite-options-for-shopify",
+        script_pattern: "customizery.js",
+        category: "Store Design"
+    },
+    {
+        name: "Variant Image Automator",
+        short_description: "Show multiple images of variants",
+        app_store_url: "https://apps.shopify.com/variant-image-automator",
+        website_url: "",
+        script_pattern: "variant-image-automator.starapps.studio/product_variants.js",
+        category: "Store Design"
+    },
+    {
+        name: "Variant Descriptions",
+        short_description: "Show Variant Specific Details",
+        app_store_url: "https://apps.shopify.com/variant-descriptions-by-starapps",
+        website_url: "",
+        script_pattern: "variant-descriptions.starapps.studio/apps.js",
+        category: "Store Design"
+    },
+    {
+        name: "Announcement Bar",
+        short_description: "Promote discounts on an announcement bar",
+        app_store_url: "https://apps.shopify.com/quick-announcement-bar-always-keep-your-customers-informed",
+        website_url: "https://hextom.com",
+        script_pattern: "quickannouncementbar.js",
+        category: "Store Design"
+    },
+    {
+        name: "Ultimate Sales Boost",
+        short_description: "Increase sales with scarcity, urgency, trust",
+        app_store_url: "https://apps.shopify.com/ultimate-sales-boost",
+        website_url: "https://hextom.com",
+        script_pattern: "ultimatesalesboost.js",
+        category: "Sales"
+    },
+    {
+        name: "Growsumo - PartnerStack",
+        short_description: "Affiliate programs ",
+        app_store_url: "https://apps.shopify.com/growsumo",
+        website_url: "https://www.partnerstack.com/shopify",
+        script_pattern: "snippet.growsumo.com",
+        category: "Marketing"
+    },
+    {
+        name: "Preorderly",
+        short_description: "Pre orders",
+        app_store_url: "https://apps.shopify.com/preorderly",
+        website_url: "http://www.codeinero.net",
+        script_pattern: "preorderly.azurewebsites.net/Scripts/preorder.min.js",
+        category: "Orders"
+    },
+    {
+        name: "Messenger",
+        short_description: "Sell products and provide customer support from Messenger",
+        app_store_url: "https://apps.shopify.com/messenger",
+        website_url: "",
+        script_pattern: "messenger_commerce/assets/new_message_us",
+        category: "Customer service"
+    },
+    {
+        name: "ShopMessage",
+        short_description: "FB Messenger",
+        app_store_url: "https://apps.shopify.com/shopmessage",
+        website_url: "https://www.shopmessage.me",
+        script_pattern: "shopmessage_platform.js",
+        category: "Customer service"
+    },
+    {
+        name: "Shipping Rates Calculator",
+        short_description: "Shipping rates calculator with geolocation",
+        app_store_url: "https://apps.shopify.com/shipping-rates-calculator-plus",
+        website_url: "https://www.codeblackbelt.com",
+        script_pattern: "cdn.codeblackbelt.com/js/modules/shipping-rates-calculator-plus",
+        category: "Orders"
+    },
+    {
+        name: "NS8 Visitors",
+        short_description: "Empowering merchants to understand their website traffic",
+        app_store_url: "https://apps.shopify.com/visitors",
+        website_url: "https://www.ns8.com",
+        script_pattern: "api.ns8.com/v1/analytics/script/29227008?name=latestVisitors",
+        category: "Reporting"
+    },
+    {
+        name: "Shoelace",
+        short_description: "Retargeting Journeys",
+        app_store_url: "https://apps.shopify.com/shoelace-retargeting",
+        website_url: "https://shoelace.com",
+        script_pattern: "lace.shoelace.com",
+        category: "Marketing"
+    },
+    {
+        name: "Quantity Discount",
+        short_description: "Add Quantity Discount or Tiered Pricing",
+        app_store_url: "https://apps.shopify.com/pricing-by-quantity",
+        website_url: "https://spur-i-t.com",
+        script_pattern: "pricing-by-quantity/js/clear-cart.js",
         category: "Sales"
     }
 ];
