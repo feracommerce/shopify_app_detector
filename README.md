@@ -48,7 +48,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (213)
+# Current List of Detectable Apps (214)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -210,59 +210,59 @@ puts JSON.pretty_generate(list)
 159. Upsell X - https://apps.shopify.com/direct-upsell-by-eri
 160. Retention Rocket - https://retentionrocket.com/
 161. Appifiny - https://apps.shopify.com/recently
-161. Octane AI Messenger - https://apps.shopify.com/octane-ai-messenger-marketing
-162. GeoIP Country Redirect - https://apps.shopify.com/geoip-country-redirect
-163. Please Stay - https://apps.shopify.com/please-stay
-164. NeatTracker - https://apps.shopify.com/neattracker
-165. Automatic Discount - https://apps.shopify.com/automatic-discount-rules
-166. Cart Notifications - https://apps.shopify.com/cart-notifications
-167. SimplyTick - https://apps.shopify.com/simplytick
-168. Free Gifts - https://apps.shopify.com/freegifts
-169. Bold Sales Motivator - https://apps.shopify.com/the-motivator
-170. Product Labels - https://apps.shopify.com/product-labels
-171. Order Deadline - https://apps.shopify.com/order-deadline
-172. GDPR Banner - https://apps.shopify.com/smart-eu-cookie-banner
-173. Dealio - https://apps.shopify.com/dealio-gamified-product-page-up-sell-app
-174. Custom Pricing - https://apps.shopify.com/customer-pricing
-175. Easy Messenger - https://apps.shopify.com/easymessenger-livechat-messenger-as-a-live-chat
-176. Code Black Belt Currency Converter - https://apps.shopify.com/currency-converter-plus
-177. TrustBadges - https://apps.shopify.com/trust-by-kamozi
-178. Appsolve Trustful - https://apps.shopify.com/trust-seals-badges
-179. Bold Quantity Break - https://apps.shopify.com/quantity-breaks
-180. Shopper & Stock Counter - https://apps.shopify.com/pressure-cooker
-181. Recomify - https://apps.shopify.com/recomify
-182. Bought Together - https://apps.shopify.com/product-bundles-by-vitals
-183. Sales Pop - https://apps.shopify.com/sales-pop-master
-184. Sales Notification - https://apps.shopify.com/mps-sales-notification
-185. Trust Badge - https://apps.shopify.com/trust-badge
-186. Trust Hero - https://apps.shopify.com/trust-hero
-187. Full Page Zoom - https://apps.shopify.com/full-page-zoom
-188. Checkout Share - https://apps.shopify.com/checkout-share
-189. ReCharge - https://apps.shopify.com/subscription-payments
-190. Klarna Payments - https://www.klarna.com/international/business/shopify
-191. Back in Stock Alerts - https://apps.shopify.com/in-stock-reminder
-192. Analytics - https://gator.io
-193. Recomatic Related Products - https://apps.shopify.com/recomatic
-194. Pixel Union Countdown - https://apps.shopify.com/countdown-timers
-195. Loyalty Rewards - https://apps.shopify.com/referral-loyalty
-196. EggViews - https://apps.shopify.com/eggviews
-197. Sales Booster - https://apps.shopify.com/checkout-booster
-198. Kount - https://kount.com
-199. Multi Vendor - https://apps.shopify.com/multi-vendor-marketplace
-200. Pixlee - https://apps.shopify.com/pixlee
-201. Infinite Options - https://apps.shopify.com/custom-options
-202. Variant Image Automator - https://apps.shopify.com/variant-image-automator
-203. Variant Descriptions - https://apps.shopify.com/variant-descriptions-by-starapps
-204. Announcement Bar - https://apps.shopify.com/quick-announcement-bar-always-keep-your-customers-informed
-205. Ultimate Sales Boost - https://apps.shopify.com/ultimate-sales-boost
-206. PartnerStack - https://apps.shopify.com/growsumo
-207. Preorderly - https://apps.shopify.com/preorderly
-208. Messenger - https://apps.shopify.com/messenger
-209. ShopMessage - https://apps.shopify.com/shopmessage
-210. Shipping Rates Calculator - https://apps.shopify.com/shipping-rates-calculator-plus
-211. NS8 Visitors - https://apps.shopify.com/visitors
-212. Shoelace Retargeting Journeys - https://apps.shopify.com/shoelace-retargeting
-213. Quantity Discount - https://apps.shopify.com/pricing-by-quantity
+162. Octane AI Messenger - https://apps.shopify.com/octane-ai-messenger-marketing
+163. GeoIP Country Redirect - https://apps.shopify.com/geoip-country-redirect
+164. Please Stay - https://apps.shopify.com/please-stay
+165. NeatTracker - https://apps.shopify.com/neattracker
+166. Automatic Discount - https://apps.shopify.com/automatic-discount-rules
+167. Cart Notifications - https://apps.shopify.com/cart-notifications
+168. SimplyTick - https://apps.shopify.com/simplytick
+169. Free Gifts - https://apps.shopify.com/freegifts
+170. Bold Sales Motivator - https://apps.shopify.com/the-motivator
+171. Product Labels - https://apps.shopify.com/product-labels
+172. Order Deadline - https://apps.shopify.com/order-deadline
+173. GDPR Banner - https://apps.shopify.com/smart-eu-cookie-banner
+174. Dealio - https://apps.shopify.com/dealio-gamified-product-page-up-sell-app
+175. Custom Pricing - https://apps.shopify.com/customer-pricing
+176. Easy Messenger - https://apps.shopify.com/easymessenger-livechat-messenger-as-a-live-chat
+177. Code Black Belt Currency Converter - https://apps.shopify.com/currency-converter-plus
+178. TrustBadges - https://apps.shopify.com/trust-by-kamozi
+179. Appsolve Trustful - https://apps.shopify.com/trust-seals-badges
+180. Bold Quantity Break - https://apps.shopify.com/quantity-breaks
+181. Shopper & Stock Counter - https://apps.shopify.com/pressure-cooker
+182. Recomify - https://apps.shopify.com/recomify
+183. Bought Together - https://apps.shopify.com/product-bundles-by-vitals
+184. Sales Pop - https://apps.shopify.com/sales-pop-master
+185. Sales Notification - https://apps.shopify.com/mps-sales-notification
+186. Trust Badge - https://apps.shopify.com/trust-badge
+187. Trust Hero - https://apps.shopify.com/trust-hero
+188. Full Page Zoom - https://apps.shopify.com/full-page-zoom
+189. Checkout Share - https://apps.shopify.com/checkout-share
+190. ReCharge - https://apps.shopify.com/subscription-payments
+191. Klarna Payments - https://www.klarna.com/international/business/shopify
+192. Back in Stock Alerts - https://apps.shopify.com/in-stock-reminder
+193. Analytics - https://gator.io
+194. Recomatic Related Products - https://apps.shopify.com/recomatic
+195. Pixel Union Countdown - https://apps.shopify.com/countdown-timers
+196. Loyalty Rewards - https://apps.shopify.com/referral-loyalty
+197. EggViews - https://apps.shopify.com/eggviews
+198. Sales Booster - https://apps.shopify.com/checkout-booster
+199. Kount - https://kount.com
+200. Multi Vendor - https://apps.shopify.com/multi-vendor-marketplace
+201. Pixlee - https://apps.shopify.com/pixlee
+202. Infinite Options - https://apps.shopify.com/custom-options
+203. Variant Image Automator - https://apps.shopify.com/variant-image-automator
+204. Variant Descriptions - https://apps.shopify.com/variant-descriptions-by-starapps
+205. Announcement Bar - https://apps.shopify.com/quick-announcement-bar-always-keep-your-customers-informed
+206. Ultimate Sales Boost - https://apps.shopify.com/ultimate-sales-boost
+207. PartnerStack - https://apps.shopify.com/growsumo
+208. Preorderly - https://apps.shopify.com/preorderly
+209. Messenger - https://apps.shopify.com/messenger
+210. ShopMessage - https://apps.shopify.com/shopmessage
+211. Shipping Rates Calculator - https://apps.shopify.com/shipping-rates-calculator-plus
+212. NS8 Visitors - https://apps.shopify.com/visitors
+213. Shoelace Retargeting Journeys - https://apps.shopify.com/shoelace-retargeting
+214. Quantity Discount - https://apps.shopify.com/pricing-by-quantity
 
 
 # Contributing to the Repo
