@@ -48,7 +48,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (235)
+# Current List of Detectable Apps (237)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -280,12 +280,12 @@ puts JSON.pretty_generate(list)
 229. Skip Cart - https://apps.shopify.com/skip-cart-the-fast-way-to-checkout
 230. Metrilo - https://apps.shopify.com/metrilo
 231. W3 Store Locator - https://apps.shopify.com/store-locator-w3
-231. Marsello Loyalty - https://apps.shopify.com/marsello
-231. Uploadery - https://apps.shopify.com/uploadery
-232. Cooki - https://apps.shopify.com/cooki
-233. Giftship - https://apps.shopify.com/giftship
-234. EasyVideo - https://apps.shopify.com/easyvideo
-235. Email Before Download - https://apps.shopify.com/email-before-download
+232. Marsello Loyalty - https://apps.shopify.com/marsello
+233. Uploadery - https://apps.shopify.com/uploadery
+234. Cooki - https://apps.shopify.com/cooki
+235. Giftship - https://apps.shopify.com/giftship
+236. EasyVideo - https://apps.shopify.com/easyvideo
+237. Email Before Download - https://apps.shopify.com/email-before-download
 
 
 # Contributing to the Repo
