@@ -1,4 +1,4 @@
-// Last updated December 19, 2018.
+// Last updated December 21, 2018.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
@@ -359,7 +359,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/mcafee-secure",
         website_url: "https://www.mcafeesecure.com/for-consumers",
         script_pattern: "ywxi.net",
-        category: "Sales"
+        category: "Trust and security"
     },
     {
         name: "Quick View",
@@ -646,7 +646,7 @@ var SHOPIFY_APPS = [
         short_description: "Login with your social media accounts",
         app_store_url: "https://apps.shopify.com/smart-social-login",
         website_url: "http://webdesksolution.com",
-        script_pattern: "loginwithsocialmedia//assets/scripts/custom/demo.js",
+        script_pattern: "loginwithsocialmedia/assets/scripts/custom/demo.js",
         category: "Social media"
     },
     {
@@ -1416,7 +1416,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/trust-by-kamozi",
         website_url: "https://kamozi.io/trust",
         script_pattern: "kamozi_trusted.js",
-        category: "Sales"
+        category: "Trust and security"
     },
     {
         name: "Appsolve Trustful",
@@ -1424,7 +1424,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/trust-seals-badges",
         website_url: "https://getvitals.io",
         script_pattern: "appsolve.io/assets/js/trust.js",
-        category: "Sales"
+        category: "Trust and security"
     },
     {
         name: "Bold Quantity Break",
@@ -1480,7 +1480,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/trust-badge",
         website_url: "",
         script_pattern: "hektorcommerce.com/apps/trustbadge",
-        category: "Store Design"
+        category: "Trust and security"
     },
     {
         name: "Trust Hero",
@@ -1488,7 +1488,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/trust-hero",
         website_url: "",
         script_pattern: "trust_hero_1543471170.js",
-        category: "Sales"
+        category: "Trust and security"
     },
     {
         name: "Full Page Zoom",
@@ -1705,5 +1705,189 @@ var SHOPIFY_APPS = [
         website_url: "https://spur-i-t.com",
         script_pattern: "pricing-by-quantity/js/clear-cart.js",
         category: "Sales"
+    },
+    {
+        name: "Sticky Add To Cart",
+        short_description: "Dramatically enhance your ADD TO CART and CHECKOUT process",
+        app_store_url: "https://apps.shopify.com/sticky-add-to-cart-bar",
+        website_url: "http://www.codeinero.net",
+        script_pattern: "stickyaddtocartbar.azurewebsites.net/Scripts/satcb.min.js",
+        category: "Store Design"
+    },
+    {
+        name: "Product Accessories",
+        short_description: "Show related Product Accessories directly on your product page",
+        app_store_url: "https://apps.shopify.com/product-accessories",
+        website_url: "http://www.w3trends.com",
+        script_pattern: "accessories.js",
+        category: "Sales"
+    },
+    {
+        name: "Tobi",
+        short_description: "SMS + FREE Facebook Messenger",
+        app_store_url: "https://apps.shopify.com/tobi",
+        website_url: "https://tobi.ai",
+        script_pattern: "tobi.ai",
+        category: "Customer Service"
+    },
+    {
+        name: "Gift Reggie",
+        short_description: "Gift Registry and Wishlist",
+        app_store_url: "https://apps.shopify.com/gift-reggie-by-eshop-admin",
+        website_url: "https://gift-reggie.eshopadmin.com",
+        script_pattern: "gift-reggie.eshopadmin.com",
+        category: "Sales"
+    },
+    {
+        name: "Bold Brain",
+        short_description: "Product recomendations",
+        app_store_url: "https://apps.shopify.com/the-bold-brain",
+        website_url: "https://boldcommerce.com",
+        script_pattern: "brain-assets.boldapps.net/js/analytics.js",
+        category: "Sales"
+    },
+    {
+        name: "OptiMonk",
+        short_description: "Exit intent popups",
+        app_store_url: "https://apps.shopify.com/optimonk",
+        website_url: "http://optimonk.com",
+        script_pattern: "front.optimonk.com",
+        category: "Marketing"
+    },
+    {
+        name: "No Fraud",
+        short_description: "Prevent Fraud Chargebacks, Accept More Orders",
+        app_store_url: "https://apps.shopify.com/nofraud-chargeback-prevention-and-protection",
+        website_url: "https://www.nofraud.com",
+        script_pattern: "services.nofraud.com/js/device.js",
+        category: "Orders and shipping"
+    },
+    {
+        name: "Recart",
+        short_description: "Messenger Marketing",
+        app_store_url: "https://apps.shopify.com/recart",
+        website_url: "https://recart.com",
+        script_pattern: "api.recart.com",
+        category: "Marketing"
+    },
+    {
+        name: "Product Customizer",
+        short_description: "Easily add options, variants & customization to your products",
+        app_store_url: "https://apps.shopify.com/product-customizer",
+        website_url: "http://productcustomizer.com",
+        script_pattern: "shopify-product-customizer.js",
+        category: "Store Design"
+    },
+    {
+        name: "Verge",
+        short_description: "SEO JSON‑LD Boost",
+        app_store_url: "https://apps.shopify.com/seo-json-ld-boost-by-verge",
+        website_url: "https://vergegraphics.com",
+        script_pattern: "verge-json-ld.js",
+        category: "Marketing"
+    },
+    {
+        name: "Varinode Trust",
+        short_description: "Trust seals and review tools",
+        app_store_url: "https://apps.shopify.com/trust",
+        website_url: "https://trust.varinode.com",
+        script_pattern: "verify.varinode.com/ts_js.php",
+        category: "Trust and security"
+    },
+    {
+        name: "Pre‑Order Hero",
+        short_description: "Pre-Order to generate more sales",
+        app_store_url: "https://apps.shopify.com/pre-order-hero",
+        website_url: "",
+        script_pattern: "pre_order_hero_16200313.js",
+        category: "Orders and Shipping"
+    },
+    {
+        name: "Custom Product Options",
+        short_description: "Product options",
+        app_store_url: "https://apps.shopify.com/best-custom-product-options",
+        website_url: "https://www.relentlessapps.com",
+        script_pattern: "best_custom_product_options.js",
+        category: "Store Design"
+    },
+    {
+        name: "Globo",
+        short_description: "Straight to Checkout",
+        app_store_url: "https://apps.shopify.com/straight-to-checkout-skip-cart",
+        website_url: "http://globosoftware.net",
+        script_pattern: "globocheckout_init.js",
+        category: "Store Design"
+    },
+    {
+        name: "Skip Cart",
+        short_description: "Faster Checkouts to Reduce Abandoned Carts",
+        app_store_url: "https://apps.shopify.com/skip-cart-the-fast-way-to-checkout",
+        website_url: "",
+        script_pattern: "skipcart.js",
+        category: "Store Design"
+    },
+    {
+        name: "Metrilo",
+        short_description: "Marketing Platform",
+        app_store_url: "https://apps.shopify.com/metrilo",
+        website_url: "https://www.metrilo.com",
+        script_pattern: "shoparty.metrilo.com",
+        category: "Marketing"
+    },
+    {
+        name: "W3 - Store Locator",
+        short_description: "Easily add locations to a map for your customers to find you",
+        app_store_url: "https://apps.shopify.com/store-locator-w3",
+        website_url: "http://www.w3trends.com",
+        script_pattern: "storelocator.w3apps.co/js/include.js",
+        category: "Store Design"
+    },
+    {
+        name: "Marsello - Loyalty",
+        short_description: "Sell more with a loyalty program and automated email marketing",
+        app_store_url: "https://apps.shopify.com/marsello",
+        website_url: "https://www.marsello.com",
+        script_pattern: "app.marsello.com",
+        category: "Marketing"
+    },
+    {
+        name: "Uploadery",
+        short_description: "Give your customers the ability to send files with their order",
+        app_store_url: "https://apps.shopify.com/uploadery",
+        website_url: "https://www.theshoppad.com/uploadery-for-shopify",
+        script_pattern: "uploadery.js",
+        category: "Store Design"
+    },
+    {
+        name: "Cooki",
+        short_description: "Easy GDPR compliance",
+        app_store_url: "https://apps.shopify.com/cooki",
+        website_url: "https://www.theshoppad.com/uploadery-for-shopify",
+        script_pattern: "cookihq.com",
+        category: "Trust and Security"
+    },
+    {
+        name: "Giftship",
+        short_description: "Ship to Multiple Addresses, Gift Messages",
+        app_store_url: "https://apps.shopify.com/giftship",
+        website_url: "https://appsbypix.com/",
+        script_pattern: "giftship.4.2.10.js",
+        category: "Sales"
+    },
+    {
+        name: "EasyVideo",
+        short_description: "Easily add product videos",
+        app_store_url: "https://apps.shopify.com/easyvideo",
+        website_url: "https://nexusmedia-ua.com/pages/contact",
+        script_pattern: "easyvideo_v2.js",
+        category: "Store Design"
+    },
+    {
+        name: "Email Before Download",
+        short_description: "Smart way to gather your visitors email addresses",
+        app_store_url: "https://apps.shopify.com/email-before-download",
+        website_url: "https://www.apps2grow.us/shopify/email-before-download",
+        script_pattern: "www.apps2grow.us/white-paper/app.js",
+        category: "Marketing"
     }
 ];
