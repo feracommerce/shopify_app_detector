@@ -48,7 +48,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (246)
+# Current List of Detectable Apps (250)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -295,6 +295,10 @@ puts JSON.pretty_generate(list)
 244. Instagram Feed - https://apps.shopify.com/instafeed
 245. ID Discount - https://apps.shopify.com/military-discount
 246. AuthentiPix - https://apps.shopify.com/instagration
+247. Sky Pilot - https://apps.shopify.com/sky-pilot
+248. Carts Guru - https://apps.shopify.com/cartsguru
+249. Kiwi Size Chart - https://apps.shopify.com/kiwi-sizing
+250. Shop The Look - https://apps.shopify.com/shop-the-look-4
 
 
 # Contributing to the Repo

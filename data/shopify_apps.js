@@ -634,7 +634,7 @@ var SHOPIFY_APPS = [
         category: "Social media"
     },
     {
-        name: "Dvcloudsoftware.com Instagram In‑Shop",
+        name: "Dvcloudsoftware Instagram",
         short_description: "Shop your instagram! Create an Instagram shop in minutes",
         app_store_url: "https://apps.shopify.com/instagram-in-shop",
         website_url: "http://instagram-shop.devcloudsoftware.com/support",
@@ -1961,5 +1961,37 @@ var SHOPIFY_APPS = [
         website_url: "http://authentipix.com",
         script_pattern: "authentipix.js",
         category: "Store Design"
+    },
+    {
+        name: "Sky Pilot",
+        short_description: "Seamless File and Video Delivery",
+        app_store_url: "https://apps.shopify.com/sky-pilot",
+        website_url: "https://www.skypilotapp.com",
+        script_pattern: "sky_pilot.js",
+        category: "Orders and shipping"
+    },
+    {
+        name: "Carts Guru",
+        short_description: "Retargeting",
+        app_store_url: "https://apps.shopify.com/cartsguru",
+        website_url: "http://carts.guru",
+        script_pattern: "api.carts.guru",
+        category: "Sales"
+    },
+    {
+        name: "Kiwi Size Chart",
+        short_description: "Manage all your size charts",
+        app_store_url: "https://apps.shopify.com/kiwi-sizing",
+        website_url: "",
+        script_pattern: "api.carts.guru",
+        category: "Store Design"
+    },
+    {
+        name: "Shop The Look",
+        short_description: "Help your customers Buy the Look and purchase multiple items",
+        app_store_url: "https://apps.shopify.com/shop-the-look-4",
+        website_url: "https://shopthelookapp.com",
+        script_pattern: "shopthelook.js",
+        category: "Sales"
     }
 ];
