@@ -48,7 +48,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (237)
+# Current List of Detectable Apps (246)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -201,9 +201,9 @@ puts JSON.pretty_generate(list)
 150. Klaviyo - https://apps.shopify.com/klaviyo-email-marketing
 151. Credible - https://apps.shopify.com/credible
 152. Discount Direct - https://apps.shopify.com/discount-direct
-152. Affiliatly - https://apps.shopify.com/affiliatly
-153. Product Filter - https://apps.shopify.com/product-filter-search
-154. Hive - https://apps.shopify.com/hive
+153. Affiliatly - https://apps.shopify.com/affiliatly
+154. Product Filter - https://apps.shopify.com/product-filter-search
+155. Hive - https://apps.shopify.com/hive
 156. Nosto - https://apps.shopify.com/nosto-personalization-for-shopify
 157. Coin - https://apps.shopify.com/coin
 158. Riskified - https://www.riskified.com
@@ -258,34 +258,43 @@ puts JSON.pretty_generate(list)
 207. PartnerStack - https://apps.shopify.com/growsumo
 208. Preorderly - https://apps.shopify.com/preorderly
 209. Messenger - https://apps.shopify.com/messenger
-210. ShopMessage - https://apps.shopify.com/shopmessage
-211. Shipping Rates Calculator - https://apps.shopify.com/shipping-rates-calculator-plus
-212. NS8 Visitors - https://apps.shopify.com/visitors
-213. Shoelace Retargeting Journeys - https://apps.shopify.com/shoelace-retargeting
-214. Quantity Discount - https://apps.shopify.com/pricing-by-quantity
-215. Sticky Add To Cart  - https://apps.shopify.com/sticky-add-to-cart-bar
-216. Product Accessories - https://apps.shopify.com/product-accessories
-217. Tobi - https://apps.shopify.com/tobi
-218. Gift Reggie - https://apps.shopify.com/gift-reggie-by-eshop-admin
-219. Bold Brain - https://apps.shopify.com/the-bold-brain
-220. OptiMonk - https://apps.shopify.com/optimonk
-221. NoFraud - https://apps.shopify.com/nofraud-chargeback-prevention-and-protection
-222. Recart - https://apps.shopify.com/recart
-223. Product Customizer - https://apps.shopify.com/product-customizer
-224. Verge - https://apps.shopify.com/seo-json-ld-boost-by-verge
-225. Varinode Trust - https://apps.shopify.com/trust
-226. Pre‑Order Hero - https://apps.shopify.com/pre-order-hero
-227. Custom Product Options - https://apps.shopify.com/best-custom-product-options
-228. Globo - https://apps.shopify.com/straight-to-checkout-skip-cart
-229. Skip Cart - https://apps.shopify.com/skip-cart-the-fast-way-to-checkout
-230. Metrilo - https://apps.shopify.com/metrilo
-231. W3 Store Locator - https://apps.shopify.com/store-locator-w3
-232. Marsello Loyalty - https://apps.shopify.com/marsello
-233. Uploadery - https://apps.shopify.com/uploadery
-234. Cooki - https://apps.shopify.com/cooki
-235. Giftship - https://apps.shopify.com/giftship
-236. EasyVideo - https://apps.shopify.com/easyvideo
-237. Email Before Download - https://apps.shopify.com/email-before-download
+210. Shipping Rates Calculator - https://apps.shopify.com/shipping-rates-calculator-plus
+211. NS8 Visitors - https://apps.shopify.com/visitors
+212. Shoelace Retargeting Journeys - https://apps.shopify.com/shoelace-retargeting
+213. Quantity Discount - https://apps.shopify.com/pricing-by-quantity
+214. Sticky Add To Cart  - https://apps.shopify.com/sticky-add-to-cart-bar
+215. Product Accessories - https://apps.shopify.com/product-accessories
+216. Tobi - https://apps.shopify.com/tobi
+217. Gift Reggie - https://apps.shopify.com/gift-reggie-by-eshop-admin
+218. Bold Brain - https://apps.shopify.com/the-bold-brain
+219. OptiMonk - https://apps.shopify.com/optimonk
+220. NoFraud - https://apps.shopify.com/nofraud-chargeback-prevention-and-protection
+221. Recart - https://apps.shopify.com/recart
+222. Product Customizer - https://apps.shopify.com/product-customizer
+223. Verge - https://apps.shopify.com/seo-json-ld-boost-by-verge
+224. Varinode Trust - https://apps.shopify.com/trust
+225. Pre‑Order Hero - https://apps.shopify.com/pre-order-hero
+226. Custom Product Options - https://apps.shopify.com/best-custom-product-options
+227. Globo - https://apps.shopify.com/straight-to-checkout-skip-cart
+228. Skip Cart - https://apps.shopify.com/skip-cart-the-fast-way-to-checkout
+229. Metrilo - https://apps.shopify.com/metrilo
+230. W3 Store Locator - https://apps.shopify.com/store-locator-w3
+231. Marsello Loyalty - https://apps.shopify.com/marsello
+232. Uploadery - https://apps.shopify.com/uploadery
+233. Cooki - https://apps.shopify.com/cooki
+234. Giftship - https://apps.shopify.com/giftship
+235. EasyVideo - https://apps.shopify.com/easyvideo
+236. Email Before Download - https://apps.shopify.com/email-before-download
+237. Pixel Perfect - https://apps.shopify.com/pixel-perfect
+238. Teelaunch - https://apps.shopify.com/teelaunch-1
+239. Timer Plus - https://apps.shopify.com/timer-plus
+240. JetPrint Fulfillment - https://apps.shopify.com/jetprint-fulfillment
+241. Uplinkly - https://apps.shopify.com/sticky-cart-by-uplinkly
+242. Smart Push Marketing - https://apps.shopify.com/web-push-notification
+243. Yeps - https://apps.shopify.com/yeps-io
+244. Instagram Feed - https://apps.shopify.com/instafeed
+245. ID Discount - https://apps.shopify.com/military-discount
+246. AuthentiPix - https://apps.shopify.com/instagration
 
 
 # Contributing to the Repo
