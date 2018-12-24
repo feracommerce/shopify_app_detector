@@ -1351,7 +1351,7 @@ var SHOPIFY_APPS = [
         short_description: "Free Gifts",
         app_store_url: "https://apps.shopify.com/freegifts",
         website_url: "https://secomapp.com/",
-        script_pattern: "freegifts/app/freegifts_20181205.min.js",
+        script_pattern: "freegifts/app/freegifts",
         category: "Marketing"
     },
     {
@@ -1487,7 +1487,7 @@ var SHOPIFY_APPS = [
         short_description: "More Trust, More Sales",
         app_store_url: "https://apps.shopify.com/trust-hero",
         website_url: "",
-        script_pattern: "trust_hero_1543471170.js",
+        script_pattern: "assets/trust_hero",
         category: "Trust and security"
     },
     {
@@ -1664,14 +1664,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/messenger",
         website_url: "",
         script_pattern: "messenger_commerce/assets/new_message_us",
-        category: "Customer service"
-    },
-    {
-        name: "ShopMessage",
-        short_description: "FB Messenger",
-        app_store_url: "https://apps.shopify.com/shopmessage",
-        website_url: "https://www.shopmessage.me",
-        script_pattern: "shopmessage_platform.js",
         category: "Customer service"
     },
     {
@@ -1889,5 +1881,85 @@ var SHOPIFY_APPS = [
         website_url: "https://www.apps2grow.us/shopify/email-before-download",
         script_pattern: "www.apps2grow.us/white-paper/app.js",
         category: "Marketing"
+    },
+    {
+        name: "Pixel Perfect",
+        short_description: "Product Feeds and Audiences made Simple",
+        app_store_url: "https://apps.shopify.com/pixel-perfect",
+        website_url: "https://www.wyred-up.com",
+        script_pattern: "pixel-perfect.js",
+        category: "Marketing"
+    },
+    {
+        name: "Teelaunch",
+        short_description: "Print on Demand",
+        app_store_url: "https://apps.shopify.com/teelaunch-1",
+        website_url: "https://teelaunch.com",
+        script_pattern: "teelaunch-scripts.js",
+        category: "Products"
+    },
+    {
+        name: "Timer Plus",
+        short_description: "Countdown",
+        app_store_url: "https://apps.shopify.com/timer-plus",
+        website_url: "",
+        script_pattern: "timerplus/files/js/timer.js",
+        category: "Sales"
+    },
+    {
+        name: "JetPrint Fulfillment",
+        short_description: "Print-On-Demand Fulfillment",
+        app_store_url: "https://apps.shopify.com/jetprint-fulfillment",
+        website_url: "https://www.jetprintapp.com",
+        script_pattern: "customization.jetprintapp.com",
+        category: "Store Design"
+    },
+    {
+        name: "Uplinkly",
+        short_description: "Sticky Cart",
+        app_store_url: "https://apps.shopify.com/sticky-cart-by-uplinkly",
+        website_url: "https://www.uplinkly.com",
+        script_pattern: "sticky-cart.uplinkly-static.com",
+        category: "Store Design"
+    },
+    {
+        name: "Smart Push Marketing",
+        short_description: "Web push notifications",
+        app_store_url: "https://apps.shopify.com/web-push-notification",
+        website_url: "https://hextom.com",
+        script_pattern: "smartpushmarketing.js",
+        category: "Marketing"
+    },
+    {
+        name: "Yeps",
+        short_description: "Shipping & announcement bar",
+        app_store_url: "https://apps.shopify.com/yeps-io",
+        website_url: "https://yeps.io",
+        script_pattern: "app.yeps.io",
+        category: "Store Design"
+    },
+    {
+        name: "Nfcube",
+        short_description: "Instagram Feed",
+        app_store_url: "https://apps.shopify.com/instafeed",
+        website_url: "https://shopify.nfcube.com",
+        script_pattern: "instafeed.nfcube.com",
+        category: "Marketing"
+    },
+    {
+        name: "ID Discount",
+        short_description: "Military Discount",
+        app_store_url: "https://apps.shopify.com/military-discount",
+        website_url: "https://id.discount",
+        script_pattern: "cdn.id.discount/seller/launcher.js",
+        category: "Marketing"
+    },
+    {
+        name: "AuthentiPix",
+        short_description: "Let your best customers become your brand ambassadors",
+        app_store_url: "https://apps.shopify.com/instagration",
+        website_url: "http://authentipix.com",
+        script_pattern: "authentipix.js",
+        category: "Store Design"
     }
 ];
