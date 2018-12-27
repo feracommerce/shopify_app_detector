@@ -470,7 +470,7 @@ var SHOPIFY_APPS = [
         short_description: "Product Upsell & Cross-sell",
         app_store_url: "https://apps.shopify.com/cart-convert",
         website_url: "https://eastsideco.com/",
-        script_pattern: "client.js",
+        script_pattern: ".cartconvert.eastsideapps.io",
         category: "Sales"
     },
     {
@@ -878,7 +878,7 @@ var SHOPIFY_APPS = [
         short_description: "Customer support helpdesk with live chat, ticketing, and FAQ",
         app_store_url: "https://apps.shopify.com/reamaze",
         website_url: "https://www.reamaze.com",
-        script_pattern: "reamaze.com/assets/reamaze.js",
+        script_pattern: "reamaze.com",
         category: "Customer service"
     },
     {
@@ -1992,6 +1992,86 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/shop-the-look-4",
         website_url: "https://shopthelookapp.com",
         script_pattern: "shopthelook.js",
+        category: "Sales"
+    },
+    {
+        name: "Smart eu cookie banner",
+        short_description: "Banner, Block Cookies",
+        app_store_url: "https://apps.shopify.com/smart-eu-cookie-banner",
+        website_url: "",
+        script_pattern: "smarteucookiebanner.upsell-apps.com",
+        category: "Trust and security"
+    },
+    {
+        name: "Broadcast Bar",
+        short_description: "Display your broadcast news",
+        app_store_url: "https://apps.shopify.com/broadcast-bar",
+        website_url: "https://www.zestard.com",
+        script_pattern: "broadcast-bar/public/js/newsticker-app.js",
+        category: "Store Design"
+    },
+    {
+        name: "Getbread",
+        short_description: "Place Bread checkout buttons",
+        app_store_url: "https://shopify.getbread.com",
+        website_url: "https://www.getbread.com",
+        script_pattern: "shopify.getbread.com",
+        category: "Store Design"
+    },
+    {
+        name: "ReConvert",
+        short_description: "ReConvert post purchase",
+        app_store_url: "https://apps.shopify.com/reconvert",
+        website_url: "https://stilyoapps.info",
+        script_pattern: "store_reconvert.js",
+        category: "Sales"
+    },
+    {
+        name: "Sales Countdown Timer",
+        short_description: "Countdown Timer",
+        app_store_url: "https://apps.shopify.com/sales-countdown-timer-bar",
+        website_url: "https://spur-i-t.com",
+        script_pattern: "sales-countdown-timer/js/common.js",
+        category: "Sales"
+    },
+    {
+        name: "Klevu Search",
+        short_description: "Instant smart search",
+        app_store_url: "https://apps.shopify.com/klevu-smart-search",
+        website_url: "https://www.klevu.com",
+        script_pattern: "js.klevu.com",
+        category: "Store Design"
+    },
+    {
+        name: "AdNabu",
+        short_description: "Google Ads",
+        app_store_url: "https://apps.shopify.com/partners/adnabu-inc",
+        website_url: "https://www.adnabu.com",
+        script_pattern: "storage.googleapis.com/adnabu-shopify",
+        category: "Marketing"
+    },
+    {
+        name: "Pop‑Up Builder",
+        short_description: "Pop‑Up Builder",
+        app_store_url: "https://apps.shopify.com/pop-up-builder",
+        website_url: "https://www.lumifish.com",
+        script_pattern: "lumifish-pop-up.appspot.com/popup.js",
+        category: "Store Design"
+    },
+    {
+        name: "Add to cart button",
+        short_description: "",
+        app_store_url: "https://apps.shopify.com/add-to-cart",
+        website_url: "Add to cart button and buy button",
+        script_pattern: "add-to-cart.js",
+        category: "Store Design"
+    },
+    {
+        name: "SimplyTick",
+        short_description: "Reporting",
+        app_store_url: "https://apps.shopify.com/simplytick",
+        website_url: "https://simplytick.com",
+        script_pattern: "simplytick.com",
         category: "Sales"
     }
 ];

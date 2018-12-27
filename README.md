@@ -299,6 +299,16 @@ puts JSON.pretty_generate(list)
 248. Carts Guru - https://apps.shopify.com/cartsguru
 249. Kiwi Size Chart - https://apps.shopify.com/kiwi-sizing
 250. Shop The Look - https://apps.shopify.com/shop-the-look-4
+251. Smart eu cookie banner - https://apps.shopify.com/smart-eu-cookie-banner
+252. Broadcast Bar - https://apps.shopify.com/broadcast-bar
+253. Getbread - https://shopify.getbread.com
+254. ReConvert - https://apps.shopify.com/reconvert
+255. Sales Countdown Timer - https://apps.shopify.com/sales-countdown-timer-bar
+256. Klevu Search - https://apps.shopify.com/klevu-smart-search
+257. AdNabu - https://apps.shopify.com/partners/adnabu-inc
+258. Pop‑Up Builder - https://apps.shopify.com/pop-up-builder
+259. Add to cart button - https://apps.shopify.com/add-to-cart
+260. SimplyTick - https://apps.shopify.com/simplytick
 
 
 # Contributing to the Repo
