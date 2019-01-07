@@ -82,6 +82,14 @@ var SHOPIFY_APPS = [
         category: "Marketing"
     },
     {
+        name: "Smile.io",
+        short_description: "Loyalty Points, VIP, Referral Programs",
+        app_store_url: "https://apps.shopify.com/smile-io",
+        website_url: "https://smile.io",
+        script_pattern: "sweettooth.io",
+        category: "Marketing"
+    },
+    {
         name: "Mailchimp",
         short_description: "Email & Marketing",
         app_store_url: "https://apps.shopify.com/mailchimp",
