@@ -42,15 +42,15 @@ SAD.Content = function(opts) {
         }, false);
 
         if (document.readyState === "complete") {
-            if (typeof chrome !== 'undefined') self.sendScriptsToSad();
+            if (typeof chrome !== 'undefined') setTimeout(self.sendScriptsToSad, 1000);
         } else {
             if (typeof chrome !== 'undefined') self.sendLoading();
 
             if(window.attachEvent) {
-                window.attachEvent('onload', self.sendScriptsToSad);
+                window.attachEvent('onload', function() { setTimeout(self.sendScriptsToSad, 1000); });
                 window.attachEvent('unload', self.sendLoading);
             } else {
-                window.addEventListener('load', self.sendScriptsToSad, false);
+                window.addEventListener('load', function() { setTimeout(self.sendScriptsToSad, 1000); }, false);
             }
 
         }
