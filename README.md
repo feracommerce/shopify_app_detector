@@ -50,7 +50,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (250)
+# Current List of Detectable Apps (270)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -310,7 +310,17 @@ puts JSON.pretty_generate(list)
 257. AdNabu - https://apps.shopify.com/partners/adnabu-inc
 258. Pop‑Up Builder - https://apps.shopify.com/pop-up-builder
 259. Add to cart button - https://apps.shopify.com/add-to-cart
-260. SimplyTick - https://apps.shopify.com/simplytick
+260. Sky Watcher - https://apps.shopify.com/sky-watcher
+261. ProFit - https://apps.shopify.com/alomafit-vfr-light-1
+262. XE Currency Converter - https://apps.shopify.com/xe-currency-converter
+263. All‑in‑one Bar - https://apps.shopify.com/all-in-one-bar
+264. Sitejabber - https://apps.shopify.com/sitejabber-free-store-reviews-traffic-leads
+265. Ultimate Sales Boost - https://apps.shopify.com/ultimate-sales-boost
+266. Multi Currency Converter - https://apps.shopify.com/multi-currency-converter
+267. Cool Image Magnifier - https://apps.shopify.com/cool-image-magnifier
+268. Bold Loyalty Points - https://apps.shopify.com/loyalty-points-by-bold
+269. App1pro - https://apps.shopify.com/related-products-pro
+270. Leadslide (Multiple possibilites) - https://apps.shopify.com/partners/developer-dd332b77623f4d86
 
 
 # Contributing to the Repo

@@ -1,4 +1,4 @@
-// Last updated December 27, 2018.
+// Last updated January 08, 2019.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
@@ -1351,7 +1351,7 @@ var SHOPIFY_APPS = [
         short_description: "Reporting",
         app_store_url: "https://apps.shopify.com/simplytick",
         website_url: "https://simplytick.com/",
-        script_pattern: "track.js",
+        script_pattern: "simplytick.com",
         category: "Sales"
     },
     {
@@ -2075,11 +2075,91 @@ var SHOPIFY_APPS = [
         category: "Store Design"
     },
     {
-        name: "SimplyTick",
-        short_description: "Reporting",
-        app_store_url: "https://apps.shopify.com/simplytick",
-        website_url: "https://simplytick.com",
-        script_pattern: "simplytick.com",
+        name: "Sky Watcher",
+        short_description: "Increase Sales With Social Proof",
+        app_store_url: "https://apps.shopify.com/sky-watcher",
+        website_url: "https://gravitate.io/",
+        script_pattern: "skywatcher.io",
+        category: "Sales"
+    },
+    {
+        name: "ProFit",
+        short_description: "Virtual Fitting Room For Online Fashion Stores",
+        app_store_url: "https://apps.shopify.com/alomafit-vfr-light-1",
+        website_url: "https://www.alomafit.com",
+        script_pattern: ".alomafit.com/sticky_try.js",
+        category: "Store Design"
+    },
+    {
+        name: "XE",
+        short_description: "Currency Converter",
+        app_store_url: "https://apps.shopify.com/xe-currency-converter",
+        website_url: "https://www.xe.com",
+        script_pattern: "xecurrency.js",
+        category: "Store Design"
+    },
+    {
+        name: "All‑in‑one Bar",
+        short_description: "Announcement bar",
+        app_store_url: "https://apps.shopify.com/all-in-one-bar",
+        website_url: "",
+        script_pattern: "all-in-one-bar.js",
+        category: "Store Design"
+    },
+    {
+        name: "Sitejabber",
+        short_description: "Store Reviews",
+        app_store_url: "https://apps.shopify.com/sitejabber-free-store-reviews-traffic-leads",
+        website_url: "https://www.sitejabber.com",
+        script_pattern: ".sitejabber.com",
+        category: "Sales"
+    },
+    {
+        name: "Ultimate Sales Boost",
+        short_description: "Increase sales with scarcity, urgency, trust, countdown timer",
+        app_store_url: "https://apps.shopify.com/ultimate-sales-boost",
+        website_url: "https://hextom.com",
+        script_pattern: "lastsecondcoupon/js/ultimatesalesboost.js",
+        category: "Sales"
+    },
+    {
+        name: "Currency Converter",
+        short_description: "Provide localized shopping experience, increase global sales",
+        app_store_url: "https://apps.shopify.com/multi-currency-converter",
+        website_url: "https://hextom.com",
+        script_pattern: "lastsecondcoupon/js/multicurrencyconverter.js",
+        category: "Store Design"
+    },
+    {
+        name: "Cool Image Magnifier",
+        short_description: "Magnifier-like zoom for your product images",
+        app_store_url: "https://apps.shopify.com/cool-image-magnifier",
+        website_url: "https://www.codeblackbelt.com",
+        script_pattern: ".codeblackbelt.com/js/modules/cool-image-magnifier",
+        category: "Store Design"
+    },
+    {
+        name: "Bold Loyalty Points",
+        short_description: "Flexible loyalty program",
+        app_store_url: "https://apps.shopify.com/loyalty-points-by-bold",
+        website_url: "https://boldcommerce.com/loyalty-points",
+        script_pattern: "loy.boldapps.net",
+        category: "Marketing"
+    },
+    {
+        name: "App1pro",
+        short_description: "Related Products",
+        app_store_url: "https://apps.shopify.com/related-products-pro",
+        website_url: "http://app1pro.com",
+        script_pattern: "app1pro.b-cdn.net/relatedproduct/js/relatedproduct.min.js",
+        category: "Sales"
+    },
+    {
+        name: "Leadslide (Multiple possibilites)",
+        short_description: "Coupon Popup, Upsells, Shipping Bar",
+        app_store_url: "https://apps.shopify.com/partners/developer-dd332b77623f4d86",
+        website_url: "https://leadslide.com",
+        script_pattern: "leadslide-js",
         category: "Sales"
     }
 ];
