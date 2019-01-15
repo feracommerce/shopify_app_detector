@@ -271,56 +271,56 @@ puts JSON.pretty_generate(list)
 218. Bold Brain - https://apps.shopify.com/the-bold-brain
 219. OptiMonk - https://apps.shopify.com/optimonk
 220. NoFraud - https://apps.shopify.com/nofraud-chargeback-prevention-and-protection
-221. Recart - https://apps.shopify.com/recart
-222. Product Customizer - https://apps.shopify.com/product-customizer
-223. Verge - https://apps.shopify.com/seo-json-ld-boost-by-verge
-224. Varinode Trust - https://apps.shopify.com/trust
-225. Pre‑Order Hero - https://apps.shopify.com/pre-order-hero
-226. Custom Product Options - https://apps.shopify.com/best-custom-product-options
-227. Globo - https://apps.shopify.com/straight-to-checkout-skip-cart
-228. Skip Cart - https://apps.shopify.com/skip-cart-the-fast-way-to-checkout
-229. Metrilo - https://apps.shopify.com/metrilo
-230. W3 Store Locator - https://apps.shopify.com/store-locator-w3
-231. Marsello Loyalty - https://apps.shopify.com/marsello
-232. Uploadery - https://apps.shopify.com/uploadery
-233. Cooki - https://apps.shopify.com/cooki
-234. Giftship - https://apps.shopify.com/giftship
-235. EasyVideo - https://apps.shopify.com/easyvideo
-236. Email Before Download - https://apps.shopify.com/email-before-download
-237. Pixel Perfect - https://apps.shopify.com/pixel-perfect
-238. Teelaunch - https://apps.shopify.com/teelaunch-1
-239. Timer Plus - https://apps.shopify.com/timer-plus
-240. JetPrint Fulfillment - https://apps.shopify.com/jetprint-fulfillment
-241. Uplinkly - https://apps.shopify.com/sticky-cart-by-uplinkly
-242. Smart Push Marketing - https://apps.shopify.com/web-push-notification
-243. Yeps - https://apps.shopify.com/yeps-io
-244. Instagram Feed - https://apps.shopify.com/instafeed
-245. ID Discount - https://apps.shopify.com/military-discount
-246. AuthentiPix - https://apps.shopify.com/instagration
-247. Sky Pilot - https://apps.shopify.com/sky-pilot
-248. Carts Guru - https://apps.shopify.com/cartsguru
-249. Kiwi Size Chart - https://apps.shopify.com/kiwi-sizing
-250. Shop The Look - https://apps.shopify.com/shop-the-look-4
-251. Smart eu cookie banner - https://apps.shopify.com/smart-eu-cookie-banner
-252. Broadcast Bar - https://apps.shopify.com/broadcast-bar
-253. Getbread - https://shopify.getbread.com
-254. ReConvert - https://apps.shopify.com/reconvert
-255. Sales Countdown Timer - https://apps.shopify.com/sales-countdown-timer-bar
-256. Klevu Search - https://apps.shopify.com/klevu-smart-search
-257. AdNabu - https://apps.shopify.com/partners/adnabu-inc
-258. Pop‑Up Builder - https://apps.shopify.com/pop-up-builder
-259. Add to cart button - https://apps.shopify.com/add-to-cart
-260. Sky Watcher - https://apps.shopify.com/sky-watcher
-261. ProFit - https://apps.shopify.com/alomafit-vfr-light-1
-262. XE Currency Converter - https://apps.shopify.com/xe-currency-converter
-263. All‑in‑one Bar - https://apps.shopify.com/all-in-one-bar
-264. Sitejabber - https://apps.shopify.com/sitejabber-free-store-reviews-traffic-leads
-265. Ultimate Sales Boost - https://apps.shopify.com/ultimate-sales-boost
-266. Multi Currency Converter - https://apps.shopify.com/multi-currency-converter
-267. Cool Image Magnifier - https://apps.shopify.com/cool-image-magnifier
-268. Bold Loyalty Points - https://apps.shopify.com/loyalty-points-by-bold
-269. App1pro - https://apps.shopify.com/related-products-pro
-270. Leadslide (Multiple possibilites) - https://apps.shopify.com/partners/developer-dd332b77623f4d86
+221. Product Customizer - https://apps.shopify.com/product-customizer
+222. Verge - https://apps.shopify.com/seo-json-ld-boost-by-verge
+223. Varinode Trust - https://apps.shopify.com/trust
+224. Pre‑Order Hero - https://apps.shopify.com/pre-order-hero
+225. Custom Product Options - https://apps.shopify.com/best-custom-product-options
+226. Globo - https://apps.shopify.com/straight-to-checkout-skip-cart
+227. Skip Cart - https://apps.shopify.com/skip-cart-the-fast-way-to-checkout
+228. Metrilo - https://apps.shopify.com/metrilo
+229. W3 Store Locator - https://apps.shopify.com/store-locator-w3
+230. Marsello Loyalty - https://apps.shopify.com/marsello
+231. Uploadery - https://apps.shopify.com/uploadery
+232. Cooki - https://apps.shopify.com/cooki
+233. Giftship - https://apps.shopify.com/giftship
+234. EasyVideo - https://apps.shopify.com/easyvideo
+235. Email Before Download - https://apps.shopify.com/email-before-download
+236. Pixel Perfect - https://apps.shopify.com/pixel-perfect
+237. Teelaunch - https://apps.shopify.com/teelaunch-1
+238. Timer Plus - https://apps.shopify.com/timer-plus
+239. JetPrint Fulfillment - https://apps.shopify.com/jetprint-fulfillment
+240. Uplinkly - https://apps.shopify.com/sticky-cart-by-uplinkly
+241. Smart Push Marketing - https://apps.shopify.com/web-push-notification
+242. Yeps - https://apps.shopify.com/yeps-io
+243. Instagram Feed - https://apps.shopify.com/instafeed
+244. ID Discount - https://apps.shopify.com/military-discount
+245. AuthentiPix - https://apps.shopify.com/instagration
+246. Sky Pilot - https://apps.shopify.com/sky-pilot
+247. Carts Guru - https://apps.shopify.com/cartsguru
+248. Kiwi Size Chart - https://apps.shopify.com/kiwi-sizing
+249. Shop The Look - https://apps.shopify.com/shop-the-look-4
+250. Smart eu cookie banner - https://apps.shopify.com/smart-eu-cookie-banner
+251. Broadcast Bar - https://apps.shopify.com/broadcast-bar
+252. Getbread - https://shopify.getbread.com
+253. ReConvert - https://apps.shopify.com/reconvert
+254. Sales Countdown Timer - https://apps.shopify.com/sales-countdown-timer-bar
+255. Klevu Search - https://apps.shopify.com/klevu-smart-search
+256. AdNabu - https://apps.shopify.com/partners/adnabu-inc
+257. Pop‑Up Builder - https://apps.shopify.com/pop-up-builder
+258. Add to cart button - https://apps.shopify.com/add-to-cart
+259. Sky Watcher - https://apps.shopify.com/sky-watcher
+260. ProFit - https://apps.shopify.com/alomafit-vfr-light-1
+261. XE Currency Converter - https://apps.shopify.com/xe-currency-converter
+262. All‑in‑one Bar - https://apps.shopify.com/all-in-one-bar
+263. Sitejabber - https://apps.shopify.com/sitejabber-free-store-reviews-traffic-leads
+264. Ultimate Sales Boost - https://apps.shopify.com/ultimate-sales-boost
+265. Multi Currency Converter - https://apps.shopify.com/multi-currency-converter
+266. Cool Image Magnifier - https://apps.shopify.com/cool-image-magnifier
+267. Bold Loyalty Points - https://apps.shopify.com/loyalty-points-by-bold
+268. App1pro - https://apps.shopify.com/related-products-pro
+269. Leadslide (Multiple possibilites) - https://apps.shopify.com/partners/developer-dd332b77623f4d86
+270. Seguno - https://apps.shopify.com/coupon-banner-with-countdown-carousel
 
 
 # Contributing to the Repo
