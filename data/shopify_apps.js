@@ -278,7 +278,7 @@ var SHOPIFY_APPS = [
         short_description: "Facebook Messenger Marketing & Abandoned Cart App",
         app_store_url: "https://apps.shopify.com/recart",
         website_url: "https://recart.com",
-        script_pattern: "messenger/loader.js",
+        script_pattern: "api.recart.com",
         category: "Sales"
     },
     {
@@ -1763,14 +1763,6 @@ var SHOPIFY_APPS = [
         category: "Orders and shipping"
     },
     {
-        name: "Recart",
-        short_description: "Messenger Marketing",
-        app_store_url: "https://apps.shopify.com/recart",
-        website_url: "https://recart.com",
-        script_pattern: "api.recart.com",
-        category: "Marketing"
-    },
-    {
         name: "Product Customizer",
         short_description: "Easily add options, variants & customization to your products",
         app_store_url: "https://apps.shopify.com/product-customizer",
@@ -2161,5 +2153,13 @@ var SHOPIFY_APPS = [
         website_url: "https://leadslide.com",
         script_pattern: "leadslide-js",
         category: "Sales"
+    },
+    {
+        name: "Seguno",
+        short_description: "Dynamic Banner Suite",
+        app_store_url: "https://apps.shopify.com/coupon-banner-with-countdown-carousel",
+        website_url: "https://www.seguno.com",
+        script_pattern: ".seguno.com",
+        category: "Store Design"
     }
 ];
