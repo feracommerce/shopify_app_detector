@@ -1,4 +1,4 @@
-// Last updated January 08, 2019.
+// Last updated January 16, 2019.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
