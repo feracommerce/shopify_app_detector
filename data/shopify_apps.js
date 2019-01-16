@@ -2107,14 +2107,6 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-        name: "Ultimate Sales Boost",
-        short_description: "Increase sales with scarcity, urgency, trust, countdown timer",
-        app_store_url: "https://apps.shopify.com/ultimate-sales-boost",
-        website_url: "https://hextom.com",
-        script_pattern: "lastsecondcoupon/js/ultimatesalesboost.js",
-        category: "Sales"
-    },
-    {
         name: "Currency Converter",
         short_description: "Provide localized shopping experience, increase global sales",
         app_store_url: "https://apps.shopify.com/multi-currency-converter",
@@ -2160,6 +2152,30 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/coupon-banner-with-countdown-carousel",
         website_url: "https://www.seguno.com",
         script_pattern: ".seguno.com",
+        category: "Store Design"
+    },
+    {
+        name: "Countdown Timer",
+        short_description: "Add Countdown Timer your Store & generate Urgency",
+        app_store_url: "https://apps.shopify.com/cowntdown-timer-by-revy",
+        website_url: "https://revy.io",
+        script_pattern: "api.revy.io/timer.js",
+        category: "Sales"
+    },
+    {
+        name: "Revy - UpSell",
+        short_description: "Increase & Maximize average order value and sales with UpSell",
+        app_store_url: "https://apps.shopify.com/sales-booster-upsell-cross-sell-by-revy-shopify-apps",
+        website_url: "https://revy.io",
+        script_pattern: "api.revy.io/upsell.js",
+        category: "Sales"
+    },
+    {
+        name: "Hide PayPal in Cart",
+        short_description: "Hide PayPal button to improve customer checkout experience",
+        app_store_url: "https://apps.shopify.com/hide-paypal-in-cart",
+        website_url: "https://inscoder.com",
+        script_pattern: "hidepaypal2-static.inscoder.com",
         category: "Store Design"
     }
 ];
