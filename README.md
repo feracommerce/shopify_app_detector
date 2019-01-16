@@ -314,14 +314,14 @@ puts JSON.pretty_generate(list)
 261. XE Currency Converter - https://apps.shopify.com/xe-currency-converter
 262. All‑in‑one Bar - https://apps.shopify.com/all-in-one-bar
 263. Sitejabber - https://apps.shopify.com/sitejabber-free-store-reviews-traffic-leads
-264. Ultimate Sales Boost - https://apps.shopify.com/ultimate-sales-boost
-265. Multi Currency Converter - https://apps.shopify.com/multi-currency-converter
-266. Cool Image Magnifier - https://apps.shopify.com/cool-image-magnifier
-267. Bold Loyalty Points - https://apps.shopify.com/loyalty-points-by-bold
-268. App1pro - https://apps.shopify.com/related-products-pro
-269. Leadslide (Multiple possibilites) - https://apps.shopify.com/partners/developer-dd332b77623f4d86
-270. Seguno - https://apps.shopify.com/coupon-banner-with-countdown-carousel
-271. Countdown Timer - https://apps.shopify.com/cowntdown-timer-by-revy
+264. Multi Currency Converter - https://apps.shopify.com/multi-currency-converter
+265. Cool Image Magnifier - https://apps.shopify.com/cool-image-magnifier
+266. Bold Loyalty Points - https://apps.shopify.com/loyalty-points-by-bold
+267. App1pro - https://apps.shopify.com/related-products-pro
+268. Leadslide (Multiple possibilites) - https://apps.shopify.com/partners/developer-dd332b77623f4d86
+269. Seguno - https://apps.shopify.com/coupon-banner-with-countdown-carousel
+270. Countdown Timer - https://apps.shopify.com/cowntdown-timer-by-revy
+271. Revy UpSell - https://apps.shopify.com/sales-booster-upsell-cross-sell-by-revy-shopify-apps
 272. Hide PayPal in Cart - https://apps.shopify.com/hide-paypal-in-cart
 
 # Contributing to the Repo
