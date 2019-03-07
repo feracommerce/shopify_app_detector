@@ -1,4 +1,4 @@
-// Last updated January 16, 2019.
+// Last updated March 07, 2019.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
@@ -2177,5 +2177,45 @@ var SHOPIFY_APPS = [
         website_url: "https://inscoder.com",
         script_pattern: "hidepaypal2-static.inscoder.com",
         category: "Store Design"
+    },
+    {
+        name: "Secomapp Currency Switcher",
+        short_description: "Currency Switcher",
+        app_store_url: "https://apps.shopify.com/currency-switcher",
+        website_url: "https://www.secomapp.com/currency-switcher-app",
+        script_pattern: "cdn.secomapp.com/currency_switcher",
+        category: "Store Design"
+    },
+    {
+        name: "Cart Activity",
+        short_description: "Get a newsfeed of what shoppers are doing on your site",
+        app_store_url: "https://apps.shopify.com/cart-activity",
+        website_url: "https://www.secomapp.com/currency-switcher-app",
+        script_pattern: ".cartactivity.com/assets/recent_activities.js",
+        category: "Sales"
+    },
+    {
+        name: "Panda",
+        short_description: "Language Translate",
+        app_store_url: "https://apps.shopify.com/translate",
+        website_url: "https://pandaapps.in",
+        script_pattern: "pandaapps.in/apps/languagepanda",
+        category: "Store Design"
+    },
+    {
+        name: "Lifter Apps",
+        short_description: "Pop‑Up Window",
+        app_store_url: "https://apps.shopify.com/pop-up-window",
+        website_url: "https://lifterapps.com",
+        script_pattern: "popup4.lifterpopup.com",
+        category: "Marketing"
+    },
+    {
+        name: "AutoCommerce",
+        short_description: "Amazon-like product recommendations",
+        app_store_url: "https://apps.shopify.com/orcinus-product-recommendation",
+        website_url: "http://autocommerce.io",
+        script_pattern: "rec.autocommerce.io/recommender_javascript",
+        category: "Sales"
     }
 ];
