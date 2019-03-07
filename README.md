@@ -323,6 +323,11 @@ puts JSON.pretty_generate(list)
 270. Countdown Timer - https://apps.shopify.com/cowntdown-timer-by-revy
 271. Revy UpSell - https://apps.shopify.com/sales-booster-upsell-cross-sell-by-revy-shopify-apps
 272. Hide PayPal in Cart - https://apps.shopify.com/hide-paypal-in-cart
+273. Secomapp Currency Switcher - https://apps.shopify.com/currency-switcher
+274. Cart Activity - https://apps.shopify.com/cart-activity
+275. Panda Language Translate - https://apps.shopify.com/translate
+276. Lifter Apps Pop‑Up Window - https://apps.shopify.com/pop-up-window
+277. AutoCommerce - https://apps.shopify.com/orcinus-product-recommendation
 
 # Contributing to the Repo
 
