@@ -50,7 +50,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (272)
+# Current List of Detectable Apps (278)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -328,6 +328,7 @@ puts JSON.pretty_generate(list)
 275. Panda Language Translate - https://apps.shopify.com/translate
 276. Lifter Apps Pop‑Up Window - https://apps.shopify.com/pop-up-window
 277. AutoCommerce - https://apps.shopify.com/orcinus-product-recommendation
+278. WooHoo - https://apps.shopify.com/woohoo
 
 # Contributing to the Repo
 
