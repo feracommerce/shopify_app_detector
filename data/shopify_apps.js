@@ -1,4 +1,4 @@
-// Last updated March 07, 2019.
+// Last updated April 24, 2019.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
@@ -2216,6 +2216,14 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/orcinus-product-recommendation",
         website_url: "http://autocommerce.io",
         script_pattern: "rec.autocommerce.io/recommender_javascript",
+        category: "Sales"
+    },
+    {
+        name: "WooHoo",
+        short_description: "Gamified Popups",
+        app_store_url: "https://apps.shopify.com/woohoo",
+        website_url: "https://getwoohoo.com",
+        script_pattern: "app.getwoohoo.com",
         category: "Sales"
     }
 ];
