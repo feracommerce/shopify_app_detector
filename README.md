@@ -50,7 +50,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (278)
+# Current List of Detectable Apps (300)
 1. Fera.ai - https://apps.shopify.com/fera
 2. Tawk.to - https://apps.shopify.com/tawk-to
 3. Privy - https://apps.shopify.com/privy
@@ -329,6 +329,28 @@ puts JSON.pretty_generate(list)
 276. Lifter Apps Pop‑Up Window - https://apps.shopify.com/pop-up-window
 277. AutoCommerce - https://apps.shopify.com/orcinus-product-recommendation
 278. WooHoo - https://apps.shopify.com/woohoo
+279. In‑Store Reserver - https://apps.shopify.com/reserve-in-store-by-fera
+280. Tidio.co - https://apps.shopify.com/tidio-chat
+281. Upsell KAD Systems - https://apps.shopify.com/upsell-system
+282. Nextsale - https://apps.shopify.com/nextsale
+283. Revy Unlimited Bundles and Discounts - https://apps.shopify.com/product-bundles-discounts-by-revy
+284. NDNAPPS Banner Slider - https://apps.shopify.com/banner-slider-1
+285. Volume and Tiered Discounts - https://apps.shopify.com/volume-discount-by-hulkapps
+286. Trust Badge Master - https://apps.shopify.com/badge-master-by-hulkapps
+287. Ultimate Upsell - https://apps.shopify.com/ultimate-upsell
+288. Mageworx Advanced Bundle Products - https://apps.shopify.com/grouped-products
+289. Message Mate Texting Platform - https://apps.shopify.com/message-mate
+290. Post Purchase Upselly - https://apps.shopify.com/upsell-pop
+291. OrderLogic - https://apps.shopify.com/orderlogic
+292. EU Cookie Bar - https://apps.shopify.com/eu-cookie-bar
+293. Omega Instant Search - https://apps.shopify.com/omega-instant-search
+294. Sales Notifications pop up - https://apps.shopify.com/livebar
+295. GDPR Cookie Compiler - https://apps.shopify.com/eu-cookie-compiler
+296. Sales Pop up Notifications - https://apps.shopify.com/recent-sales-popup-notifications-1
+297. Pixel Union Ultimate Special Offers - https://apps.shopify.com/special-offers
+298. Product Discount - https://apps.shopify.com/discount-master
+299. Upsell Cross‑Sell - https://apps.shopify.com/upsell-cross-sell-smart-tool
+300. Instant Brand Page - https://apps.shopify.com/instant-brand-page
 
 # Contributing to the Repo
 

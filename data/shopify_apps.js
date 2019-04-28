@@ -1,4 +1,4 @@
-// Last updated April 24, 2019.
+// Last updated April 28, 2019.
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
@@ -8,6 +8,23 @@ var SHOPIFY_APPS = [
         website_url: "https://www.fera.ai",
         script_pattern: "bananastand.js",
         category: "Sales"
+    },
+    {
+        name: 'Fera.ai',
+        short_description: 'Real-time personalization + CRO (w/ timers, social proof, counters, etc.)',
+        long_description: 'Real-time personalization and conversion rate optimization platform with built-in promo bars, popups, timers, social proof, counters, etc.',
+        app_store_url: 'https://apps.shopify.com/fera',
+        website_url: "https://www.fera.ai",
+        script_pattern: "fera.js",
+        category: "Sales"
+    },
+    {
+        name: 'In‑Store Reserver',
+        short_description: 'Provide your customers with the ease of reserving items and checking them out or picking them up in a retail store.',
+        app_store_url: 'https://apps.shopify.com/reserve-in-store-by-fera', 
+        website_url: "https://www.fera.ai",
+        script_pattern: "reserveinstore.js",
+        category: "Orders and shipping"
     },
     {
         name: "Tawk.to",
@@ -454,7 +471,7 @@ var SHOPIFY_APPS = [
         short_description: "Sticky Buy Button",
         app_store_url: "https://apps.shopify.com/mps-buy-me",
         website_url: "https://makeprosimp.com/",
-        script_pattern: "buy-me.makeprosimp.com/app/js/app.js",
+        script_pattern: "buy-me-cdn.makeprosimp.com",
         category: "Sales"
     },
     {
@@ -1070,7 +1087,7 @@ var SHOPIFY_APPS = [
         short_description: "Get GDPR compliant with 1 click. Cookie bar",
         app_store_url: "https://apps.shopify.com/easy-gdpr",
         website_url: "https://www.easygdpr.io",
-        script_pattern: "gdpr-app.firebaseapp.com/gdpr.min.js",
+        script_pattern: "gdpr.min.js",
         category: "Customer service"
     },
     {
@@ -1983,7 +2000,7 @@ var SHOPIFY_APPS = [
         short_description: "Manage all your size charts",
         app_store_url: "https://apps.shopify.com/kiwi-sizing",
         website_url: "",
-        script_pattern: "api.carts.guru",
+        script_pattern: "kiwishopapps.com",
         category: "Store Design"
     },
     {
@@ -2060,9 +2077,9 @@ var SHOPIFY_APPS = [
     },
     {
         name: "Add to cart button",
-        short_description: "",
+        short_description: "Add to cart button and buy button",
         app_store_url: "https://apps.shopify.com/add-to-cart",
-        website_url: "Add to cart button and buy button",
+        website_url: "https://www.goldendev.win/shopify/add-to-cart/support",
         script_pattern: "add-to-cart.js",
         category: "Store Design"
     },
@@ -2224,6 +2241,174 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/woohoo",
         website_url: "https://getwoohoo.com",
         script_pattern: "app.getwoohoo.com",
+        category: "Sales"
+    },
+    {
+        name: "Tidio.co",
+        short_description: "Live chat boosted with Bots and Marketing Automation",
+        app_store_url: "https://apps.shopify.com/tidio-chat",
+        website_url: "http://tidio.co",
+        script_pattern: "code.tidio.co",
+        category: "Customer service"
+    },
+    {
+        name: "Upsell - KAD Systems",
+        short_description: "Generate more sales through upsells with our simple upsell app",
+        app_store_url: "https://apps.shopify.com/upsell-system",
+        website_url: "https://kad.systems",
+        script_pattern: "upsell.kad.systems",
+        category: "Sales"
+    },
+    {
+        name: "Nextsale",
+        short_description: "Social Proof, Increase Sales Pop Timers Social Proof and hurry",
+        app_store_url: "https://apps.shopify.com/nextsale",
+        website_url: "https://nextsale.io",
+        script_pattern: "cdn.nextsale.io",
+        category: "Sales"
+    },
+    {
+        name: "Revy Unlimited Bundles",
+        short_description: "Bundle products together with discounts and make more sales!",
+        app_store_url: "https://apps.shopify.com/product-bundles-discounts-by-revy",
+        website_url: "https://revy.io",
+        script_pattern: "api.revy.io/bundle.js",
+        category: "Store Design"
+    },
+    {
+        name: "NDNAPPS Banner Slider",
+        short_description: "Responsive banner slider, slideshow, image gallery",
+        app_store_url: "https://apps.shopify.com/banner-slider-1",
+        website_url: "https://www.ndnapps.com",
+        script_pattern: "ndnapps.com/ndnapps/banner-slider",
+        category: "Store Design"
+    },
+    {
+        name: "Volume and Tiered Discounts",
+        short_description: "Ultimate Quantity Discounts & Tiered Pricing Rule for Products",
+        app_store_url: "https://apps.shopify.com/volume-discount-by-hulkapps",
+        website_url: "https://www.hulkapps.com",
+        script_pattern: "volumediscount.hulkapps.com",
+        category: "Sales"
+    },
+    {
+        name: "Trust Badge Master",
+        short_description: "Establish trust and security to increase sales conversions",
+        app_store_url: "https://apps.shopify.com/badge-master-by-hulkapps",
+        website_url: "https://www.hulkapps.com",
+        script_pattern: "badgemaster.hulkapps.com",
+        category: "Sales"
+    },
+    {
+        name: "Ultimate Upsell",
+        short_description: "Upsell Bundles, Before Checkout or After Payment",
+        app_store_url: "https://apps.shopify.com/ultimate-upsell",
+        website_url: "https://tabarnapp.com/ultimate-upsell-shopify",
+        script_pattern: "ultimate-upsells/selectorTool.min.js",
+        category: "Sales"
+    },
+    {
+        name: "Advanced Bundle Products",
+        short_description: "Product bundles: make higher value offers and get more sales!",
+        app_store_url: "https://apps.shopify.com/grouped-products",
+        website_url: "https://appstore.mageworx.com",
+        script_pattern: "files-shpf.mageworx.com/groupedproducts",
+        category: "Sales"
+    },
+    {
+        name: "Message Mate Texting Platform",
+        short_description: "Convert more customers with the convenience of texting",
+        app_store_url: "https://apps.shopify.com/message-mate",
+        website_url: "https://ownerlistens.com",
+        script_pattern: "ownerlistens.com",
+        category: "Sales"
+    },
+    {
+        name: "Post Purchase Upselly",
+        short_description: "Increase sales by upselling products on thank you page",
+        app_store_url: "https://apps.shopify.com/upsell-pop",
+        website_url: "",
+        script_pattern: "upsellpop.harshinisystems.com/upsellpopscript.js",
+        category: "Sales"
+    },
+    {
+        name: "OrderLogic",
+        short_description: "Simple min and max product and order limits plus much more",
+        app_store_url: "https://apps.shopify.com/orderlogic",
+        website_url: "https://www.orderlogicapp.com",
+        script_pattern: "orderlogicapp.com",
+        category: "Store Design"
+    },
+    {
+        name: "EU Cookie Bar",
+        short_description: "Provide a cookie bar to European customers",
+        app_store_url: "https://apps.shopify.com/eu-cookie-bar",
+        website_url: "",
+        script_pattern: "booster-eu-cookie",
+        category: "Sales"
+    },
+    {
+        name: "Omega Instant Search",
+        short_description: "Improve store search and boost your sales",
+        app_store_url: "https://apps.shopify.com/omega-instant-search",
+        website_url: "https://omegacommerce.com/search",
+        script_pattern: "search.omegacommerce.com",
+        category: "Store Design"
+    },
+    {
+        name: "Sales Notifications pop up",
+        short_description: "Recent Sales Notifications popup for urgency and social proof",
+        app_store_url: "https://apps.shopify.com/livebar",
+        website_url: "",
+        script_pattern: "app.livebar.io",
+        category: "Sales"
+    },
+    {
+        name: "GDPR Cookie Compiler",
+        short_description: "Get GDPR Cookie Compliance Easier",
+        app_store_url: "https://apps.shopify.com/eu-cookie-compiler",
+        website_url: "https://www.metizsoft.com",
+        script_pattern: "metizapps.com/eucookie",
+        category: "Trust and Security"
+    },
+    {
+        name: "Sales Pop up Notifications",
+        short_description: "Sales Pop to boost sale & social proof with live sales pop up",
+        app_store_url: "https://apps.shopify.com/recent-sales-popup-notifications-1",
+        website_url: "https://carecart.io",
+        script_pattern: "sales-pop.carecart.io/lib/salesnotifier.js",
+        category: "Sales"
+    },
+    {
+        name: "Pixel Union Ultimate Special Offers",
+        short_description: "All your sales, discounts, and promotions in one place",
+        app_store_url: "https://apps.shopify.com/special-offers",
+        website_url: "https://www.pixelunion.net",
+        script_pattern: "storefront.cdn.pxu.co/apps/uso.js",
+        category: "Sales"
+    },
+    {
+        name: "Product Discount",
+        short_description: "Quantity Discounts/Tiered, Countdown Timer, Stock Countdown",
+        app_store_url: "https://apps.shopify.com/discount-master",
+        website_url: "https://autoketing.com",
+        script_pattern: "product-discount-dot-autoketing-production-sdk.appspot.com/dist/product-discount-embed.js",
+        category: "Sales"
+    },
+    {
+        name: "Upsell Cross‑Sell",
+        short_description: "Upsell Product, Cross-sell, Discounted Upsells, Upsell Bundles",
+        app_store_url: "https://apps.shopify.com/upsell-cross-sell-smart-tool",
+        website_url: "https://autoketing.com",
+        script_pattern: "upsell-master-dot-autoketing-production-sdk.appspot.com/dist/upsell-master-embed.js",
+        category: "Sales"
+    },
+    {
+        name: "Instant Brand Page",
+        short_description: "A-Z Brand Index Page and Favourites Slider",
+        app_store_url: "https://apps.shopify.com/instant-brand-page",
+        website_url: "http://lowfruitsolutions.com",
+        script_pattern: "cdn.instantbrandpage.lowfruitsolutions.com",
         category: "Sales"
     }
 ];
