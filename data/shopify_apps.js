@@ -2237,7 +2237,7 @@ var SHOPIFY_APPS = [
     },
     {
         name: "WooHoo",
-        short_description: "Gamified Popups",
+        short_description: "Gamified Email Popups",
         app_store_url: "https://apps.shopify.com/woohoo",
         website_url: "https://getwoohoo.com",
         script_pattern: "app.getwoohoo.com",
