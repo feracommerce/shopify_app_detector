@@ -20,7 +20,7 @@ var SHOPIFY_APPS = [
     },
     {
         name: 'In‑Store Reserver',
-        short_description: 'Provide your customers with the ease of reserving items and checking them out or picking them up in a retail store.',
+        short_description: 'Let customers reserve products online for in-store pickup',
         app_store_url: 'https://apps.shopify.com/reserve-in-store-by-fera', 
         website_url: "https://www.fera.ai",
         script_pattern: "reserveinstore.js",
