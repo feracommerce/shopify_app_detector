@@ -3,8 +3,8 @@ var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
         short_description: 'Real-time personalization + CRO (w/ timers, social proof, counters, etc.)',  // Keep this under 75 characters
-        long_description: 'Real-time personalization and conversion rate optimization platform with built-in promo bars, popups, timers, social proof, counters, etc.', 
-        app_store_url: 'https://apps.shopify.com/fera', 
+        long_description: 'Real-time personalization and conversion rate optimization platform with built-in promo bars, popups, timers, social proof, counters, etc.',
+        app_store_url: 'https://apps.shopify.com/fera',
         website_url: "https://www.fera.ai",
         script_pattern: "bananastand.js",
         category: "Sales"
@@ -21,7 +21,7 @@ var SHOPIFY_APPS = [
     {
         name: 'In‑Store Reserver',
         short_description: 'Let customers reserve products online for in-store pickup',
-        app_store_url: 'https://apps.shopify.com/reserve-in-store-by-fera', 
+        app_store_url: 'https://apps.shopify.com/reserve-in-store-by-fera',
         website_url: "https://www.fera.ai",
         script_pattern: "reserveinstore.js",
         category: "Orders and shipping"
@@ -63,7 +63,7 @@ var SHOPIFY_APPS = [
         short_description: "Pop Ups & Social Media Marketing Platform",
         app_store_url: "https://apps.shopify.com/justuno-social-email-leads",
         website_url: "https://www.justuno.com",
-        script_pattern: "scripttags.justuno.com", 
+        script_pattern: "scripttags.justuno.com",
         category: "Marketing"
     },
     {
@@ -72,14 +72,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/shogun",
         website_url: "https://getshogun.com",
         script_pattern: "cdn.getshogun.com/pixel.js",
-        category: "Marketing"
-    },
-    {
-        name: "Beeketing Apps (Multiple possibilites)",
-        short_description: "Add urgency, sales popups, happy email, better coupon box, etc.",
-        app_store_url: "https://apps.shopify.com/partners/brodev",
-        website_url: "https://beeketing.com",
-        script_pattern: "js/beeketing.js",
         category: "Marketing"
     },
     {
@@ -104,14 +96,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/smile-io",
         website_url: "https://smile.io",
         script_pattern: "sweettooth.io",
-        category: "Marketing"
-    },
-    {
-        name: "Mailchimp",
-        short_description: "Email & Marketing",
-        app_store_url: "https://apps.shopify.com/mailchimp",
-        website_url: "https://mailchimp.com",
-        script_pattern: "mcjs-connected/js",
         category: "Marketing"
     },
     {
@@ -272,14 +256,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/retargetapp-facebook-retargeting",
         website_url: "http://retargetapp.com",
         script_pattern: "pixel/pixel.min.js",
-        category: "Marketing"
-    },
-    {
-        name: "Push Nova",
-        short_description: "Web Push & Facebook Messenger Conversion Marketing",
-        app_store_url: "https://apps.shopify.com/simple-push",
-        website_url: "https://pushnova.streamlinedapps.com",
-        script_pattern: "streamlined-apps-production/streamlined-push-assets/store-site-plugin/js/streamlined-push-plugin.production.min.js",
         category: "Marketing"
     },
     {
@@ -667,14 +643,6 @@ var SHOPIFY_APPS = [
         category: "Social media"
     },
     {
-        name: "Web Desk Solution Smart Social Login",
-        short_description: "Login with your social media accounts",
-        app_store_url: "https://apps.shopify.com/smart-social-login",
-        website_url: "http://webdesksolution.com",
-        script_pattern: "loginwithsocialmedia/assets/scripts/custom/demo.js",
-        category: "Social media"
-    },
-    {
         name: "Powr.io (Multiple possibilites)",
         short_description: "Social Media Feed or icons",
         app_store_url: "https://apps.shopify.com/partners/powr-io",
@@ -747,14 +715,6 @@ var SHOPIFY_APPS = [
         category: "Social media"
     },
     {
-        name: "Elfsight Instagram",
-        short_description: "Add to website shoppable Instagram photos with tagged items",
-        app_store_url: "https://apps.shopify.com/elfsight-shoppable-feed",
-        website_url: "https://elfsight.com",
-        script_pattern: "assets/elfsight.shoppable.js",
-        category: "Social media"
-    },
-    {
         name: "Likebtn.com",
         short_description: "Get tons of likes and boost sharing",
         app_store_url: "https://apps.shopify.com/like-button-rating",
@@ -787,27 +747,11 @@ var SHOPIFY_APPS = [
         category: "Social media"
     },
     {
-        name: "Code Back Belt Facebook Image Gallery",
-        short_description: "Awesome & dynamic image gallery for your Facebook pictures",
-        app_store_url: "https://apps.shopify.com/facebook-image-gallery",
-        website_url: "https://www.codeblackbelt.com",
-        script_pattern: "js/modules/facebook-image-gallery/main.min.js",
-        category: "Social media"
-    },
-    {
         name: "CFF Shareable Cart",
         short_description: "Makes your cart shareable and transferrable between devices",
         app_store_url: "https://apps.shopify.com/portable-cart",
         website_url: "https://customerfirstfocus.com/",
         script_pattern: "cff.production.min.js",
-        category: "Social media"
-    },
-    {
-        name: "Green Frog Instagram",
-        short_description: "Instagram pic in slider & grid in instagram",
-        app_store_url: "https://apps.shopify.com/greenfrog-instashow",
-        website_url: "https://greenfrogweb.com",
-        script_pattern: "instashow/instashow.js",
         category: "Social media"
     },
     {
@@ -979,14 +923,6 @@ var SHOPIFY_APPS = [
         category: "Customer service"
     },
     {
-        name: "Intercom",
-        short_description: "Catch, convert and keep more customers with modern live chat",
-        app_store_url: "https://apps.shopify.com/intercom",
-        website_url: "http://intercom.com",
-        script_pattern: "intercomcdn.com/shim.f772198b.js",
-        category: "Customer service"
-    },
-    {
         name: "Free Call",
         short_description: "Service for Direct Sales",
         app_store_url: "https://apps.shopify.com/free-call",
@@ -1096,7 +1032,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/searchanise",
         website_url: "https://start.searchanise.com/shopify",
         script_pattern: "searchanise.com/widgets/shopify/init.js",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Hubspot",
@@ -1104,7 +1040,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/hubspot",
         website_url: "https://hubspot.com",
         script_pattern: "api.hubapi.com",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Exto",
@@ -1112,7 +1048,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/automatic-related-products",
         website_url: "http://shopify.exto.io/",
         script_pattern: "apps1.exto.io",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "Back in Stock",
@@ -1120,7 +1056,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/back-in-stock",
         website_url: "https://backinstock.org",
         script_pattern: "app.backinstock.org",
-        category: "Sales"    
+        category: "Sales"
     },
     {
         name: "SLoyalty",
@@ -1128,7 +1064,7 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/s-loyalty",
         website_url: "https://www.sloyalty.com/",
         script_pattern: "sloyalty.shopify.js",
-        category: "Marketing"    
+        category: "Marketing"
     },
     {
         name: "Trackify",
@@ -1292,14 +1228,6 @@ var SHOPIFY_APPS = [
         category: "Marketing"
     },
     {
-        name: "Upsell X",
-        short_description: "Upsell & Cross-Sel",
-        app_store_url: "https://apps.shopify.com/direct-upsell-by-eri",
-        website_url: "",
-        script_pattern: "eri-upsell-modal.js",
-        category: "Sales"
-    },
-    {
         name: "Retention Rocket",
         short_description: "Retention Marketing",
         app_store_url: "https://retentionrocket.com/",
@@ -1337,14 +1265,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/please-stay",
         website_url: "https://www.pleasestay.co",
         script_pattern: "pleasestay.js",
-        category: "Sales"
-    },
-    {
-        name: "NeatTracker",
-        short_description: "Simple product add to cart and view reports",
-        app_store_url: "https://apps.shopify.com/neattracker",
-        website_url: "https://neattracker.com",
-        script_pattern: "neattracker.js",
         category: "Sales"
     },
     {
@@ -1444,14 +1364,6 @@ var SHOPIFY_APPS = [
         category: "Trust and security"
     },
     {
-        name: "Appsolve Trustful",
-        short_description: "Trust Badges",
-        app_store_url: "https://apps.shopify.com/trust-seals-badges",
-        website_url: "https://getvitals.io",
-        script_pattern: "appsolve.io/assets/js/trust.js",
-        category: "Trust and security"
-    },
-    {
         name: "Bold Quantity Break",
         short_description: "Quantity Breaks,Tiered Pricing and Bulk Discounts",
         app_store_url: "https://apps.shopify.com/quantity-breaks",
@@ -1474,14 +1386,6 @@ var SHOPIFY_APPS = [
         website_url: "https://www.recomify.com",
         script_pattern: "app.recomify.com/script_tag.js",
         category: "Sales"
-    },
-    {
-        name: "Bought Together",
-        short_description: "Frequently Bought Together · Upsell via Bundles",
-        app_store_url: "https://apps.shopify.com/product-bundles-by-vitals",
-        website_url: "https://getvitals.io",
-        script_pattern: "appsolve.io/assets/js/product_bundles.js",
-        category: ""
     },
     {
         name: "Sales Pop",
@@ -1668,14 +1572,6 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-        name: "Growsumo - PartnerStack",
-        short_description: "Affiliate programs ",
-        app_store_url: "https://apps.shopify.com/growsumo",
-        website_url: "https://www.partnerstack.com/shopify",
-        script_pattern: "snippet.growsumo.com",
-        category: "Marketing"
-    },
-    {
         name: "Preorderly",
         short_description: "Pre orders",
         app_store_url: "https://apps.shopify.com/preorderly",
@@ -1698,14 +1594,6 @@ var SHOPIFY_APPS = [
         website_url: "https://www.codeblackbelt.com",
         script_pattern: "cdn.codeblackbelt.com/js/modules/shipping-rates-calculator-plus",
         category: "Orders"
-    },
-    {
-        name: "NS8 Visitors",
-        short_description: "Empowering merchants to understand their website traffic",
-        app_store_url: "https://apps.shopify.com/visitors",
-        website_url: "https://www.ns8.com",
-        script_pattern: "api.ns8.com/v1/analytics/script/29227008?name=latestVisitors",
-        category: "Reporting"
     },
     {
         name: "Shoelace",
@@ -1804,14 +1692,6 @@ var SHOPIFY_APPS = [
         category: "Trust and security"
     },
     {
-        name: "Pre‑Order Hero",
-        short_description: "Pre-Order to generate more sales",
-        app_store_url: "https://apps.shopify.com/pre-order-hero",
-        website_url: "",
-        script_pattern: "pre_order_hero_16200313.js",
-        category: "Orders and Shipping"
-    },
-    {
         name: "Custom Product Options",
         short_description: "Product options",
         app_store_url: "https://apps.shopify.com/best-custom-product-options",
@@ -1892,14 +1772,6 @@ var SHOPIFY_APPS = [
         category: "Store Design"
     },
     {
-        name: "Email Before Download",
-        short_description: "Smart way to gather your visitors email addresses",
-        app_store_url: "https://apps.shopify.com/email-before-download",
-        website_url: "https://www.apps2grow.us/shopify/email-before-download",
-        script_pattern: "www.apps2grow.us/white-paper/app.js",
-        category: "Marketing"
-    },
-    {
         name: "Pixel Perfect",
         short_description: "Product Feeds and Audiences made Simple",
         app_store_url: "https://apps.shopify.com/pixel-perfect",
@@ -1970,14 +1842,6 @@ var SHOPIFY_APPS = [
         website_url: "https://id.discount",
         script_pattern: "cdn.id.discount/seller/launcher.js",
         category: "Marketing"
-    },
-    {
-        name: "AuthentiPix",
-        short_description: "Let your best customers become your brand ambassadors",
-        app_store_url: "https://apps.shopify.com/instagration",
-        website_url: "http://authentipix.com",
-        script_pattern: "authentipix.js",
-        category: "Store Design"
     },
     {
         name: "Sky Pilot",
@@ -2082,14 +1946,6 @@ var SHOPIFY_APPS = [
         website_url: "https://www.goldendev.win/shopify/add-to-cart/support",
         script_pattern: "add-to-cart.js",
         category: "Store Design"
-    },
-    {
-        name: "Sky Watcher",
-        short_description: "Increase Sales With Social Proof",
-        app_store_url: "https://apps.shopify.com/sky-watcher",
-        website_url: "https://gravitate.io/",
-        script_pattern: "skywatcher.io",
-        category: "Sales"
     },
     {
         name: "ProFit",
@@ -2321,14 +2177,6 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/message-mate",
         website_url: "https://ownerlistens.com",
         script_pattern: "ownerlistens.com",
-        category: "Sales"
-    },
-    {
-        name: "Post Purchase Upselly",
-        short_description: "Increase sales by upselling products on thank you page",
-        app_store_url: "https://apps.shopify.com/upsell-pop",
-        website_url: "",
-        script_pattern: "upsellpop.harshinisystems.com/upsellpopscript.js",
         category: "Sales"
     },
     {
