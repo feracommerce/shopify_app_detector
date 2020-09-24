@@ -37,9 +37,9 @@ while (links = Nokogiri::HTML(HTTParty.get("https://themes.shopify.com/themes?pa
         list << {
             name: link.text.strip,
             theme_store_url: "https://themes.shopify.com/" + link.attributes['href'].value,
-            id: link.attributes['data-trekkie-theme-id'].value.to_i, 
-            handle: link.attributes['data-trekkie-theme-handle'].value, 
-            style_id: link.attributes['data-trekkie-style-id'].value.to_i, 
+            id: link.attributes['data-trekkie-theme-id'].value.to_i,
+            handle: link.attributes['data-trekkie-theme-handle'].value,
+            style_id: link.attributes['data-trekkie-style-id'].value.to_i,
             style_handle: link.attributes['data-trekkie-style-handle'].value
         }
     end
@@ -368,7 +368,7 @@ To contribute to the repository:
 2. Clone the forked repository locally.
 3. Create a branch descriptive of your work. For example "my_new_feature_xyz".
 4. When you're done work, push up that branch to **your own forked repository** (not the feracommerce/shpoify_app_detector one).
-5. Visit https://github.com/feracommerce/shpoify_app_detector and you'll see an option to create a pull request from your forked branch to the master. Create a pull request.
+5. Visit https://github.com/feracommerce/shopify_app_detector and you'll see an option to create a pull request from your forked branch to the master. Create a pull request.
 6. Fill out the pull request template with everything it asks for and assign the pull request to someone to review.
 7. Set the reviewee as yourself and the requested reviewer as whomever you want to review your PR.
 8. Once the PR merges into master then it is ready for production and should be treated as such. It will be deployed to staging within minutes.
