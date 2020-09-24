@@ -1,6 +1,14 @@
 // Last updated December 14, 2018.
 var SHOPIFY_THEMES = [
   {
+    "name": "Streamline",
+    "theme_store_url": "https://themes.shopify.com/themes/streamline/styles/core",
+    "id": 872,
+    "handle": "streamline",
+    "style_id": 1267,
+    "style_handle": "core"
+  },
+  {
     "name": "Story",
     "theme_store_url": "https://themes.shopify.com//themes/story/styles/chronicle",
     "id": 864,
