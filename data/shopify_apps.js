@@ -2410,5 +2410,13 @@ var SHOPIFY_APPS = [
         website_url: "http://lowfruitsolutions.com",
         script_pattern: "cdn.instantbrandpage.lowfruitsolutions.com",
         category: "Sales"
+    },
+    {
+        name: "Back In Stock by Appikon",
+        short_description: "Back In Stock product notifications via email, SMS, FB Messenger and Push",
+        app_store_url: "https://apps.shopify.com/customer-back-in-stock-alert-user-notification-app",
+        website_url: "http://appikon.com",
+        script_pattern: "subscribe-it.js",
+        category: "Sales"
     }
 ];
