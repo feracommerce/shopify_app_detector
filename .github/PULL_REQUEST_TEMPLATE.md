@@ -1,5 +1,3 @@
-Ora PM Task URL: _link to the Ora PM task URL that looks like `https://ora.pm/project/11168/list/37043/task/135046`_
-
 # Why?
 Why are you doing this? What problem is it solving? Why is is good for our merchants? etc. If you're doing something from Ora PM then you can just copy the "why?" part here.
 
