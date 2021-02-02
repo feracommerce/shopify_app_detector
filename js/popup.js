@@ -129,8 +129,8 @@ SAD.Popup = function(opts) {
                     '<td>' + app.short_description + '</td>' +
                     '<td>' +
                       '<div class="app-links">' + 
-                        (app.website_url && app.website_url !== '' ? (' <a href="' + app.website_url + '?ref=fera_ai_app_detector" target="website_' + i + '">website</a>') : '') + 
-                        '<a href="' + app.app_store_url + '?ref=fera_ai_app_detector" target="_blank">app store</a>' + 
+                        (app.website_url && app.website_url !== '' ? (' <a href="' + app.website_url + '?ref=shopify_app_detector" target="website_' + i + '">website</a>') : '') + 
+                        '<a href="' + app.app_store_url + '?ref=shopify_app_detector" target="_blank">app store</a>' + 
                       '</div>' +
                     '</td>' +
                 '</tr>';

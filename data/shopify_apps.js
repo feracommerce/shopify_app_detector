@@ -2,28 +2,19 @@
 var SHOPIFY_APPS = [
     {
         name: 'Fera.ai', // Keep this under 20 characters
-        short_description: 'Real-time personalization + CRO (w/ timers, social proof, counters, etc.)',  // Keep this under 75 characters
-        long_description: 'Real-time personalization and conversion rate optimization platform with built-in promo bars, popups, timers, social proof, counters, etc.',
+        short_description: 'Customer reviews, photos, counters, events, etc',  // Keep this under 75 characters
+        long_description: 'Collect and grow your customer reviews, photos, videos, testimonials, and more.',
         app_store_url: 'https://apps.shopify.com/fera',
         website_url: "https://www.fera.ai",
-        script_pattern: "bananastand.js",
+        script_pattern: /cdn\.fera\.ai|bananastand\.js|fera\.js/,
         category: "Sales"
     },
     {
-        name: 'Fera.ai',
-        short_description: 'Real-time personalization + CRO (w/ timers, social proof, counters, etc.)',
-        long_description: 'Real-time personalization and conversion rate optimization platform with built-in promo bars, popups, timers, social proof, counters, etc.',
-        app_store_url: 'https://apps.shopify.com/fera',
-        website_url: "https://www.fera.ai",
-        script_pattern: "fera.js",
-        category: "Sales"
-    },
-    {
-        name: 'In‑Store Reserver',
+        name: 'Reserve In-store',
         short_description: 'Let customers reserve products online for in-store pickup',
         app_store_url: 'https://apps.shopify.com/reserve-in-store-by-fera',
-        website_url: "https://www.fera.ai",
-        script_pattern: "reserveinstore.js",
+        website_url: "https://www.reserveinstore.com",
+        script_pattern: /cdn\.reserveinstore\.com/,
         category: "Orders and shipping"
     },
     {
@@ -167,7 +158,7 @@ var SHOPIFY_APPS = [
         short_description: "Rewards and Referrals",
         app_store_url: "https://apps.shopify.com/swell",
         website_url: "http://www.swellrewards.com",
-        script_pattern: "swellrewards.com/loader",
+        script_pattern: "cdn-loyalty.yotpo.com",
         category: "Marketing"
     },
     {
@@ -1144,7 +1135,7 @@ var SHOPIFY_APPS = [
         short_description: "Increase Conversions with Social Proof Automation",
         app_store_url: "https://apps.shopify.com/fomo",
         website_url: "https://fomo.com/",
-        script_pattern: "usefomo.com",
+        script_pattern: "load.fomo.com",
         category: "Sales"
     },
     {
@@ -2265,6 +2256,36 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/customer-back-in-stock-alert-user-notification-app",
         website_url: "http://appikon.com",
         script_pattern: "subscribe-it.js",
+    },
+    {
+        name: "Okendo",
+        short_description: "Product reviews",
+        app_store_url: "https://apps.shopify.com/okendo-reviews",
+        website_url: "https://www.okendo.io/",
+        script_pattern: "reviewsWidget.min.js",
         category: "Sales"
+    },
+    {
+        name: "Hulk Apps Reviews",
+        short_description: "Product reviews",
+        app_store_url: "https://apps.shopify.com/product-reviews-by-hulkapps",
+        website_url: "https://www.hulkapps.com/blogs/product-reviews/",
+        script_pattern: "reviews-by-hulkapps.js",
+        category: "Sales"
+    },
+    {
+        name: "Reviews.io",
+        short_description: "Product reviews",
+        app_store_url: "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection",
+        website_url: "https://www.reviews.io",
+        script_pattern: ".reviews.io",
+        category: "Sales"
+    },
+    {
+        name: "Junip",
+        short_description: "Product reviews",
+        app_store_url: "https://apps.shopify.com/junip",
+        website_url: "https://www.juniphq.com",
+        script_pattern: "scripts.juniphq.com",
     }
 ];
