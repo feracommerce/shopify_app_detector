@@ -32,11 +32,12 @@ SAD.Detector = function(opts) {
     };
 
     self.isShopifyStore = function() {
-        if (opts.pageUrl.indexOf('shopify.') !== -1) return false;
+        // Skip this site - it's core shopify
+        if (opts.pageUrl.match(/.*\.shopify\..*/i)) return false;
 
         for (var i = 0; i < self.scripts.length; i++) {
             var script = self.scripts[i];
-            if (script.indexOf('shopify.com') !== -1) {
+            if (!script.match(/.*\.shopify\..*/i)) {
                 return true;
             }
         }
