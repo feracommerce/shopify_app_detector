@@ -2287,5 +2287,12 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/junip",
         website_url: "https://www.juniphq.com",
         script_pattern: "scripts.juniphq.com",
+    },
+    {
+        name: "GeReviews",
+        short_description: "Product reviews",
+        app_store_url: "https://apps.shopify.com/getreviews",
+        website_url: "https://www.dsreviews.net",
+        script_pattern: "api.dsreviews.net",
     }
 ];
