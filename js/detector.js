@@ -47,15 +47,23 @@ SAD.Detector = function(opts) {
     var detectApp = function(app) {
         var detectedMap = {};
         for (var i = 0; i < self.scripts.length; i++) {
+            if (detectedMap[app.name]) continue; // Already detected this app
+
             var script = self.scripts[i];
-            if (script.indexOf(app.script_pattern) !== -1) {
-                if (detectedMap[app.name]) {
-                    continue; // Already detected this app
-                }
+
+            if (app.script_pattern instanceof RegExp) {
+                if (!script.match(app.script_pattern)) continue;
+            } else if (app.script_pattern.indexOf('/') === 0) {
+                var regex_str = app.script_pattern.replace(/^\//, '').replace(/\/[igu]?$/, '');
+                var regex = new RegExp(regex, 'ig');
                 
-                self.apps.push(app);
-                detectedMap[app.name] = true;
+                if (!script.match(regex)) continue;
+            } else {
+                if (script.indexOf(app.script_pattern) === -1) continue;
             }
+
+            self.apps.push(app);
+            detectedMap[app.name] = true;
         }
     };
 
