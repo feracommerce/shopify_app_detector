@@ -1,16 +1,16 @@
 {
   "manifest_version": 2,
 
-  "name": "Shopify App/Theme Detector by Fera.ai",
-  "description": "Detect which apps and what theme a Shopify store is using. Built and maintained by Fera.ai and the Shopify dev community.",
-  "version": "0.5.4",
+  "name": "Shopify App Detector by Fera.ai",
+  "description": "Detect which apps and what theme a Shopify store is using. Built and maintained by Fera.ai and the community.",
+  "version": "0.6.0",
   "author": "Fera.ai",
   "homepage_url": "https://www.github.com/feracommerce/shopify_app_detector",
-  "icons": { "16": "img/icon.png",
-           "48": "img/icon.png",
-          "128": "img/icon.png" },
+  "icons": { "16": "img/icons/detector.png",
+           "48": "img/icons/detector.png",
+          "128": "img/icons/detector.png" },
   "browser_action": {
-   "default_icon": "img/icon-disabled.png",
+   "default_icon": "img/icons/detector-disabled.png",
    "default_popup": "popup.html"
   },
   "permissions": [

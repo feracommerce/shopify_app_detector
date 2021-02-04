@@ -22,8 +22,13 @@ body {
 
 .apps-table-container {
     max-height: 300px;
-    overflow: scroll;
+    overflow-y: auto;
     min-width: 400px;
+    width: 100%;
+}
+
+.table-apps {
+    margin-bottom: 0;
 }
 
 .app-links > a {

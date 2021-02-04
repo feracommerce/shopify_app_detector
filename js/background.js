@@ -10,7 +10,14 @@ SAD.Background = function(opts) {
 
         chrome.runtime.onMessage.addListener(function(msgObj) {
             if (msgObj.action == 'getApps') {
-                chrome.runtime.sendMessage({ action: "setApps", apps: self.apps, detectableApps: SHOPIFY_APPS, detectableThemes: SHOPIFY_THEMES, theme: self.theme });
+                chrome.runtime.sendMessage({ 
+                    action: "setApps", 
+                    apps: self.apps, 
+                    detectableApps: SHOPIFY_APPS, 
+                    detectableThemes: SHOPIFY_THEMES, 
+                    theme: self.theme, 
+                    platform: self.platform 
+                });
                 return true;
             } else if (msgObj.action =='setPageScripts') {
                 self.detectScripts(msgObj.pageScripts, msgObj.pageUrl, msgObj.theme);
@@ -28,7 +35,7 @@ SAD.Background = function(opts) {
 
     self.setLoading = function() {
         chrome.browserAction.disable();
-        chrome.browserAction.setIcon({ path: 'img/icon.png' });
+        chrome.browserAction.setIcon({ path: 'img/icons/detector.png' });
         chrome.browserAction.setBadgeText({
             text: '..'
         });
@@ -38,14 +45,15 @@ SAD.Background = function(opts) {
         chrome.browserAction.setBadgeText({
             text: ''
         });
-        chrome.browserAction.setIcon({ path: 'img/icon-disabled.png' });
+        chrome.browserAction.setIcon({ path: 'img/icons/detector-disabled.png' });
         chrome.browserAction.disable();
     };
 
     self.detectScripts = function(scripts, pageUrl, windowTheme) {
         var detector = new SAD.Detector({ scripts: scripts, pageUrl: pageUrl, windowTheme: windowTheme });
+        self.platform = detector.detectPlatform();
 
-        if (detector.isShopifyStore()) {
+        if (self.platform) {
             self.apps = detector.detectApps();
             self.theme = detector.detectTheme();
             
@@ -53,7 +61,7 @@ SAD.Background = function(opts) {
                 text: self.apps.length.toString()
             });
             chrome.browserAction.enable();
-            chrome.browserAction.setIcon({ path: 'img/icon.png' });
+            chrome.browserAction.setIcon({ path: 'img/icons/' + self.platform + '.png' });
             return true;
         } else {
             self.disable();

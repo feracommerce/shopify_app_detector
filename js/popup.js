@@ -2,7 +2,8 @@ SAD.Popup = function(opts) {
     opts = opts || {};
     var self = this;
 
-    var $themeSummary, $themeCustomNameContainer, $customName, $themeName, $fullyCustomTheme, $existingTheme, $fullyCustomThemeNameSection;
+    var $themeSummary, $themeCustomNameContainer, $customName, $themeName, 
+        $fullyCustomTheme, $existingTheme, $fullyCustomThemeNameSection, $platformName;
 
     var init = function() {
          self.apps = [];
@@ -13,7 +14,8 @@ SAD.Popup = function(opts) {
               self.detectableApps = msgObj.detectableApps;
               self.detectableThemes = msgObj.detectableThemes;
               self.theme = msgObj.theme;
-              self.displayApps();
+              self.platform = msgObj.platform;
+              self.updateDisplay();
             } else if (msgObj.action == 'setLoading') {
                 $('#appsTable').css('opacity', 0.5);
             }
@@ -22,7 +24,7 @@ SAD.Popup = function(opts) {
          chrome.runtime.sendMessage({ action: "getApps"});
     };
 
-    self.displayApps = function() {
+    self.updateDisplay = function() {
         var $table = $('#appsTable');
         var $body = $table.find('tbody');
         var $num = $('.num-detections');
@@ -41,6 +43,8 @@ SAD.Popup = function(opts) {
             $table.css('opacity', 1);
             $table.show();
         }
+
+        $platformName.text(self.platform);
     }
 
     // Private Methods //
@@ -53,6 +57,7 @@ SAD.Popup = function(opts) {
         $fullyCustomTheme = $('.fully-custom-theme');
         $existingTheme = $('.existing-theme');
         $fullyCustomThemeNameSection = $('.theme-custom-name-section');
+        $platformName = $('.platform-name');
     };
 
     var showThemeDetection = function() {

@@ -31,14 +31,24 @@ SAD.Detector = function(opts) {
         return { name: self.windowTheme.name, custom_name: self.windowTheme.name, fully_custom: true};
     };
 
-    self.isShopifyStore = function() {
+    self.detectPlatform = function() {
         // Skip this site - it's core shopify
-        if (opts.pageUrl.match(/.*\.shopify\..*/i)) return false;
+        if (opts.pageUrl.match(/.*\.(shopify|magento|bigcommerce)\.[a-z]+/i)) return false;
 
         for (var i = 0; i < self.scripts.length; i++) {
             var script = self.scripts[i];
-            if (!script.match(/.*\.shopify\..*/i)) {
-                return true;
+            if (script.match(/cdn[0-9]*\.bigcommerce\.[a-z]+/i)) {
+                return 'bigcommerce';
+            } else if (script.match(/cdn[0-9]*\.shopify\.[a-z]+/i)) {
+                return 'shopify';
+            } else if (script.match(/mage\/cookies\.js/i)) {
+                return 'magento1';
+            } else if (script.match(/mage\/polyfill(\.min)?\.js/i)) {
+                return 'magento2';
+            } else if (script.match(/woocommerce/i)) {
+                return 'woocommerce';
+            } else if (script.match(/services\/wix-/i)) {
+                return 'wix';
             }
         }
         return false;
