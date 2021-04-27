@@ -2294,5 +2294,13 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/getreviews",
         website_url: "https://www.dsreviews.net",
         script_pattern: "api.dsreviews.net",
+    },
+    {
+        name: "BF Size Charts & Size Guides",
+        short_description: "Add size charts to your product pages",
+        app_store_url: "https://apps.shopify.com/size-charts-by-relentless",
+        website_url: "https://www.relentlessapps.com",
+        script_pattern: "size-charts-relentless.js",
+        category: "Store Design"
     }
 ];
