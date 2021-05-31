@@ -2294,5 +2294,14 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/getreviews",
         website_url: "https://www.dsreviews.net",
         script_pattern: "api.dsreviews.net",
+    },
+    {
+        name: "PickyStory",
+        short_description: "Automate Upsell & Cross-Sell of Bundles, Kits, and Looks",
+        long_description: "Generate more revenue from every store visit. Sell Shopify product Bundles, Kits, and Looks with one app. It’s easy and done in a few clicks.",
+        app_store_url: "https://apps.shopify.com/product-kits-bundles-pickystory",
+        website_url: "https://pickystory.com/",
+        category: "Sales",
+        script_pattern: /cdn\.pickystory\.com\/widget\/dist\/latest\/pickystory-widget\.min\.js/,
     }
 ];
