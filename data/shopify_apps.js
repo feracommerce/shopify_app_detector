@@ -2296,6 +2296,14 @@ var SHOPIFY_APPS = [
         script_pattern: "api.dsreviews.net",
     },
     {
+        name: "BF Size Charts & Size Guides",
+        short_description: "Add size charts to your product pages",
+        app_store_url: "https://apps.shopify.com/size-charts-by-relentless",
+        website_url: "https://www.relentlessapps.com",
+        script_pattern: "size-charts-relentless.js",
+        category: "Store Design"
+    },
+    {
         name: "PickyStory",
         short_description: "Automate Upsell & Cross-Sell of Bundles, Kits, and Looks",
         long_description: "Generate more revenue from every store visit. Sell Shopify product Bundles, Kits, and Looks with one app. It’s easy and done in a few clicks.",
