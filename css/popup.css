@@ -45,8 +45,6 @@ body {
 .support-statement {
     margin: 0 12px;
     text-align: center;
-    font-style: italic;
-    opacity: 0.5;
 }
 
 .footer-content:hover .support-statement {
@@ -61,4 +59,48 @@ body {
 
 .emphasize {
     font-weight: bold;
+}
+
+.rating-stars a {
+    color: gold;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 4px;
+    display: inline;
+}
+.rating-stars a:hover {
+    text-decoration: none;
+}
+
+.rating-stars a .on {
+    display: none;
+}
+
+.rating-stars a.active .on,
+.rating-stars a:hover .on {
+    display: inline;
+}
+
+.rating-stars a.active .off,
+.rating-stars a:hover .off {
+    display: none;
+}
+
+.rate-statement {
+    margin-top: 12px;
+    border-top: 1px solid #0000000f;
+    padding-top: 12px;
+    vertical-align: middle;
+    line-height: 100%;
+    background-color: white;
+    padding-bottom: 12px;
+}
+
+.rate-statement p {
+    margin-bottom: 4px;
+}
+
+.rate-statement .caption {
+    vertical-align: top;
+    margin-right: 10px;
 }

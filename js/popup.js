@@ -28,6 +28,18 @@ SAD.Popup = function(opts) {
         var $table = $('#appsTable');
         var $body = $table.find('tbody');
         var $num = $('.num-detections');
+        var $supportStatement = $('.footer-content .support-statement');
+        var $rateStatement = $('.footer-content .rate-statement');
+
+        $rateStatement.find('a').on('click', function(e) {
+            localStorage.setItem("rated", true);
+            $rateStatement.hide();
+
+            var $link = $(this);
+            if ($link.data('value') < 5) {
+                alert("Please send an email to help@fera.ai with what you'd like to improve - it really helps us maintain this free extension!\n\nPlease mention the app detector in your email.");
+            }
+        });
 
         updateDetectableCounts();
 
@@ -37,11 +49,18 @@ SAD.Popup = function(opts) {
 
         $num.html(self.apps.length + " app" + (self.apps.length == 1 ? '' : 's'));
 
+
         if (self.apps.length < 1) {
             $table.hide();
+            $rateStatement.hide();
         } else {
             $table.css('opacity', 1);
             $table.show();
+
+            if (self.apps.length > 3) {
+                if (! localStorage.getItem("rated")) $rateStatement.show();
+                    
+            }
         }
 
         $platformName.text(self.platform);

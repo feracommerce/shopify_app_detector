@@ -126,7 +126,7 @@ var SHOPIFY_APPS = [
         short_description: "Gamified pop‑up",
         app_store_url: "https://apps.shopify.com/wheelio-first-interactive-exit-intent-pop-up",
         website_url: "http://wheelio.conversionpirate.com",
-        script_pattern: "wheelio-a62f3.firebaseapp.com/scripttag.js",
+        script_pattern: "wheelio",
         category: "Marketing"
     },
     {
