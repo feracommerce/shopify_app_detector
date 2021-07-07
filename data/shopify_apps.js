@@ -290,11 +290,11 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-        name: "Product Reviews",
-        short_description: "The simplest way to share your customers experiences.",
+        name: "Shopify Product Reviews",
+        short_description: "Default free shopify reviews app.",
         app_store_url: "https://apps.shopify.com/product-reviews",
         website_url: "https://help.shopify.com/en/manual/apps/apps-by-shopify/product-reviews",
-        script_pattern: "assets/v4/spr.js",
+        script_pattern: "productreviews.shopifycdn.com",
         category: "Sales"
     },
     {
@@ -2311,5 +2311,26 @@ var SHOPIFY_APPS = [
         website_url: "https://pickystory.com/",
         category: "Sales",
         script_pattern: /cdn\.pickystory\.com\/widget\/dist\/latest\/pickystory-widget\.min\.js/,
+    },
+    {
+        name: "Vitals",
+        short_description: "Combo app: Upsells, Reviews, Bundles, BOGO, etc",
+        app_store_url: "https://apps.shopify.com/vitals",
+        website_url: "https://www.vitals.co",
+        script_pattern: "appsolve.io",
+    },
+    {
+        name: "Aftership",
+        short_description: "Shipping tracking",
+        app_store_url: "https://apps.shopify.com/aftership",
+        website_url: "https://www.aftership.com",
+        script_pattern: "aftership.",
+    },
+    {
+        name: "CJ Dropshipping",
+        short_description: "Helps sites that source from CJ Dropshipping",
+        app_store_url: "https://apps.shopify.com/cucheng",
+        website_url: "https://www.cjdropshipping.com",
+        script_pattern: "app.cjdropshipping.",
     }
 ];

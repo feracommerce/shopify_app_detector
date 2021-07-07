@@ -3,7 +3,7 @@
 
   "name": "Shopify App Detector by Fera.ai",
   "description": "Detect which apps and what theme a Shopify store is using. Built and maintained by Fera.ai and the community.",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "author": "Fera.ai",
   "homepage_url": "https://www.github.com/feracommerce/shopify_app_detector",
   "icons": { "16": "img/icons/detector.png",
@@ -13,16 +13,14 @@
    "default_icon": "img/icons/detector-disabled.png",
    "default_popup": "popup.html"
   },
-  "permissions": [
-   "activeTab"
-   ],
-    "background": {
-      "scripts": ["lib/zepto/zepto.min.js", "js/sad.js", "data/shopify_apps.js", "data/shopify_themes.js", "js/detector.js", "js/background.js"],
-      "persistent": false
-    },
+  "background": {
+    "scripts": ["lib/zepto/zepto.min.js", "js/sad.js", "data/shopify_apps.js", "data/shopify_themes.js", "js/detector.js", "js/background.js"],
+    "persistent": false
+  },
   "content_scripts": [
     {
-      "matches": ["http://*/*","https://*/*"],
+      "exclude_matches": ["https://*.google.com/*", "https://*.facebook.com/*"],
+      "matches": ["http://*/*", "https://*/*"],
       "js": ["lib/zepto/zepto.min.js", "js/sad.js", "js/content.js"],
       "run_at": "document_end"
     }

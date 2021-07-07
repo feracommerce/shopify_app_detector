@@ -559,5 +559,13 @@ var SHOPIFY_THEMES = [
     "handle": "sunrise",
     "style_id": 601,
     "style_handle": "spring"
+  },
+  {
+    "name": "Sunrise",
+    "theme_store_url": "https://outofthesandbox.com",
+    "id": 57,
+    "handle": "turbo",
+    "style_id": 601,
+    "style_handle": "turbo"
   }
 ];

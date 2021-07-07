@@ -14,16 +14,20 @@ SAD.Content = function(opts) {
         var windowTheme = locateThemeDataFromScripts($scripts);
 
 
-        if (chrome.runtime) {
-            chrome.runtime.sendMessage(
-                {
-                    action: "setPageScripts", 
-                    pageScripts: pageScripts, 
-                    pageUrl: window.location.toString(), 
-                    theme: windowTheme
-                }, 
-                function(response) { }
-            );
+        try {
+            if (chrome.runtime) {
+                chrome.runtime.sendMessage(
+                    {
+                        action: "setPageScripts", 
+                        pageScripts: pageScripts, 
+                        pageUrl: window.location.toString(), 
+                        theme: windowTheme
+                    }, 
+                    function(response) { }
+                );
+            }
+        } catch(e) {
+            console.warn("Could not send setPageScripts message for some reason.", e);
         }
     };
 
