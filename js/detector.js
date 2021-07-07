@@ -25,6 +25,16 @@ SAD.Detector = function(opts) {
                 self.theme.custom_name = self.windowTheme.name;
                 self.theme.fully_custom = false;
                 return self.theme;
+            } else if (self.windowTheme.name && self.windowTheme.name.match(/[a-z]+ \| [a-z]+ [0-9](\.[0-9](\.[0-9]))??/i)) {
+                var themeName = self.windowTheme.name.split(' | ')[1].replace(/\s*[0-9](\.[0-9](\.[0-9]))??$/i, '');
+                self.theme = { 
+                    "name": themeName + " by OutOfTheSandbox",
+                    "theme_store_url": "https://outofthesandbox.com/collections/themes",
+                    "handle": themeName.toLowerCase(),
+                    "style_handle": themeName.toLowerCase()
+                }
+                self.theme.fully_custom = false;
+                return self.theme;
             }
         }
 
