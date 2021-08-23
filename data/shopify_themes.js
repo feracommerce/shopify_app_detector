@@ -9,6 +9,11 @@ var SHOPIFY_THEMES = [
     "style_handle": "core"
   },
   {
+    "name": "Dawn",
+    "theme_store_url": "https://themes.shopify.com",
+    "id": 887,
+  },
+  {
     "name": "Story",
     "theme_store_url": "https://themes.shopify.com//themes/story/styles/chronicle",
     "id": 864,
