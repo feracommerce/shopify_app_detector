@@ -445,7 +445,7 @@ var SHOPIFY_APPS = [
         name: "Product Options",
         short_description: "Product options to one or one thousand products with a click!",
         app_store_url: "https://apps.shopify.com/product-options",
-        website_url: "https://nexusmedia-ua.com",
+        website_url: "https://boldcommerce.com/product-options",
         script_pattern: "js/options.js",
         category: "Sales"
     },
