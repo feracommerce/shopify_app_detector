@@ -106,7 +106,7 @@ puts JSON.pretty_generate(list)
 53. Yotpo - https://apps.shopify.com/yotpo-social-reviews
 54. Bizzy - https://apps.shopify.com/bizzy-social-proof
 55. MPS Buy Me - https://apps.shopify.com/mps-buy-me
-56. Nexusmedia-ua Product Options - https://apps.shopify.com/product-options
+56. Bold Product Options - https://apps.shopify.com/product-options
 57. Express Reviews - https://apps.shopify.com/express-reviews
 58. East Side Co Cart Convert - https://apps.shopify.com/cart-convert
 59. SMAR7 - https://apps.shopify.com/smar7-bundle-upsell
