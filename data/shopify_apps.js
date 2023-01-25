@@ -442,11 +442,11 @@ var SHOPIFY_APPS = [
         category: "Sales"
     },
     {
-        name: "Product Options",
+        name: "Bold Product Options",
         short_description: "Product options to one or one thousand products with a click!",
         app_store_url: "https://apps.shopify.com/product-options",
-        website_url: "https://boldcommerce.com/product-options",
-        script_pattern: "js/options.js",
+        website_url: "https://boldcommerce.com",
+        script_pattern: "option.boldapps.net/js/options.js",
         category: "Sales"
     },
     {
@@ -1000,6 +1000,14 @@ var SHOPIFY_APPS = [
         website_url: "https://www.develic.com/",
         script_pattern: "maps.develic.com",
         category: "Customer service"
+    },
+    {
+        name: "Dynamic Product Options",
+        short_description: "Manage product custom options",
+        app_store_url: "https://apps.shopify.com/dynamic-product-options",
+        website_url: "https://www.itoris.com/",
+        script_pattern: "itoris.com",
+        category: "Store Design"
     },
     {
         name: "Estimated Delivery Date",
