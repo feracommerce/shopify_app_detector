@@ -2340,5 +2340,14 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/cucheng",
         website_url: "https://www.cjdropshipping.com",
         script_pattern: "app.cjdropshipping.",
+    },
+    {
+        name: "ReviewXpo",
+        short_description: "Product reviews with photo and video",
+        app_store_url: "https://apps.shopify.com/products-review-app",
+        website_url: "https://reviewxpo.com/shopify-reviews-app",
+        script_pattern: "client-a.reviewxpo.app",
+        category: "Sales"
     }
+    
 ];
