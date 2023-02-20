@@ -2340,5 +2340,13 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/cucheng",
         website_url: "https://www.cjdropshipping.com",
         script_pattern: "app.cjdropshipping.",
+    },
+    {
+        name: "ThanhBT Discounts Combine",
+        short_description: "Accept all code types to be combined.",
+        app_store_url: "https://apps.shopify.com/discounts-combine",
+        website_url: "https://thanhhd.com/",
+        script_pattern: "discounts-combine.js",
     }
+
 ];
