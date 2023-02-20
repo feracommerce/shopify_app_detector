@@ -3,20 +3,19 @@ SAD.Background = function(opts) {
     var self = this;
 
     var init = function() {
-
         self.apps = [];
 
-        chrome.browserAction.disable();
+        chrome.action.disable();
 
         chrome.runtime.onMessage.addListener(function(msgObj) {
             if (msgObj.action == 'getApps') {
-                chrome.runtime.sendMessage({ 
-                    action: "setApps", 
-                    apps: self.apps, 
-                    detectableApps: SHOPIFY_APPS, 
-                    detectableThemes: SHOPIFY_THEMES, 
-                    theme: self.theme, 
-                    platform: self.platform 
+                chrome.runtime.sendMessage({
+                    action: "setApps",
+                    apps: self.apps,
+                    detectableApps: SHOPIFY_APPS,
+                    detectableThemes: SHOPIFY_THEMES,
+                    theme: self.theme,
+                    platform: self.platform
                 });
                 return true;
             } else if (msgObj.action =='setPageScripts') {
@@ -34,19 +33,19 @@ SAD.Background = function(opts) {
     };
 
     self.setLoading = function() {
-        chrome.browserAction.disable();
-        chrome.browserAction.setIcon({ path: 'img/icons/detector.png' });
-        chrome.browserAction.setBadgeText({
+        chrome.action.disable();
+        chrome.action.setIcon({ path: 'img/icons/detector.png' });
+        chrome.action.setBadgeText({
             text: '..'
         });
     };
 
     self.disable = function() {
-        chrome.browserAction.setBadgeText({
+        chrome.action.setBadgeText({
             text: ''
         });
-        chrome.browserAction.setIcon({ path: 'img/icons/detector-disabled.png' });
-        chrome.browserAction.disable();
+        chrome.action.setIcon({ path: 'img/icons/detector-disabled.png' });
+        chrome.action.disable();
     };
 
     self.detectScripts = function(scripts, pageUrl, windowTheme) {
@@ -56,12 +55,12 @@ SAD.Background = function(opts) {
         if (self.platform) {
             self.apps = detector.detectApps();
             self.theme = detector.detectTheme();
-            
-            chrome.browserAction.setBadgeText({
+
+            chrome.action.setBadgeText({
                 text: self.apps.length.toString()
             });
-            chrome.browserAction.enable();
-            chrome.browserAction.setIcon({ path: 'img/icons/' + self.platform + '.png' });
+            chrome.action.enable();
+            chrome.action.setIcon({ path: 'img/icons/' + self.platform + '.png' });
             return true;
         } else {
             self.disable();
