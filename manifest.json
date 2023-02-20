@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
 
-  "name": "Shopify App Detector by Fera.ai - dev",
+  "name": "Shopify App Detector by Fera.ai",
   "description": "Detect which apps and what theme a Shopify store is using. Built and maintained by Fera.ai and the community.",
   "version": "0.6.3",
   "author": "Fera.ai",
