@@ -2348,6 +2348,12 @@ var SHOPIFY_APPS = [
         website_url: "https://reviewxpo.com/shopify-reviews-app",
         script_pattern: "client-a.reviewxpo.app",
         category: "Sales"
+    },
+    {
+        name: "ThanhBT Discounts Combine",
+        short_description: "Accept all code types to be combined.",
+        app_store_url: "https://apps.shopify.com/discounts-combine",
+        website_url: "https://thanhhd.com/",
+        script_pattern: "discounts-combine.js",
     }
-    
 ];
