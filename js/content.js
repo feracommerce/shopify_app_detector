@@ -1,16 +1,18 @@
-SAD.Content = function(opts) {
+SAD.Content = function (opts) {
     opts = opts || {};
     var self = this;
 
-    var init = function() {
+    var init = function () {
         attachEvents();
     };
 
-    self.sendScriptsToSad = function() {
+    self.sendScriptsToSad = function () {
         if (document.hidden) return;
 
         var $scripts = $('script');
-        var pageScripts = $scripts.map(function(i) { return $(this).attr('src'); }).toArray();
+        var pageScripts = $scripts.map(function (i) {
+            return $(this).attr('src') || $(this).attr('id');
+        }).toArray();
         var windowTheme = locateThemeDataFromScripts($scripts);
 
 
@@ -18,31 +20,31 @@ SAD.Content = function(opts) {
             if (chrome.runtime) {
                 chrome.runtime.sendMessage(
                     {
-                        action: "setPageScripts", 
-                        pageScripts: pageScripts, 
-                        pageUrl: window.location.toString(), 
+                        action: "setPageScripts",
+                        pageScripts: pageScripts,
+                        pageUrl: window.location.toString(),
                         theme: windowTheme
-                    }, 
-                    function(response) { }
+                    },
+                    function (response) { }
                 );
             }
-        } catch(e) {
+        } catch (e) {
             console.warn("Could not send setPageScripts message for some reason.", e);
         }
     };
 
-    self.sendLoading = function() {
+    self.sendLoading = function () {
         if (chrome.runtime) {
             chrome.runtime.sendMessage(
-                { action: "setLoading" }, 
-                function(response) { }
+                { action: "setLoading" },
+                function (response) { }
             );
         }
     };
 
-    var attachEvents = function() {
+    var attachEvents = function () {
         document.addEventListener("visibilitychange", function () {
-          if (typeof chrome !== 'undefined') self.sendScriptsToSad();
+            if (typeof chrome !== 'undefined') self.sendScriptsToSad();
         }, false);
 
         if (document.readyState === "complete") {
@@ -50,17 +52,17 @@ SAD.Content = function(opts) {
         } else {
             if (typeof chrome !== 'undefined') self.sendLoading();
 
-            if(window.attachEvent) {
-                window.attachEvent('onload', function() { setTimeout(self.sendScriptsToSad, 1000); });
+            if (window.attachEvent) {
+                window.attachEvent('onload', function () { setTimeout(self.sendScriptsToSad, 1000); });
                 window.attachEvent('unload', self.sendLoading);
             } else {
-                window.addEventListener('load', function() { setTimeout(self.sendScriptsToSad, 1000); }, false);
+                window.addEventListener('load', function () { setTimeout(self.sendScriptsToSad, 1000); }, false);
             }
 
         }
     };
 
-    var locateThemeDataFromScripts = function($scripts) {
+    var locateThemeDataFromScripts = function ($scripts) {
         for (var i = 0; i < $scripts.length; i++) {
             var html = $scripts.get(i).innerHTML;
             if (!html || html === '') continue; // No content in this script

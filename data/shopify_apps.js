@@ -2342,18 +2342,18 @@ var SHOPIFY_APPS = [
         script_pattern: "app.cjdropshipping.",
     },
     {
-        name: "ReviewXpo",
-        short_description: "Product reviews with photo and video",
-        app_store_url: "https://apps.shopify.com/products-review-app",
-        website_url: "https://reviewxpo.com/shopify-reviews-app",
-        script_pattern: "client-a.reviewxpo.app",
-        category: "Sales"
-    },
-    {
         name: "ThanhBT Discounts Combine",
         short_description: "Accept all code types to be combined.",
         app_store_url: "https://apps.shopify.com/discounts-combine",
         website_url: "https://thanhhd.com/",
         script_pattern: "discounts-combine.js",
+    },
+    {
+        name: "ABConvert: Price A/B Testing",
+        short_description: "A/B test your product prices to maximize revenue",
+        app_store_url: "https://apps.shopify.com/a-b-convert-price-a-b-test",
+        website_url: "https://abconvert.io",
+        script_pattern: "ABConvert",
     }
+
 ];
