@@ -2354,6 +2354,15 @@ var SHOPIFY_APPS = [
         app_store_url: "https://apps.shopify.com/a-b-convert-price-a-b-test",
         website_url: "https://abconvert.io",
         script_pattern: "ABConvert",
+    },
+    {
+        name: "EasyGift: Auto Add to Cart",
+        short_description: "Automatically gift or include products in your customer's cart",
+        long_description: "Create auto add to cart automatic gift & free gift with purchase rules and BOGO",
+        app_store_url: "https://apps.shopify.com/gifter-cart-auto-include?utm_source=fera-ai-app-detector",
+        website_url: "https://www.506.io/easygift",
+        script_pattern: "https://cdn.506.io/eg",
+        category: "Sales"
     }
 
 ];
