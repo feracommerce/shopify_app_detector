@@ -50,7 +50,7 @@ puts JSON.pretty_generate(list)
 
 ```
 
-# Current List of Detectable Apps (300)
+# Current List of Detectable Apps (299)
 1. 99Commerce  Instagram Feed - https://apps.shopify.com/snapzy-the-instagram-feed
 1. AAAE Form Builder - https://apps.shopify.com/form-builder
 1. AAAE Instagram Shop - https://apps.shopify.com/insta-feed
@@ -60,8 +60,7 @@ puts JSON.pretty_generate(list)
 1. Adroll - https://apps.shopify.com/adroll-retargeting
 1. Affiliatly - https://apps.shopify.com/affiliatly
 1. All‑in‑one Bar - https://apps.shopify.com/all-in-one-bar
-1. Analytics - https://gator.io
-1. Announcement Bar - https://apps.shopify.com/1. quick-announcement-bar-always-keep-your-customers-informed
+1. Announcement Bar - https://apps.shopify.com/quick-announcement-bar-always-keep-your-customers-informed
 1. App1pro - https://apps.shopify.com/related-products-pro
 1. Appifiny - https://apps.shopify.com/recently
 1. Apps2grow.us Shop Instagram - https://apps.shopify.com/instagram-photos
@@ -89,11 +88,10 @@ puts JSON.pretty_generate(list)
 1. Cart Notifications - https://apps.shopify.com/cart-notifications
 1. Cartback - https://apps.shopify.com/fb-messenger-remarketing
 1. Carts Guru - https://apps.shopify.com/cartsguru
-1. Carts Guru - https://apps.shopify.com/cartsguru
 1. CFF Shareable Cart - https://apps.shopify.com/portable-cart
 1. Chatra - https://apps.shopify.com/chatra
 1. Checkout Share - https://apps.shopify.com/checkout-share
-1. Chilli Abandonment Protector - https://apps.shopify.com/1. linkerfriend-lead-management-tools
+1. Chilli Abandonment Protector - https://apps.shopify.com/linkerfriend-lead-management-tools
 1. Clever Google Adwords - https://apps.shopify.com/cleverppc
 1. Code Back Belt Facebook Image Gallery - https://apps.shopify.com/facebook-image-gallery
 1. Code Black Belt Also Bought - https://apps.shopify.com/also-bought
@@ -144,6 +142,7 @@ puts JSON.pretty_generate(list)
 1. Free Gifts - https://apps.shopify.com/freegifts
 1. Frequently Bought Together - https://apps.shopify.com/frequently-bought-together
 1. Full Page Zoom - https://apps.shopify.com/full-page-zoom
+1. Gator.io - https://gator.io
 1. GDPR Banner - https://apps.shopify.com/smart-eu-cookie-banner
 1. GDPR Cookie Compiler - https://apps.shopify.com/eu-cookie-compiler
 1. GeoIP Country Redirect - https://apps.shopify.com/geoip-country-redirect
@@ -189,7 +188,7 @@ puts JSON.pretty_generate(list)
 1. Mageworx Advanced Bundle Products - https://apps.shopify.com/grouped-products
 1. Mageworx Product Fees/Charges - https://apps.shopify.com/product-fees
 1. Mailchimp - https://apps.shopify.com/mailchimp
-1. MailChimp - https://apps.shopify.com/mailchimp-forms
+1. MailChimp Forms - https://apps.shopify.com/mailchimp-forms
 1. MailMunch - https://apps.shopify.com/mailmunch
 1. Marsello Loyalty - https://apps.shopify.com/marsello
 1. McAfee SECURE - https://apps.shopify.com/mcafee-secure
